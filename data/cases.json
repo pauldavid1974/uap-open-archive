@@ -1,0 +1,377 @@
+[
+  {
+    "id": "aawsap",
+    "title": "AAWSAP contract file and the 37 DIRDs",
+    "status": "disputed",
+    "in_pursue_catalog": true,
+    "incident_date": "2008-07-18",
+    "location": "Washington, D.C.",
+    "records": [
+      "dow-uap-d110",
+      "dow-uap-d111",
+      "dow-uap-d117",
+      "dow-uap-d129",
+      "dow-uap-d112",
+      "dow-uap-d113",
+      "dow-uap-d114",
+      "dow-uap-d115",
+      "dow-uap-d116",
+      "dow-uap-d118",
+      "dow-uap-d119",
+      "dow-uap-d120",
+      "dow-uap-d121",
+      "dow-uap-d122",
+      "dow-uap-d123",
+      "dow-uap-d124",
+      "dow-uap-d125",
+      "dow-uap-d126",
+      "dow-uap-d127",
+      "dow-uap-d128",
+      "dow-uap-d130",
+      "dow-uap-d131",
+      "dow-uap-d132",
+      "dow-uap-d133",
+      "dow-uap-d134",
+      "dow-uap-d135",
+      "dow-uap-d136",
+      "dow-uap-d137",
+      "dow-uap-d138",
+      "dow-uap-d139",
+      "dow-uap-d140",
+      "dow-uap-d141",
+      "dow-uap-d142",
+      "dow-uap-d143",
+      "dow-uap-d144",
+      "dow-uap-d145",
+      "dow-uap-d146",
+      "dow-uap-d147",
+      "dow-uap-d148",
+      "dow-uap-d149",
+      "dow-uap-d150",
+      "dow-uap-d151",
+      "dow-uap-d152",
+      "dow-uap-d153"
+    ],
+    "entities": [
+      "aawsap-program",
+      "department-of-war"
+    ],
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "path": "cases/aawsap.md"
+  },
+  {
+    "id": "apollo-17-three-dots",
+    "title": "Apollo 17 three dots, December 1972",
+    "status": "unexplained",
+    "in_pursue_catalog": true,
+    "incident_date": "1972-12",
+    "location": "Moon (photograph)",
+    "records": [
+      "nasa-uap-d002",
+      "nasa-uap-d005",
+      "nasa-uap-d006",
+      "nasa-uap-d009",
+      "nasa-uap-d028",
+      "nasa-uap-d029",
+      "nasa-uap-vm006"
+    ],
+    "entities": [
+      "nasa",
+      "department-of-war"
+    ],
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "path": "cases/apollo-17-three-dots.md"
+  },
+  {
+    "id": "astronaut-particles",
+    "title": "Astronaut particles and \"fireflies\"",
+    "status": "explained",
+    "in_pursue_catalog": true,
+    "incident_date": "1962-05-24",
+    "location": "Low Earth orbit",
+    "records": [
+      "nasa-uap-d010",
+      "nasa-uap-d011",
+      "nasa-uap-d012",
+      "nasa-uap-d013"
+    ],
+    "entities": [
+      "nasa",
+      "walter-schirra"
+    ],
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "path": "cases/astronaut-particles.md"
+  },
+  {
+    "id": "colorado-nebraska-drones-2019-2020",
+    "title": "Colorado and Nebraska drone reports, December 2019–January 2020",
+    "status": "disputed",
+    "in_pursue_catalog": false,
+    "incident_date": "2019-12",
+    "location": "Northeast Colorado and western Nebraska",
+    "records": [],
+    "entities": [
+      "colorado"
+    ],
+    "labels": [
+      "analysis",
+      "press"
+    ],
+    "path": "cases/colorado-nebraska-drones-2019-2020.md"
+  },
+  {
+    "id": "colorado-police-2023",
+    "title": "Colorado police phone videos, October 2023",
+    "status": "unexplained",
+    "in_pursue_catalog": true,
+    "incident_date": "2023-10",
+    "location": "Colorado",
+    "records": [
+      "lle-uap-pr001",
+      "lle-uap-pr002",
+      "lle-uap-d001",
+      "lle-uap-d002",
+      "lle-uap-d003",
+      "lle-uap-d004",
+      "lle-uap-pr003",
+      "lle-uap-pr004"
+    ],
+    "entities": [
+      "local-law-enforcement",
+      "aaro",
+      "colorado"
+    ],
+    "labels": [
+      "official",
+      "press",
+      "analysis"
+    ],
+    "path": "cases/colorado-police-2023.md"
+  },
+  {
+    "id": "gulf-of-oman-orbs-2021",
+    "title": "Gulf of Oman cold orbs, September 8, 2021",
+    "status": "unexplained",
+    "in_pursue_catalog": true,
+    "incident_date": "2021-09-08",
+    "location": "Gulf of Oman",
+    "records": [
+      "dow-uap-d101",
+      "dow-uap-pr117",
+      "dow-uap-pr118",
+      "dow-uap-pr119",
+      "dow-uap-pr120",
+      "dow-uap-pr121",
+      "dow-uap-pr122"
+    ],
+    "entities": [
+      "department-of-war",
+      "aaro",
+      "ac-130",
+      "gulf-of-oman"
+    ],
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "path": "cases/gulf-of-oman-orbs-2021.md"
+  },
+  {
+    "id": "puerto-rico-radar-1964",
+    "title": "Puerto Rico radar case, November 19, 1964",
+    "status": "disputed",
+    "in_pursue_catalog": true,
+    "incident_date": "1964-11-19",
+    "location": "Near Puerto Rico / Caribbean Sea",
+    "records": [
+      "cia-uap-d022",
+      "cia-uap-d023"
+    ],
+    "entities": [
+      "cia",
+      "uss-gyatt",
+      "department-of-war"
+    ],
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "path": "cases/puerto-rico-radar-1964.md"
+  },
+  {
+    "id": "schirra-mercury-atlas-8",
+    "title": "Wally Schirra, Mercury-Atlas 8, October 3, 1962",
+    "status": "disputed",
+    "in_pursue_catalog": true,
+    "incident_date": "1962-10-03",
+    "location": "Low Earth orbit",
+    "records": [
+      "nasa-uap-d012"
+    ],
+    "entities": [
+      "nasa",
+      "walter-schirra"
+    ],
+    "labels": [
+      "official",
+      "analysis",
+      "advocate",
+      "skeptic"
+    ],
+    "path": "cases/schirra-mercury-atlas-8.md"
+  },
+  {
+    "id": "syria-instant-acceleration",
+    "title": "Syria clip titled \"instant acceleration\"",
+    "status": "explained",
+    "in_pursue_catalog": true,
+    "incident_date": "2021",
+    "location": "CENTCOM (catalog location)",
+    "records": [
+      "dow-uap-pr051"
+    ],
+    "entities": [
+      "aaro",
+      "department-of-war"
+    ],
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "path": "cases/syria-instant-acceleration.md"
+  },
+  {
+    "id": "tremonton-1952",
+    "title": "Tremonton, Utah film, July 2, 1952",
+    "status": "disputed",
+    "in_pursue_catalog": true,
+    "incident_date": "1952-07-02",
+    "location": "Tremonton, Utah",
+    "records": [
+      "dow-uap-d102",
+      "dow-uap-pr159",
+      "dow-uap-d098",
+      "dow-uap-d103",
+      "dow-uap-d104",
+      "dow-uap-d105"
+    ],
+    "entities": [
+      "project-blue-book",
+      "delbert-newhouse",
+      "department-of-war",
+      "tremonton-utah",
+      "robertson-panel"
+    ],
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "path": "cases/tremonton-1952.md"
+  },
+  {
+    "id": "western-us-event-2023",
+    "title": "Western United States Event, 2023",
+    "status": "unexplained",
+    "in_pursue_catalog": true,
+    "incident_date": "2023",
+    "location": "Western United States",
+    "records": [
+      "dow-uap-d077",
+      "dow-uap-d078",
+      "dow-uap-d079",
+      "dow-uap-d080",
+      "dow-uap-d081",
+      "dow-uap-d082",
+      "dow-uap-d083",
+      "fbi-uap-d014-western-us-event-rendering",
+      "fbi-uap-d015",
+      "fbi-uap-d016",
+      "fbi-uap-d017",
+      "fbi-uap-d018",
+      "fbi-uap-d019",
+      "fbi-uap-d020",
+      "fbi-uap-d021",
+      "fbi-uap-d022",
+      "fbi-uap-d023",
+      "fbi-uap-pr005",
+      "fbi-uap-pr006",
+      "western-us-event"
+    ],
+    "entities": [
+      "aaro",
+      "department-of-war",
+      "fbi",
+      "western-united-states"
+    ],
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "path": "cases/western-us-event-2023.md"
+  },
+  {
+    "id": "western-us-test-range-orbs-2025",
+    "title": "Late 2025 orbs at a western U.S. test installation",
+    "status": "unexplained",
+    "in_pursue_catalog": true,
+    "incident_date": "2025",
+    "location": "Western United States",
+    "records": [
+      "fbi-photo-a001",
+      "fbi-photo-a002",
+      "fbi-photo-a003",
+      "fbi-photo-a004",
+      "fbi-photo-a005",
+      "fbi-photo-a006",
+      "fbi-photo-a007",
+      "fbi-photo-a008",
+      "fbi-photo-b001",
+      "fbi-photo-b002",
+      "fbi-photo-b003",
+      "fbi-photo-b004",
+      "fbi-photo-b005",
+      "fbi-photo-b006",
+      "fbi-photo-b007",
+      "fbi-photo-b008",
+      "fbi-photo-b009",
+      "fbi-photo-b010",
+      "fbi-photo-b011",
+      "fbi-photo-b012",
+      "fbi-photo-b013",
+      "fbi-photo-b014",
+      "fbi-photo-b015",
+      "fbi-photo-b016",
+      "fbi-photo-b017",
+      "fbi-photo-b018",
+      "fbi-photo-b019",
+      "fbi-photo-b020",
+      "fbi-photo-b021",
+      "fbi-photo-b022",
+      "fbi-photo-b023",
+      "fbi-photo-b024",
+      "odni-uap-d001",
+      "usper-statement-about-uap-sighting"
+    ],
+    "entities": [
+      "fbi",
+      "odni",
+      "aaro",
+      "department-of-war",
+      "western-united-states"
+    ],
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "path": "cases/western-us-test-range-orbs-2025.md"
+  }
+]

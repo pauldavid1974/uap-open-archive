@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/pauldavid1974/uap-open-archive/schema/manifest.schema.json",
+  "title": "Collection manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "collection",
+    "release_number",
+    "release_date",
+    "catalog_snapshot",
+    "record_count",
+    "records"
+  ],
+  "properties": {
+    "collection": { "type": "string" },
+    "release_number": { "type": "integer" },
+    "release_date": { "type": "string" },
+    "catalog_snapshot": { "type": "string" },
+    "catalog_archive_url": { "type": "string" },
+    "record_count": { "type": "integer", "minimum": 0 },
+    "redacted_count": { "type": "integer" },
+    "by_agency": { "type": "object" },
+    "by_type": { "type": "object" },
+    "bundle": { "type": "object" },
+    "catalog_versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["snapshot", "rows_in_this_release"],
+        "properties": {
+          "snapshot": { "type": "string" },
+          "captured": { "type": "string" },
+          "archive_url": { "type": "string" },
+          "query": { "type": "string" },
+          "rows_in_file": { "type": "integer" },
+          "rows_in_this_release": { "type": "integer" },
+          "redacted_count": { "type": "integer" },
+          "by_type": { "type": "object" }
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "official_id",
+          "title",
+          "agency",
+          "type",
+          "catalog_redaction_flag",
+          "original_file_url",
+          "archive_file_url",
+          "file_size_bytes",
+          "sha256"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "official_id": { "type": ["string", "null"] },
+          "title": { "type": "string" },
+          "agency": { "type": "string" },
+          "type": { "type": "string" },
+          "type_raw": { "type": "string" },
+          "incident_date_raw": { "type": "string" },
+          "location_raw": { "type": "string" },
+          "catalog_redaction_flag": { "type": "boolean" },
+          "original_file_url": { "type": ["string", "null"] },
+          "archive_file_url": { "type": ["string", "null"] },
+          "dvids_url": { "type": ["string", "null"] },
+          "media_url": { "type": ["string", "null"] },
+          "file_size_bytes": { "type": ["integer", "null"] },
+          "http_etag": { "type": ["string", "null"] },
+          "sha256": { "type": ["string", "null"] },
+          "catalog_order": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

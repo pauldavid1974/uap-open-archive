@@ -1,0 +1,301 @@
+[
+  {
+    "id": "aaro",
+    "title": "All-domain Anomaly Resolution Office (AARO)",
+    "kind": "agency",
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "cases": [
+      "western-us-event-2023",
+      "western-us-test-range-orbs-2025",
+      "gulf-of-oman-orbs-2021",
+      "colorado-police-2023",
+      "syria-instant-acceleration"
+    ],
+    "path": "entities/aaro.md"
+  },
+  {
+    "id": "aawsap-program",
+    "title": "AAWSAP",
+    "kind": "program",
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "cases": [
+      "aawsap"
+    ],
+    "path": "entities/aawsap-program.md"
+  },
+  {
+    "id": "ac-130",
+    "title": "AC-130J gunship",
+    "kind": "platform",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "gulf-of-oman-orbs-2021"
+    ],
+    "path": "entities/ac-130.md"
+  },
+  {
+    "id": "cia",
+    "title": "Central Intelligence Agency",
+    "kind": "agency",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "puerto-rico-radar-1964"
+    ],
+    "path": "entities/cia.md"
+  },
+  {
+    "id": "colorado",
+    "title": "Colorado",
+    "kind": "place",
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "cases": [
+      "colorado-police-2023",
+      "colorado-nebraska-drones-2019-2020"
+    ],
+    "path": "entities/colorado.md"
+  },
+  {
+    "id": "delbert-newhouse",
+    "title": "Delbert C. Newhouse",
+    "kind": "person",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "tremonton-1952"
+    ],
+    "path": "entities/delbert-newhouse.md"
+  },
+  {
+    "id": "department-of-energy",
+    "title": "Department of Energy",
+    "kind": "agency",
+    "labels": [
+      "official"
+    ],
+    "path": "entities/department-of-energy.md"
+  },
+  {
+    "id": "department-of-war",
+    "title": "Department of War",
+    "kind": "agency",
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "cases": [
+      "western-us-event-2023",
+      "gulf-of-oman-orbs-2021",
+      "tremonton-1952",
+      "syria-instant-acceleration",
+      "aawsap"
+    ],
+    "path": "entities/department-of-war.md"
+  },
+  {
+    "id": "edward-ruppelt",
+    "title": "Edward J. Ruppelt",
+    "kind": "person",
+    "labels": [
+      "official"
+    ],
+    "path": "entities/edward-ruppelt.md"
+  },
+  {
+    "id": "fbi",
+    "title": "Federal Bureau of Investigation",
+    "kind": "agency",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "western-us-event-2023",
+      "western-us-test-range-orbs-2025"
+    ],
+    "path": "entities/fbi.md"
+  },
+  {
+    "id": "gulf-of-oman",
+    "title": "Gulf of Oman",
+    "kind": "place",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "gulf-of-oman-orbs-2021"
+    ],
+    "path": "entities/gulf-of-oman.md"
+  },
+  {
+    "id": "local-law-enforcement",
+    "title": "Local law enforcement",
+    "kind": "agency",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "colorado-police-2023"
+    ],
+    "path": "entities/local-law-enforcement.md"
+  },
+  {
+    "id": "nasa",
+    "title": "National Aeronautics and Space Administration",
+    "kind": "agency",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "apollo-17-three-dots",
+      "schirra-mercury-atlas-8",
+      "astronaut-particles"
+    ],
+    "path": "entities/nasa.md"
+  },
+  {
+    "id": "odni",
+    "title": "Office of the Director of National Intelligence",
+    "kind": "agency",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "western-us-test-range-orbs-2025"
+    ],
+    "path": "entities/odni.md"
+  },
+  {
+    "id": "pantex-plant",
+    "title": "Pantex Plant",
+    "kind": "place",
+    "labels": [
+      "official"
+    ],
+    "path": "entities/pantex-plant.md"
+  },
+  {
+    "id": "pete-hegseth",
+    "title": "Pete Hegseth",
+    "kind": "person",
+    "labels": [
+      "official"
+    ],
+    "path": "entities/pete-hegseth.md"
+  },
+  {
+    "id": "project-blue-book",
+    "title": "Project Blue Book",
+    "kind": "program",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "tremonton-1952"
+    ],
+    "path": "entities/project-blue-book.md"
+  },
+  {
+    "id": "project-grudge",
+    "title": "Project Grudge",
+    "kind": "program",
+    "labels": [
+      "official"
+    ],
+    "path": "entities/project-grudge.md"
+  },
+  {
+    "id": "project-sign",
+    "title": "Project Sign",
+    "kind": "program",
+    "labels": [
+      "official"
+    ],
+    "path": "entities/project-sign.md"
+  },
+  {
+    "id": "pursue",
+    "title": "PURSUE",
+    "kind": "program",
+    "labels": [
+      "official"
+    ],
+    "path": "entities/pursue.md"
+  },
+  {
+    "id": "robertson-panel",
+    "title": "Scientific Advisory Panel on UFOs (Robertson Panel), 1952–1953",
+    "kind": "program",
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "cases": [
+      "tremonton-1952"
+    ],
+    "path": "entities/robertson-panel.md"
+  },
+  {
+    "id": "tremonton-utah",
+    "title": "Tremonton, Utah",
+    "kind": "place",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "tremonton-1952"
+    ],
+    "path": "entities/tremonton-utah.md"
+  },
+  {
+    "id": "uss-gyatt",
+    "title": "USS Gyatt",
+    "kind": "platform",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "puerto-rico-radar-1964"
+    ],
+    "path": "entities/uss-gyatt.md"
+  },
+  {
+    "id": "walter-schirra",
+    "title": "Walter M. Schirra Jr.",
+    "kind": "person",
+    "labels": [
+      "official"
+    ],
+    "cases": [
+      "schirra-mercury-atlas-8",
+      "astronaut-particles"
+    ],
+    "path": "entities/walter-schirra.md"
+  },
+  {
+    "id": "western-united-states",
+    "title": "Western United States (unspecified)",
+    "kind": "place",
+    "labels": [
+      "official",
+      "analysis"
+    ],
+    "cases": [
+      "western-us-event-2023",
+      "western-us-test-range-orbs-2025"
+    ],
+    "path": "entities/western-united-states.md"
+  }
+]

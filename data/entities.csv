@@ -1,0 +1,26 @@
+id,title,kind,labels,cases,path
+aaro,All-domain Anomaly Resolution Office (AARO),agency,official | analysis,western-us-event-2023 | western-us-test-range-orbs-2025 | gulf-of-oman-orbs-2021 | colorado-police-2023 | syria-instant-acceleration,entities/aaro.md
+aawsap-program,AAWSAP,program,official | analysis,aawsap,entities/aawsap-program.md
+ac-130,AC-130J gunship,platform,official,gulf-of-oman-orbs-2021,entities/ac-130.md
+cia,Central Intelligence Agency,agency,official,puerto-rico-radar-1964,entities/cia.md
+colorado,Colorado,place,official | analysis,colorado-police-2023 | colorado-nebraska-drones-2019-2020,entities/colorado.md
+delbert-newhouse,Delbert C. Newhouse,person,official,tremonton-1952,entities/delbert-newhouse.md
+department-of-energy,Department of Energy,agency,official,,entities/department-of-energy.md
+department-of-war,Department of War,agency,official | analysis,western-us-event-2023 | gulf-of-oman-orbs-2021 | tremonton-1952 | syria-instant-acceleration | aawsap,entities/department-of-war.md
+edward-ruppelt,Edward J. Ruppelt,person,official,,entities/edward-ruppelt.md
+fbi,Federal Bureau of Investigation,agency,official,western-us-event-2023 | western-us-test-range-orbs-2025,entities/fbi.md
+gulf-of-oman,Gulf of Oman,place,official,gulf-of-oman-orbs-2021,entities/gulf-of-oman.md
+local-law-enforcement,Local law enforcement,agency,official,colorado-police-2023,entities/local-law-enforcement.md
+nasa,National Aeronautics and Space Administration,agency,official,apollo-17-three-dots | schirra-mercury-atlas-8 | astronaut-particles,entities/nasa.md
+odni,Office of the Director of National Intelligence,agency,official,western-us-test-range-orbs-2025,entities/odni.md
+pantex-plant,Pantex Plant,place,official,,entities/pantex-plant.md
+pete-hegseth,Pete Hegseth,person,official,,entities/pete-hegseth.md
+project-blue-book,Project Blue Book,program,official,tremonton-1952,entities/project-blue-book.md
+project-grudge,Project Grudge,program,official,,entities/project-grudge.md
+project-sign,Project Sign,program,official,,entities/project-sign.md
+pursue,PURSUE,program,official,,entities/pursue.md
+robertson-panel,"Scientific Advisory Panel on UFOs (Robertson Panel), 1952–1953",program,official | analysis,tremonton-1952,entities/robertson-panel.md
+tremonton-utah,"Tremonton, Utah",place,official,tremonton-1952,entities/tremonton-utah.md
+uss-gyatt,USS Gyatt,platform,official,puerto-rico-radar-1964,entities/uss-gyatt.md
+walter-schirra,Walter M. Schirra Jr.,person,official,schirra-mercury-atlas-8 | astronaut-particles,entities/walter-schirra.md
+western-united-states,Western United States (unspecified),place,official | analysis,western-us-event-2023 | western-us-test-range-orbs-2025,entities/western-united-states.md
