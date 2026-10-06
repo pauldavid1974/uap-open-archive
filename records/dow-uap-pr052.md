@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1007708/dow-uap-pr052-uap-uso-formation-callsign-mission
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,84 @@ dvids_id: '1007708'
 file_size_bytes: 513739591
 http_etag: 630f8183f2bc218194d36f3ef3f67707-62
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718.mp4
-sha256: null
+sha256: e67b3a3b3d863ef88cc8c4e6b73e9c9bff896506a2962956ed70f508fd8815f5
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718.mp4,
+  downloaded 2026-10-06. 513739591 bytes were read, matching Content-Length 513739591. The file was not
+  committed to the repository.
+dvids_title: DOW-UAP-PR052, "UAP USO Formation [CALLSIGN] (Mission)"
+dvids_date_taken: 06.01.2024
+dvids_date_posted: 05.22.2026 07:30
+dvids_duration: 00:08:15
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 490 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222136
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 418 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222137
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 291 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222138
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 161 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222139
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 109 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222140
+  http_status: 403
+- resolution: 512x288
+  size_stated: 57 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222141
+  http_status: 403
+- resolution: 256x144
+  size_stated: 51 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222142
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 7315000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-1920x1080-20000k-hls_1.m3u8
+- resolution: 1600x900
+  bandwidth: 6016000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-1600x900-12514k-hls_2.m3u8
+- resolution: 1280x720
+  bandwidth: 3953000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-1280x720-7830k-hls_3.m3u8
+- resolution: 960x540
+  bandwidth: 2594000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-960x540-4900k-hls_4.m3u8
+- resolution: 768x432
+  bandwidth: 1679000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-768x432-3066k-hls_5.m3u8
+- resolution: 480x270
+  bandwidth: 1051000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-480x270-1918k-hls_6.m3u8
+- resolution: 360x202
+  bandwidth: 735000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-360x202-1200k-hls_7.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -77,18 +154,65 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1007708/dow-uap-pr052-uap-uso-formation-callsign-mission, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+>
+> AARO assesses that this video, whose uploader-defined title is, “UAP USO Formation [CALLSIGN] (Mission),” is likely derived from an infrared sensor aboard a U.S. military platform. A user uploaded this video to a classified network in June 2024.
+>
+> Video Duration: 00:08:16
+>
+> Video Description: This media was digitally altered prior to its upload to a classified network, and is presented as received.
+>
+> 00:00-00:05: Four areas of contrast transit the frame from the bottom third of the left side to the bottom third of the right side of the frame.
+>
+> 00:06-00:38: The video appears to cut, refocusing on four areas of contrast. Visual elements of the sensor display enter and exit the frame.
+>
+> 00:39-06:08: The video seems to cut multiple times, applying various contrast filters and zoom levels. Visual elements of the sensor display enter and exit the frame.
+>
+> 06:09-06:50: The sensor zooms in on four areas of contrast.
+>
+> 06:51-08:10: The areas of contrast become increasingly indistinct over time as the video quality degrades.
+>
+> 08:11-08:15: Video appears to cut, or zoom out, likely cutting to an earlier portion of the video, with the areas of contrast more visible.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1007708/dow-uap-pr052-uap-uso-formation-callsign-mission
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1007708/dow-uap-pr052-uap-uso-formation-callsign-mission
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718.mp4
-- Size from an HTTP HEAD request: 513.7 MB (513739591 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR052, "UAP USO Formation [CALLSIGN] (Mission)"; Date taken: 06.01.2024; Date posted: 05.22.2026 07:30; Duration: 00:08:15.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 513.7 MB (513739591 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "490 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222136
+  - 1920x1080; size stated "418 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222137
+  - 1920x1080; size stated "291 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222138
+  - 1280x720; size stated "161 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222139
+  - 1024x576; size stated "109 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222140
+  - 512x288; size stated "57 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222141
+  - 256x144; size stated "51 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222142
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 7315000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-1920x1080-20000k-hls_1.m3u8
+  - 1600x900; 6016000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-1600x900-12514k-hls_2.m3u8
+  - 1280x720; 3953000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-1280x720-7830k-hls_3.m3u8
+  - 960x540; 2594000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-960x540-4900k-hls_4.m3u8
+  - 768x432; 1679000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-768x432-3066k-hls_5.m3u8
+  - 480x270; 1051000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-480x270-1918k-hls_6.m3u8
+  - 360x202; 735000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718-360x202-1200k-hls_7.m3u8
 - HTTP ETag: `630f8183f2bc218194d36f3ef3f67707-62`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 06.01.2024; Date Posted: 05.22.2026 07:30; Length: 00:08:15; Location: (UNDISCLOSED LOCATION); VIRIN: 240624-D-D0360-5684; Filename: DOD_111719718; Category: B-Roll; Video ID: 1007708.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `e67b3a3b3d863ef88cc8c4e6b73e9c9bff896506a2962956ed70f508fd8815f5`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719718/DOD_111719718.mp4, downloaded 2026-10-06. 513739591 bytes were read, matching Content-Length 513739591. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

@@ -40,6 +40,29 @@ The counts above are the September 29, 2026 snapshot (`release=6v5`). That is th
 
 Across the September snapshots stored here, this release's row count, redaction count, and type counts do not change. The May 20, 2026 snapshot contains Release 01 only, so it is absent from the table.
 
+## DVIDS
+
+For each video and audio row, [manifest.json](manifest.json) has the DVIDS title, date taken, date posted, duration, the description quoted from the page, every download-popup resolution with the size text DVIDS printed, the HLS renditions, and a SHA-256 when the public MP4 was downloaded on October 6, 2026. Those media files are not in this repository. Every download-menu URL on this release returned HTTP 403, so the exact byte length of those renditions was not measured.
+
+| Archive id | DVIDS id | DVIDS title | Date taken | Duration | SHA-256 |
+| --- | --- | --- | --- | --- | --- |
+| [dow-uap-pr117](../../records/dow-uap-pr117.md) | `1017793` | DOW-UAP-PR117, Unresolved UAP Report, Gulf of Oman, 2021 | 09.08.2021 | 00:00:16 | dc48093f51e0853c88fee28f9d3cf2a4377918748800439f4c7dc2151985ce95 |
+| [dow-uap-pr118](../../records/dow-uap-pr118.md) | `1017795` | DOW-UAP-PR118, Unresolved UAP Report, Gulf of Oman, 2021 | 09.08.2021 | 00:00:30 | 742e1b5087e671eed4aa3b8c7baba38d4543bd6669fe6f68cf4b532d064b9f96 |
+| [dow-uap-pr119](../../records/dow-uap-pr119.md) | `1017798` | DOW-UAP-PR119, Unresolved UAP Report, Gulf of Oman, 2021 | 09.08.2021 | 00:00:02 | fe5c7457ec5b104fa279861d2684a6787e021edb75a35099ee0a3f117166b4b6 |
+| [dow-uap-pr120](../../records/dow-uap-pr120.md) | `1017800` | DOW-UAP-PR120, Unresolved UAP Report, Gulf of Oman, 2021 | 09.08.2021 | 00:00:13 | 7056e4f2cd9d90101f42d66cf7b341a1f5cf67d638835200838ed51e415f42bc |
+| [dow-uap-pr121](../../records/dow-uap-pr121.md) | `1017802` | DOW-UAP-PR121, Unresolved UAP Report, Gulf of Oman, 2021 | 09.08.2021 | 00:00:34 | 437116a1e0a4f061e49bf5b97f7a69c25f543d5102707d0be0212fb22afd73c6 |
+| [dow-uap-pr122](../../records/dow-uap-pr122.md) | `1017803` | DOW-UAP-PR122, Unresolved UAP Report, Gulf of Oman, 2021 | 09.08.2021 | 00:00:26 | c1cf73db92aef319e97887579705108e710250376e14ae3a392e0dd4c78b4eeb |
+| [dow-uap-pr123](../../records/dow-uap-pr123.md) | `1017805` | DOW-UAP-PR123, Unresolved UAP Report, Pacific Ocean, 2019 | 01.01.2019 | 00:01:04 | fbcfc82a8b586261220b5242cf869d5effcda838a8b7996548251b0f46e05388 |
+| [dow-uap-pr124](../../records/dow-uap-pr124.md) | `1017806` | DOW-UAP-PR124, Unresolved UAP Report, Pacific Ocean, 2019 | 01.01.2019 | 00:00:53 | d176220dbf5da3b6da2621b250a02e27e020795d56917095916a492572636eac |
+| [dow-uap-pr125](../../records/dow-uap-pr125.md) | `1017788` | DOW-UAP-PR125, Unresolved UAP Report, Pacific Ocean, 2019 | 01.01.2019 | 00:00:28 | 7cf3d44b94ddb8c2cb0ac292445a3bf581cdf5db4a1be163db608dbca303fb3d |
+| [dow-uap-pr126](../../records/dow-uap-pr126.md) | `1017790` | DOW-UAP-PR126, Unresolved UAP Report, Pacific Ocean, 2019 | 01.01.2019 | 00:02:32 | 88adfe16ded6a14baf5b06373a7d8a3d6bc054ba7b3ee3d2a51754761be84a30 |
+| [dow-uap-pr127](../../records/dow-uap-pr127.md) | `1017791` | DOW-UAP-PR127, Unresolved UAP Report, Pacific Ocean, 2019 | 01.01.2019 | 00:02:29 | 5c240564063e96c6932bcb8a0b9ea455becedfee7074de2a03d437ae0e3287db |
+| [dow-uap-pr134](../../records/dow-uap-pr134.md) | `1017792` | DOW-UAP-PR134, Unresolved UAP Report, Middle East, 2025 | 01.01.2025 | 00:01:39 | 137d56a21e19988116de1e93d76ee08184173004f075f5b94089cf4fd1dcf5b3 |
+| [dow-uap-pr136](../../records/dow-uap-pr136.md) | `1017796` | DOW-UAP-PR136, Unresolved UAP Report, Middle East, 2023 | 01.01.2023 | 00:00:33 | 8db183c305afa11bec1645a2cc7ee5b31c6cc3d63a93bcb1933eab3aae67cf33 |
+| [dow-uap-pr142](../../records/dow-uap-pr142.md) | `1017797` | DOW-UAP-PR142, Unresolved UAP Report, Middle East, 2025 | 01.01.2025 | 00:00:11 | 336e61c9e43e8bdae56282577011e3c0028c2ac776a3c014a9255a0c56f5eca5 |
+| [dow-uap-pr149](../../records/dow-uap-pr149.md) | `1017799` | DOW-UAP-PR149, Unresolved UAP Report, Middle East, 2023 | 01.01.2023 | 00:00:51 | 9eb2ef8fc5951c475d340931cc354977451a8b2d13028610f17947f78a8b24ad |
+| [fbi-uap-pr007](../../records/fbi-uap-pr007.md) | `1017801` | FBI-UAP-PR007, “Slow-moving Objects,” 2026 | 01.01.2026 | 00:00:10 | a249c4fdc4a5739e769ee97f29ebbc79914e43eebbe9b3965bbeb716cfb6d5ef |
+
 The machine-readable list, including these version counts, is [manifest.json](manifest.json). Each item also has a page in [`records/`](../../records/).
 
 | Archive id | Official id | Type | Redaction flag | Agency | Title |

@@ -48,6 +48,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260918-D-D0360-1091
 video_pairing:
 - DOW-UAP-PR159
@@ -77,14 +90,13 @@ The government's own description of the file is quoted in the next section. If t
 > The file reflects an evolving Air Force assessment of the imagery over several years. Early documentation considered several possible explanations, including sunlight reflecting from birds or balloons, and a mirage effect, and did not identify the objects conclusively. Later assessments became more confident that the objects were seabirds reflecting sunlight, citing identifiable seabirds and similar films showing seabirds as bright points of light under comparable conditions. However, the film’s limited detail and lack of fixed reference points prevented reliable determination of the objects’ distance, size, altitude, or linear speed from the film alone.
 >
 > AARO Comment: The file contains conflicting references to the film format. Several documents describe a 35mm film, while contemporaneous submission documentation identifies the original as a 50-foot roll of processed 16mm Kodachrome color motion-picture film recorded with a handheld Bell & Howell Auto Master camera. Newhouse reported exposing approximately 30 feet of the roll during the incident and using the remaining film later that day to record unrelated mountain scenery in Idaho. Other records show that 35mm positive and negative duplicate blowups were produced from the original 16mm material. The file also indicates that the original film was duplicated for preservation, citing its deteriorating condition. The footage retained by the National Archives and Records Administration and presented in this collection as DOW-UAP-PR159 is a digitization of a 16mm print.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/sept-18/release-06/assets/DOW-UAP-D102_Project-Blue-Book-File-on-Tremonton-Film-Utah-1952.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

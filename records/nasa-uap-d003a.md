@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1006119/nasa-audio-12-5-1965-low-earth-orbit
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,66 @@ dvids_id: '1006119'
 file_size_bytes: 19126276
 http_etag: 8df61b2365048739505e8da6b0ba08c3-3
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689232/DOD_111689232.mp4
-sha256: null
+sha256: 4965639958d9a9dde9c98a17357f1b9818bf2bd36c9e857b69e1d8990fdd095f
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689232/DOD_111689232.mp4,
+  downloaded 2026-10-06. 19126276 bytes were read, matching Content-Length 19126276. The file was not
+  committed to the repository.
+dvids_title: NASA Audio 12/5/1965 Low Earth Orbit
+dvids_date_taken: 12.04.1965
+dvids_date_posted: 05.07.2026 23:23
+dvids_duration: 00:06:11
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 18 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10201781
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 18 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10201782
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 17 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10201783
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 12 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10201784
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 10 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10201785
+  http_status: 403
+- resolution: 512x288
+  size_stated: 8 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10201786
+  http_status: 403
+- resolution: 256x144
+  size_stated: 6 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10201787
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 229000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689232/DOD_111689232-1920x1080-7830k-hls_1.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260508-O-D0360-1062
 video_pairing: []
 pdf_pairing: []
@@ -63,18 +122,39 @@ The government's own description of the file is quoted in the next section. If t
 
 > This audio recording contains air to ground communications and the NASA Public Affairs audio feed with commentary, recorded during the flight of the Gemini 7 mission. In this excerpted segment of audio, Astronaut Frank Borman reports to NASA mission control in Houston his sighting of an unidentified object, which he referred to as a "bogey." This sighting occurred on December 5, 1965. The dialogue includes Borman's initial report, as well as additional comments by Astronaut Jim Lovell, Borman's fellow crew member.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1006119/nasa-audio-12-5-1965-low-earth-orbit, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> This audio recording contains air to ground communications and the NASA Public Affairs audio feed with commentary, recorded during the flight of the Gemini VII mission. In this excerpted segment of audio, Astronaut Frank Borman reports to NASA mission control in Houston his sighting of an unidentified object, which he referred to as a "bogey." This sighting occurred on December 5, 1965. The dialogue includes Borman's initial report, as well as additional comments by Astronaut Jim Lovell, Borman's fellow crew member.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1006119/nasa-audio-12-5-1965-low-earth-orbit
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1006119/nasa-audio-12-5-1965-low-earth-orbit
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689232/DOD_111689232.mp4
-- Size from an HTTP HEAD request: 19.1 MB (19126276 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: NASA Audio 12/5/1965 Low Earth Orbit; Date taken: 12.04.1965; Date posted: 05.07.2026 23:23; Duration: 00:06:11.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689232/DOD_111689232.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 19.1 MB (19126276 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "18 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10201781
+  - 1920x1080; size stated "18 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10201782
+  - 1920x1080; size stated "17 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10201783
+  - 1280x720; size stated "12 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10201784
+  - 1024x576; size stated "10 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10201785
+  - 512x288; size stated "8 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10201786
+  - 256x144; size stated "6 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10201787
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 229000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689232/DOD_111689232-1920x1080-7830k-hls_1.m3u8
 - HTTP ETag: `8df61b2365048739505e8da6b0ba08c3-3`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 12.04.1965; Date Posted: 05.07.2026 23:23; Length: 00:06:11; Location: (UNDISCLOSED LOCATION); VIRIN: 651206-D-D0360-1065; Filename: DOD_111689232; Category: Briefings; Video ID: 1006119.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `4965639958d9a9dde9c98a17357f1b9818bf2bd36c9e857b69e1d8990fdd095f`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689232/DOD_111689232.mp4, downloaded 2026-10-06. 19126276 bytes were read, matching Content-Length 19126276. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

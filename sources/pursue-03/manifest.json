@@ -108,6 +108,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 43
     },
     {
@@ -127,6 +140,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 44
     },
     {
@@ -146,6 +172,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 45
     },
     {
@@ -165,6 +204,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 46
     },
     {
@@ -184,6 +236,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 47
     },
     {
@@ -203,6 +268,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 48
     },
     {
@@ -222,6 +300,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 49
     },
     {
@@ -241,6 +332,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 50
     },
     {
@@ -260,6 +364,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 51
     },
     {
@@ -279,6 +396,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 52
     },
     {
@@ -298,6 +428,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 53
     },
     {
@@ -317,6 +460,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 54
     },
     {
@@ -336,6 +492,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 55
     },
     {
@@ -355,6 +524,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 56
     },
     {
@@ -374,6 +556,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 57
     },
     {
@@ -393,6 +588,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 58
     },
     {
@@ -412,6 +620,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 59
     },
     {
@@ -431,6 +652,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 60
     },
     {
@@ -450,6 +684,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 115
     },
     {
@@ -469,6 +716,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 116
     },
     {
@@ -488,6 +748,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 117
     },
     {
@@ -507,6 +780,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 118
     },
     {
@@ -526,6 +812,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 119
     },
     {
@@ -545,6 +844,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 120
     },
     {
@@ -564,6 +876,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 121
     },
     {
@@ -583,6 +908,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 122
     },
     {
@@ -602,6 +940,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 123
     },
     {
@@ -621,6 +972,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 124
     },
     {
@@ -640,6 +1004,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 125
     },
     {
@@ -659,6 +1036,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 126
     },
     {
@@ -678,6 +1068,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 349
     },
     {
@@ -697,6 +1100,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 350
     },
     {
@@ -716,6 +1132,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 351
     },
     {
@@ -735,6 +1164,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 352
     },
     {
@@ -754,6 +1196,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 353
     },
     {
@@ -773,6 +1228,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 354
     },
     {
@@ -792,6 +1260,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 355
     },
     {
@@ -811,6 +1292,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 356
     },
     {
@@ -830,6 +1324,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 357
     },
     {
@@ -849,6 +1356,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 358
     },
     {
@@ -868,6 +1388,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 359
     },
     {
@@ -887,6 +1420,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 360
     },
     {
@@ -906,6 +1452,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 361
     },
     {
@@ -925,6 +1484,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 363
     },
     {
@@ -944,6 +1516,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 364
     },
     {
@@ -963,6 +1548,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 365
     },
     {
@@ -982,6 +1580,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 366
     },
     {
@@ -1001,6 +1612,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 367
     },
     {
@@ -1020,6 +1644,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 368
     },
     {
@@ -1039,6 +1676,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 369
     },
     {
@@ -1058,6 +1708,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 370
     },
     {
@@ -1077,6 +1740,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 371
     },
     {
@@ -1096,6 +1772,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 372
     },
     {
@@ -1114,7 +1803,93 @@
       "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142.mp4",
       "file_size_bytes": 81758206,
       "http_etag": "e8c6ba299138b361d937bf367a596a74-10",
-      "sha256": null,
+      "sha256": "b6db4902491033aa6ce5c36da367747b16ae4f2344739b27f0b4729f6d090e98",
+      "sha256_note": "SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142.mp4, downloaded 2026-10-06. 81758206 bytes were read, matching Content-Length 81758206. The file was not committed to the repository.",
+      "dvids_title": "FBI-UAP-PR001_Triangle-Orbs_2021",
+      "dvids_date_taken": "11.01.2021",
+      "dvids_date_posted": "06.12.2026 07:00",
+      "dvids_duration": "00:02:42",
+      "dvids_description": "\"In November 2021, at approximately 0500 local time in the northeastern United States, an  eyewitness observed a bright light source near the horizon at an estimated distance of  2,000 feet. The light source initially appeared as a single intense luminous object before resolving into multiple lights exhibiting erratic rotational motion relative to one another. The object slowly moved laterally from left to right during the encounter. The eyewitness captured the video with a hand-held iPhone 12 Pro, resulting in unintended camera movement. The location was well known to the eyewitness and is sparsely populated.\n\nThe description above is derived from statements provided to the Federal Bureau of Investigation (FBI) by the eyewitness to the event. The FBI assesses the individual who reported this event as highly credible. The subject matter described in files FBI-UAP-D004 through FBI-UAP-D008 and depicted in the video footage FBI-UAP-PR001 through FBI-UAP-PR003 corresponds to reports originating from the same general area in the northeastern United States. \"",
+      "dvids_downloads": [
+        {
+          "resolution": "1920x1080",
+          "size_stated": "78 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254131",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "96 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254132",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "74 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254133",
+          "http_status": 403
+        },
+        {
+          "resolution": "1280x720",
+          "size_stated": "24 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254134",
+          "http_status": 403
+        },
+        {
+          "resolution": "1024x576",
+          "size_stated": "12 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254135",
+          "http_status": 403
+        },
+        {
+          "resolution": "512x288",
+          "size_stated": "5 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254136",
+          "http_status": 403
+        },
+        {
+          "resolution": "256x144",
+          "size_stated": "3 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254137",
+          "http_status": 403
+        }
+      ],
+      "dvids_hls": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 2252000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142-1920x1080-7830k-hls_1.m3u8"
+        },
+        {
+          "resolution": "1600x900",
+          "bandwidth": 947000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142-1600x900-4900k-hls_2.m3u8"
+        },
+        {
+          "resolution": "1280x720",
+          "bandwidth": 513000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142-1280x720-3066k-hls_3.m3u8"
+        }
+      ],
+      "dvids_fetch_date": "2026-10-06",
+      "dvids_fetch_status": "ok",
+      "dvids_captions_status": "absent",
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 389
     },
     {
@@ -1133,7 +1908,103 @@
       "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764148/DOD_111764148.mp4",
       "file_size_bytes": 143319259,
       "http_etag": "2deb134889bbcfbd8204db67236b7003-18",
-      "sha256": null,
+      "sha256": "1152a7b068ec9092afa5886df224500ef52100d32449ac2616d1dc3309b8c59e",
+      "sha256_note": "SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764148/DOD_111764148.mp4, downloaded 2026-10-06. 143319259 bytes were read, matching Content-Length 143319259. The file was not committed to the repository.",
+      "dvids_title": "FBI-UAP-PR002, \u201cRed Orb Rotation,\u201d Northeastern United States,\u00a02022",
+      "dvids_date_taken": "03.01.2022",
+      "dvids_date_posted": "06.12.2026 07:00",
+      "dvids_duration": "00:02:42",
+      "dvids_description": "\"In March 2022, at approximately 1920 local time in the northeastern United States, an eyewitness observed two bright red luminous light sources hovering near the horizon at an estimated distance of 2,500 feet. Both luminous objects maintained generally stationary positions throughout the encounter. The lower light source appeared to rotate slowly relative to the upper light source, moving from an apparent 6 o\u2019clock position to slightly beyond the apparent 9 o\u2019clock position. The eyewitness did not hear any sounds from the light sources. The eyewitness captured this video using an iPhone 12 Pro at a location well known to them, which is sparsely populated.\n\nThe description above is derived from statements provided to the Federal Bureau of Investigation (FBI) by an eyewitness to the event. The FBI assesses the individual who reported this event as highly credible. The subject matter described in files FBI-UAP-D004 through FBI-UAP-D008 and depicted in the video footage FBI-UAP-PR001 through FBI-UAP-PR003 corresponds to reports originating from the same general area in the northeastern United States. \"",
+      "dvids_downloads": [
+        {
+          "resolution": "1920x1080",
+          "size_stated": "137 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254138",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "151 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254139",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "98 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254140",
+          "http_status": 403
+        },
+        {
+          "resolution": "1280x720",
+          "size_stated": "49 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254141",
+          "http_status": 403
+        },
+        {
+          "resolution": "1024x576",
+          "size_stated": "30 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254142",
+          "http_status": 403
+        },
+        {
+          "resolution": "512x288",
+          "size_stated": "17 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254143",
+          "http_status": 403
+        },
+        {
+          "resolution": "256x144",
+          "size_stated": "7 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254144",
+          "http_status": 403
+        }
+      ],
+      "dvids_hls": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 5034000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764148/DOD_111764148-1920x1080-12514k-hls_1.m3u8"
+        },
+        {
+          "resolution": "1600x900",
+          "bandwidth": 2761000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764148/DOD_111764148-1600x900-7830k-hls_2.m3u8"
+        },
+        {
+          "resolution": "1280x720",
+          "bandwidth": 1553000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764148/DOD_111764148-1280x720-3066k-hls_3.m3u8"
+        },
+        {
+          "resolution": "960x540",
+          "bandwidth": 890000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764148/DOD_111764148-960x540-1918k-hls_4.m3u8"
+        },
+        {
+          "resolution": "768x432",
+          "bandwidth": 473000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764148/DOD_111764148-768x432-1200k-hls_5.m3u8"
+        }
+      ],
+      "dvids_fetch_date": "2026-10-06",
+      "dvids_fetch_status": "ok",
+      "dvids_captions_status": "absent",
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 390
     },
     {
@@ -1152,7 +2023,113 @@
       "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159.mp4",
       "file_size_bytes": 296467952,
       "http_etag": "2a80c9362f2b841dc7bb631af62b7251-36",
-      "sha256": null,
+      "sha256": "fa297d9788cbaab0adca007eb78bcfdf2e8ecd9d9f98c813aa492593e47b1623",
+      "sha256_note": "SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159.mp4, downloaded 2026-10-06. 296467952 bytes were read, matching Content-Length 296467952. The file was not committed to the repository.",
+      "dvids_title": "FBI-UAP-PR003, \u201cOrbs Over\u00a0the Pond,\u201d 2024",
+      "dvids_date_taken": "10.01.2024",
+      "dvids_date_posted": "06.12.2026 07:00",
+      "dvids_duration": "00:04:25",
+      "dvids_description": "\"In October 2024, at approximately 1851 local time in the northeastern United States, an eyewitness observed a light source below the horizon, hovering above a pond at an estimated distance of 2,700 feet. The luminous object resembled a \u201cplasma-like sphere\u201d intermittently changing shape and luminosity. At times, the primary light source appeared to separate into smaller luminous points. A luminous point below the primary source hovered just above the water and did not appear consistent with a surface reflection. The object remained generally stationary for approximately 45 minutes before disappearing. The eyewitness did not hear any sound from the objects. This video was captured by a private citizen on an iPhone and subsequently analyzed and authenticated by the U.S. Government. To protect the individual\u2019s privacy, the footage has been cropped. Apart from this privacy-protective measure, no edits, enhancements, or alterations have been made to the visual content.\n\nThe description above is derived from statements provided to the Federal Bureau of Investigation (FBI) by an eyewitness to the event. The FBI assesses the individual who reported this event as highly credible. The subject matter described in files FBI-UAP-D004 through FBI-UAP-D008 and depicted in the video footage FBI-UAP-PR001 through FBI-UAP-PR003 corresponds to reports originating from the same general area in the northeastern United States.   \"",
+      "dvids_downloads": [
+        {
+          "resolution": "1080x1920",
+          "size_stated": "283 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254160",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "118 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254161",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "91 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254162",
+          "http_status": 403
+        },
+        {
+          "resolution": "1280x720",
+          "size_stated": "40 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254163",
+          "http_status": 403
+        },
+        {
+          "resolution": "1024x576",
+          "size_stated": "31 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254164",
+          "http_status": 403
+        },
+        {
+          "resolution": "512x288",
+          "size_stated": "16 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254165",
+          "http_status": 403
+        },
+        {
+          "resolution": "256x144",
+          "size_stated": "6 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254166",
+          "http_status": 403
+        }
+      ],
+      "dvids_hls": [
+        {
+          "resolution": "1080x1920",
+          "bandwidth": 6881000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159-1080x1920-20000k-hls_1.m3u8"
+        },
+        {
+          "resolution": "1080x1920",
+          "bandwidth": 5387000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159-1080x1920-12514k-hls_2.m3u8"
+        },
+        {
+          "resolution": "768x1366",
+          "bandwidth": 3307000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159-768x1366-7830k-hls_3.m3u8"
+        },
+        {
+          "resolution": "640x1138",
+          "bandwidth": 2247000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159-640x1138-4900k-hls_4.m3u8"
+        },
+        {
+          "resolution": "576x1024",
+          "bandwidth": 1535000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159-576x1024-3066k-hls_5.m3u8"
+        },
+        {
+          "resolution": "480x854",
+          "bandwidth": 1042000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159-480x854-1918k-hls_6.m3u8"
+        },
+        {
+          "resolution": "360x640",
+          "bandwidth": 664000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764159/DOD_111764159-360x640-1200k-hls_7.m3u8"
+        }
+      ],
+      "dvids_fetch_date": "2026-10-06",
+      "dvids_fetch_status": "ok",
+      "dvids_captions_status": "absent",
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 391
     },
     {
@@ -1171,7 +2148,98 @@
       "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764177/DOD_111764177.mp4",
       "file_size_bytes": 25869129,
       "http_etag": "a609f3089d716a59436bad0f399fcc66-4",
-      "sha256": null,
+      "sha256": "5b9b63bcffdc7725604519aa34d7adbc0336acfee4065784e1003367e094c1fc",
+      "sha256_note": "SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764177/DOD_111764177.mp4, downloaded 2026-10-06. 25869129 bytes were read, matching Content-Length 25869129. The file was not committed to the repository.",
+      "dvids_title": "FBI-UAP-PR004, \u201cNortheastern Orb Sighting,\u201d 2025",
+      "dvids_date_taken": "07.01.2025",
+      "dvids_date_posted": "06.12.2026 07:00",
+      "dvids_duration": "00:00:49",
+      "dvids_description": "\"In July 2025, at approximately 2100 local time in the northeastern United States, an eyewitness observed an intense bright light in their backyard as they parked their car upon returning home from work. The light was hovering approximately 25 feet off the ground, below a tree line near the center of their backyard, at an estimated distance of 90 feet. The eyewitness exited their vehicle briefly before retrieving their phone to record the event. The spouse of the eyewitness came outside to assess the situation. The spouse also witnessed the light, describing it as a \u201cbrilliant red sphere\u201d about one meter in diameter. The center of the red sphere appeared to be a white plasma \u201csun\u201d about the size of a basketball. The orb slowly rose and moved to the left, and both eyewitnesses observed a second, identical orb, hovering above the other orb.\n\nThe eyewitness then began recording the event using an iPhone 14 Pro Max, capturing the footage depicted in this video. As the eyewitness began recording, the orbs moved westward together above a nearby tree line. The witnesses described the orbs\u2019 motion as silent and smooth, and as moving in tandem as though they were flying in formation or tethered together. As the orbs moved out of sight, both eyewitnesses saw them appear to merge. The eyewitnesses estimated that the orbs moved from their initial position before disappearing from view at an estimated distance of 75 yards. This observation occurred within 25 miles of the \u201cTriangle Orbs,\u201d \u201cRed Orb Rotation,\u201d and \u201cOrbs Over the Pond,\u201d sightings at a location well known to them, which is sparsely populated.\n\nThe description above is derived from statements provided to the Federal Bureau of Investigation (FBI) by eyewitnesses to the event. The FBI assesses the individuals who reported this event as credible. The subject matter described in files FBI-UAP-D009 through FBI-UAP-D010 and depicted in the video footage FBI-UAP-PR004 corresponds to reports originating from the same general area in the northeastern United States. \"",
+      "dvids_downloads": [
+        {
+          "resolution": "720x1280",
+          "size_stated": "25 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254112",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "20 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254113",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "15 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254114",
+          "http_status": 403
+        },
+        {
+          "resolution": "1280x720",
+          "size_stated": "8 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254115",
+          "http_status": 403
+        },
+        {
+          "resolution": "1024x576",
+          "size_stated": "6 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254116",
+          "http_status": 403
+        },
+        {
+          "resolution": "512x288",
+          "size_stated": "3 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254117",
+          "http_status": 403
+        },
+        {
+          "resolution": "256x144",
+          "size_stated": "1 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254118",
+          "http_status": 403
+        }
+      ],
+      "dvids_hls": [
+        {
+          "resolution": "640x1138",
+          "bandwidth": 2083000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764177/DOD_111764177-640x1138-4900k-hls_1.m3u8"
+        },
+        {
+          "resolution": "576x1024",
+          "bandwidth": 1378000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764177/DOD_111764177-576x1024-3066k-hls_2.m3u8"
+        },
+        {
+          "resolution": "480x854",
+          "bandwidth": 928000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764177/DOD_111764177-480x854-1918k-hls_3.m3u8"
+        },
+        {
+          "resolution": "360x640",
+          "bandwidth": 694000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764177/DOD_111764177-360x640-1200k-hls_4.m3u8"
+        }
+      ],
+      "dvids_fetch_date": "2026-10-06",
+      "dvids_fetch_status": "ok",
+      "dvids_captions_status": "absent",
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 392
     },
     {
@@ -1190,7 +2258,83 @@
       "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764189/DOD_111764189.mp4",
       "file_size_bytes": 2785289,
       "http_etag": "31bc18697e4498d361c5083c36e97693",
-      "sha256": null,
+      "sha256": "599edbeb6a363a6dd092e79f16384797a9d980cf0f0b5e9d4e05c945d698592d",
+      "sha256_note": "SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764189/DOD_111764189.mp4, downloaded 2026-10-06. 2785289 bytes were read, matching Content-Length 2785289. The file was not committed to the repository.",
+      "dvids_title": "FBI-UAP-PR005,\u00a0Digital Recreation,\u00a0Narrative Statement 3-1, Western United States Event, 2023",
+      "dvids_date_taken": "01.01.2023",
+      "dvids_date_posted": "06.12.2026 07:00",
+      "dvids_duration": "00:00:53",
+      "dvids_description": "This video is an artistic interpretation of a reported incident near a sensitive national security site in the western United States involving unidentified anomalous phenomena (UAP) over a period of two days in 2023. This digital recreation\u00a0is based upon a first-hand description provided by a federal law enforcement special agent. The Federal Bureau of Investigation prepared this digital recreation at the request of the Department of War in 2026.",
+      "dvids_downloads": [
+        {
+          "resolution": "1920x1080",
+          "size_stated": "3 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254119",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "5 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254120",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "4 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254121",
+          "http_status": 403
+        },
+        {
+          "resolution": "1280x720",
+          "size_stated": "2 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254122",
+          "http_status": 403
+        },
+        {
+          "resolution": "1024x576",
+          "size_stated": "2 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254123",
+          "http_status": 403
+        },
+        {
+          "resolution": "512x288",
+          "size_stated": "1 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254124",
+          "http_status": 403
+        },
+        {
+          "resolution": "256x144",
+          "size_stated": "1 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254125",
+          "http_status": 403
+        }
+      ],
+      "dvids_hls": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 430000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764189/DOD_111764189-1920x1080-7830k-hls_1.m3u8"
+        }
+      ],
+      "dvids_fetch_date": "2026-10-06",
+      "dvids_fetch_status": "ok",
+      "dvids_captions_status": "absent",
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 393
     },
     {
@@ -1209,7 +2353,88 @@
       "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764213/DOD_111764213.mp4",
       "file_size_bytes": 3652793,
       "http_etag": "9949b7022554a645faa141ea8bc29a9f",
-      "sha256": null,
+      "sha256": "5a59447fc9f517001323228cd58c9bbbdcb61104a7708bd7d907b146981e5078",
+      "sha256_note": "SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764213/DOD_111764213.mp4, downloaded 2026-10-06. 3652793 bytes were read, matching Content-Length 3652793. The file was not committed to the repository.",
+      "dvids_title": "FBI-UAP-PR006,\u00a0Digital Recreation,\u00a0Narrative Statement 3-2, Western United States Event, 2023",
+      "dvids_date_taken": "01.01.2023",
+      "dvids_date_posted": "06.12.2026 07:00",
+      "dvids_duration": "00:00:21",
+      "dvids_description": "This video is an artistic interpretation of a reported incident near a sensitive national security site in the western United States involving unidentified anomalous phenomena (UAP) over a period of two days in 2023. This digital recreation is based upon a first-hand description provided by a federal law enforcement special agent. The Federal Bureau of Investigation prepared this digital recreation at the request of the Department of War in 2026.",
+      "dvids_downloads": [
+        {
+          "resolution": "1920x1080",
+          "size_stated": "3 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254167",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "4 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254168",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "2 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254169",
+          "http_status": 403
+        },
+        {
+          "resolution": "1280x720",
+          "size_stated": "1 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254170",
+          "http_status": 403
+        },
+        {
+          "resolution": "1024x576",
+          "size_stated": "1 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254171",
+          "http_status": 403
+        },
+        {
+          "resolution": "512x288",
+          "size_stated": "604 KB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254172",
+          "http_status": 403
+        },
+        {
+          "resolution": "256x144",
+          "size_stated": "416 KB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254173",
+          "http_status": 403
+        }
+      ],
+      "dvids_hls": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 837000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764213/DOD_111764213-1920x1080-20000k-hls_1.m3u8"
+        },
+        {
+          "resolution": "1600x900",
+          "bandwidth": 529000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764213/DOD_111764213-1600x900-4900k-hls_2.m3u8"
+        }
+      ],
+      "dvids_fetch_date": "2026-10-06",
+      "dvids_fetch_status": "ok",
+      "dvids_captions_status": "absent",
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 394
     },
     {
@@ -1229,6 +2454,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 396
     },
     {
@@ -1248,6 +2486,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 418
     },
     {
@@ -1267,6 +2518,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 419
     },
     {
@@ -1286,6 +2550,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 420
     },
     {
@@ -1305,6 +2582,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 421
     },
     {
@@ -1324,6 +2614,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 422
     },
     {
@@ -1343,6 +2646,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 423
     },
     {
@@ -1362,6 +2678,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 424
     },
     {
@@ -1381,6 +2710,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 425
     },
     {
@@ -1399,7 +2741,103 @@
       "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764959/DOD_111764959.mp4",
       "file_size_bytes": 71485397,
       "http_etag": "296098675fb1ac39e357ecb137ab093e-9",
-      "sha256": null,
+      "sha256": "f42fd13b3efe8ab23cf2d0c3ca35a17b1fa9b41ec3928fa616c84ccf5829d05c",
+      "sha256_note": "SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764959/DOD_111764959.mp4, downloaded 2026-10-06. 71485397 bytes were read, matching Content-Length 71485397. The file was not committed to the repository.",
+      "dvids_title": "NASA-UAP-D023, Interview Excerpt with Astronaut Gordon Cooper, 1962",
+      "dvids_date_taken": "11.01.1962",
+      "dvids_date_posted": "06.11.2026 08:36",
+      "dvids_duration": "00:02:03",
+      "dvids_description": "In November 1962, journalist Walter Cronkite interviewed astronaut Gordon Cooper. In this excerpt from that interview, Cronkite asks Cooper about his views regarding the nature of unidentified flying objects, having previously expressed an interest in the subject. Cooper opines that \u201ca large number of exceptionally well-qualified people have seen objects\u201d without a \u201clogical explanation\u201d and speculates on the existence of other planets with \u201ca livable atmosphere\u201d and that maybe there are \u201csome type of human life\u201d out there. Interview was conducted in November 1962.",
+      "dvids_downloads": [
+        {
+          "resolution": "1920x1080",
+          "size_stated": "68 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254966",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "69 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254967",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "54 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254968",
+          "http_status": 403
+        },
+        {
+          "resolution": "1280x720",
+          "size_stated": "34 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254969",
+          "http_status": 403
+        },
+        {
+          "resolution": "1024x576",
+          "size_stated": "25 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254970",
+          "http_status": 403
+        },
+        {
+          "resolution": "512x288",
+          "size_stated": "14 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254971",
+          "http_status": 403
+        },
+        {
+          "resolution": "256x144",
+          "size_stated": "7 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254972",
+          "http_status": 403
+        }
+      ],
+      "dvids_hls": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 3257000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764959/DOD_111764959-1920x1080-7830k-hls_1.m3u8"
+        },
+        {
+          "resolution": "1600x900",
+          "bandwidth": 2523000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764959/DOD_111764959-1600x900-4900k-hls_2.m3u8"
+        },
+        {
+          "resolution": "1280x720",
+          "bandwidth": 1507000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764959/DOD_111764959-1280x720-3066k-hls_3.m3u8"
+        },
+        {
+          "resolution": "768x432",
+          "bandwidth": 1010000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764959/DOD_111764959-768x432-1918k-hls_4.m3u8"
+        },
+        {
+          "resolution": "480x270",
+          "bandwidth": 623000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764959/DOD_111764959-480x270-1200k-hls_5.m3u8"
+        }
+      ],
+      "dvids_fetch_date": "2026-10-06",
+      "dvids_fetch_status": "ok",
+      "dvids_captions_status": "absent",
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 426
     },
     {
@@ -1418,7 +2856,103 @@
       "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764796/DOD_111764796.mp4",
       "file_size_bytes": 3203457323,
       "http_etag": "69fa376dc4d82d27ea8dc417725f619c-382",
-      "sha256": null,
+      "sha256": "6802ea0227e7be4f6ea844e58894075540dda14465735972f06f2bb0f963b7dc",
+      "sha256_note": "SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764796/DOD_111764796.mp4, downloaded 2026-10-06. 3203457323 bytes were read, matching Content-Length 3203457323. The file was not committed to the repository.",
+      "dvids_title": "NASA-UAP-D024, \u201cApollo 16 Scientific Debriefing\u201d",
+      "dvids_date_taken": "05.01.1972",
+      "dvids_date_posted": "06.12.2026 07:00",
+      "dvids_duration": "01:36:32",
+      "dvids_description": "This debriefing includes presentations from principal investigators of various Apollo experiments. The principal investigators describe preliminary results of their work to educate the Apollo crews about what they\u2019ve obtained from Apollo 16 to help prepare for Apollo 17. They also describe anomalies, such as a \u201cflash\u201d that was observed that had not yet been reported. The flash is mentioned beginning at 25:15.",
+      "dvids_downloads": [
+        {
+          "resolution": "1920x1080",
+          "size_stated": "3 GB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254626",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "3 GB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254627",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "2 GB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254628",
+          "http_status": 403
+        },
+        {
+          "resolution": "1280x720",
+          "size_stated": "2 GB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254629",
+          "http_status": 403
+        },
+        {
+          "resolution": "1024x576",
+          "size_stated": "1 GB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254630",
+          "http_status": 403
+        },
+        {
+          "resolution": "512x288",
+          "size_stated": "628 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254631",
+          "http_status": 403
+        },
+        {
+          "resolution": "256x144",
+          "size_stated": "339 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254632",
+          "http_status": 403
+        }
+      ],
+      "dvids_hls": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 3102000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764796/DOD_111764796-1920x1080-7830k-hls_1.m3u8"
+        },
+        {
+          "resolution": "1600x900",
+          "bandwidth": 2395000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764796/DOD_111764796-1600x900-4900k-hls_2.m3u8"
+        },
+        {
+          "resolution": "1280x720",
+          "bandwidth": 1603000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764796/DOD_111764796-1280x720-3066k-hls_3.m3u8"
+        },
+        {
+          "resolution": "768x432",
+          "bandwidth": 1043000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764796/DOD_111764796-768x432-1918k-hls_4.m3u8"
+        },
+        {
+          "resolution": "480x270",
+          "bandwidth": 592000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764796/DOD_111764796-480x270-1200k-hls_5.m3u8"
+        }
+      ],
+      "dvids_fetch_date": "2026-10-06",
+      "dvids_fetch_status": "ok",
+      "dvids_captions_status": "absent",
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 427
     },
     {
@@ -1437,7 +2971,98 @@
       "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902.mp4",
       "file_size_bytes": 1276096477,
       "http_etag": "1f80e714bc221b883d519c1a66f1b9d9-153",
-      "sha256": null,
+      "sha256": "d8a387fc4350ad6e9a14aae784b011f5e5bbd24799e6d3b079a0901ab6478a5c",
+      "sha256_note": "SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902.mp4, downloaded 2026-10-06. 1276096477 bytes were read, matching Content-Length 1276096477. The file was not committed to the repository.",
+      "dvids_title": "NASA-UAP-D025, \u201cApollo 16 Scientific Debriefing\u201d",
+      "dvids_date_taken": "05.01.1972",
+      "dvids_date_posted": "06.11.2026 08:37",
+      "dvids_duration": "00:55:41",
+      "dvids_description": "At 32:41, the speaker makes an off-handed comment, \u201cCould be an alien starbase or something, I don\u2019t know\u201d when discussing correlations between experimental data sets.",
+      "dvids_downloads": [
+        {
+          "resolution": "1920x1080",
+          "size_stated": "1 GB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254939",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "1 GB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254940",
+          "http_status": 403
+        },
+        {
+          "resolution": "1920x1080",
+          "size_stated": "989 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254941",
+          "http_status": 403
+        },
+        {
+          "resolution": "1280x720",
+          "size_stated": "664 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254942",
+          "http_status": 403
+        },
+        {
+          "resolution": "1024x576",
+          "size_stated": "527 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254943",
+          "http_status": 403
+        },
+        {
+          "resolution": "512x288",
+          "size_stated": "286 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254944",
+          "http_status": 403
+        },
+        {
+          "resolution": "256x144",
+          "size_stated": "146 MB",
+          "size_bytes": null,
+          "bitrate_stated": null,
+          "url": "https://www.dvidshub.net/download/videofile/10254945",
+          "http_status": 403
+        }
+      ],
+      "dvids_hls": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 2182000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-1920x1080-7830k-hls_1.m3u8"
+        },
+        {
+          "resolution": "1280x720",
+          "bandwidth": 1372000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-1280x720-3066k-hls_2.m3u8"
+        },
+        {
+          "resolution": "960x540",
+          "bandwidth": 984000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-960x540-1918k-hls_3.m3u8"
+        },
+        {
+          "resolution": "768x432",
+          "bandwidth": 664000,
+          "url": "https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-768x432-1200k-hls_4.m3u8"
+        }
+      ],
+      "dvids_fetch_date": "2026-10-06",
+      "dvids_fetch_status": "ok",
+      "dvids_captions_status": "absent",
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 428
     },
     {
@@ -1457,6 +3082,19 @@
       "file_size_bytes": null,
       "http_etag": null,
       "sha256": null,
+      "sha256_note": "SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.",
+      "dvids_title": null,
+      "dvids_date_taken": null,
+      "dvids_date_posted": null,
+      "dvids_duration": null,
+      "dvids_description": null,
+      "dvids_downloads": [],
+      "dvids_hls": [],
+      "dvids_fetch_date": null,
+      "dvids_fetch_status": null,
+      "dvids_captions_status": null,
+      "dvids_id_conflict": null,
+      "dvids_wrong_file": false,
       "catalog_order": 448
     }
   ]

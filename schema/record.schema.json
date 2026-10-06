@@ -29,7 +29,19 @@
     "underlying_file_opened",
     "catalog_order",
     "file_size_bytes",
-    "sha256"
+    "sha256",
+    "sha256_note",
+    "dvids_title",
+    "dvids_date_taken",
+    "dvids_date_posted",
+    "dvids_duration",
+    "dvids_fetch_date",
+    "dvids_fetch_status",
+    "dvids_downloads",
+    "dvids_hls",
+    "dvids_captions_status",
+    "dvids_id_conflict",
+    "dvids_wrong_file"
   ],
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,118}$" },
@@ -86,7 +98,46 @@
     "file_size_bytes": { "type": ["integer", "null"] },
     "http_etag": { "type": ["string", "null"] },
     "media_url": { "type": ["string", "null"] },
-    "sha256": { "type": ["string", "null"] },
+    "sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+    "sha256_note": { "type": "string", "minLength": 1 },
+    "dvids_title": { "type": ["string", "null"] },
+    "dvids_date_taken": { "type": ["string", "null"] },
+    "dvids_date_posted": { "type": ["string", "null"] },
+    "dvids_duration": { "type": ["string", "null"] },
+    "dvids_fetch_date": { "type": ["string", "null"] },
+    "dvids_fetch_status": { "type": ["string", "null"] },
+    "dvids_downloads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["resolution", "size_stated", "size_bytes", "bitrate_stated", "url", "http_status"],
+        "properties": {
+          "resolution": { "type": ["string", "null"] },
+          "size_stated": { "type": ["string", "null"] },
+          "size_bytes": { "type": ["integer", "null"] },
+          "bitrate_stated": { "type": ["string", "null"] },
+          "url": { "type": "string" },
+          "http_status": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "dvids_hls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["resolution", "bandwidth", "url"],
+        "properties": {
+          "resolution": { "type": ["string", "null"] },
+          "bandwidth": { "type": ["integer", "null"] },
+          "url": { "type": "string" }
+        }
+      }
+    },
+    "dvids_captions_status": { "type": ["string", "null"] },
+    "dvids_id_conflict": { "type": ["string", "null"] },
+    "dvids_wrong_file": { "type": "boolean" },
     "image_virin": { "type": ["string", "null"] },
     "video_pairing": { "type": "array", "items": { "type": "string" } },
     "pdf_pairing": { "type": "array", "items": { "type": "string" } }

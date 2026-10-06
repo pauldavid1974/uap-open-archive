@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1014103/dow-uap-pr105-unresolved-uap-report-east-china-sea-2025
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,78 @@ dvids_id: '1014103'
 file_size_bytes: 152678024
 http_etag: ba7e36c6ec70f45c729ffee5233d1dba-19
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030.mp4
-sha256: null
+sha256: d70f3d3ba21816d03fe183a50e87b9e9e3705e9b6a90c0b6fe17e603e3cf2447
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030.mp4,
+  downloaded 2026-10-06. 152678024 bytes were read, matching Content-Length 152678024. The file was not
+  committed to the repository.
+dvids_title: DOW-UAP-PR105, Unresolved UAP Report, East China Sea, 2025
+dvids_date_taken: 01.01.2025
+dvids_date_posted: 07.10.2026 07:15
+dvids_duration: 00:04:59
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 146 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302280
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 138 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302281
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 101 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302282
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 56 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302283
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 44 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302284
+  http_status: 403
+- resolution: 512x288
+  size_stated: 23 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302285
+  http_status: 403
+- resolution: 256x144
+  size_stated: 11 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302286
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 2191000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-1920x1080-7830k-hls_1.m3u8
+- resolution: 1600x900
+  bandwidth: 1586000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-1600x900-4900k-hls_2.m3u8
+- resolution: 1280x720
+  bandwidth: 1076000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-1280x720-3066k-hls_3.m3u8
+- resolution: 960x540
+  bandwidth: 814000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-960x540-1918k-hls_4.m3u8
+- resolution: 768x432
+  bandwidth: 560000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-768x432-1200k-hls_5.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -72,18 +143,57 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1014103/dow-uap-pr105-unresolved-uap-report-east-china-sea-2025, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> "The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 5 minutes of video footage from an infrared sensor aboard a U.S. military platform in 2025.
+>
+> Video Description:
+>
+> 00:01-00:14: The sensor pans to track an area of contrast, keeping it generally centered within the center of the frame.
+>
+> 00:15-00:19: The sensor adjusts, and the image is momentarily overlaid with black rectangular areas.
+>
+> 00:20-1:34: The sensor pans to track an area of contrast, keeping it generally centered within the center of the frame. Portions of the area of contrast intermittently lose distinctiveness against the background throughout this segment.
+>
+> 01:35-02:05: The sensor zooms in, panning from right to left to track the area of contrast. The area of contrast exits the scene from the right edge of the frame several times.
+>
+> 02:06-04:59: The sensor zooms out and in several times, and pans the field-of-view against the background. No content.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance."
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1014103/dow-uap-pr105-unresolved-uap-report-east-china-sea-2025
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1014103/dow-uap-pr105-unresolved-uap-report-east-china-sea-2025
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030.mp4
-- Size from an HTTP HEAD request: 152.7 MB (152678024 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR105, Unresolved UAP Report, East China Sea, 2025; Date taken: 01.01.2025; Date posted: 07.10.2026 07:15; Duration: 00:04:59.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 152.7 MB (152678024 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "146 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302280
+  - 1920x1080; size stated "138 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302281
+  - 1920x1080; size stated "101 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302282
+  - 1280x720; size stated "56 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302283
+  - 1024x576; size stated "44 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302284
+  - 512x288; size stated "23 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302285
+  - 256x144; size stated "11 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302286
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 2191000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-1920x1080-7830k-hls_1.m3u8
+  - 1600x900; 1586000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-1600x900-4900k-hls_2.m3u8
+  - 1280x720; 1076000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-1280x720-3066k-hls_3.m3u8
+  - 960x540; 814000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-960x540-1918k-hls_4.m3u8
+  - 768x432; 560000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030-768x432-1200k-hls_5.m3u8
 - HTTP ETag: `ba7e36c6ec70f45c729ffee5233d1dba-19`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 01.01.2025; Date Posted: 07.10.2026 07:15; Length: 00:04:59; Location: EAST CHINA SEA; VIRIN: 250101-D-D0360-9236; Filename: DOD_111830030; Category: B-Roll; Video ID: 1014103.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `d70f3d3ba21816d03fe183a50e87b9e9e3705e9b6a90c0b6fe17e603e3cf2447`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830030/DOD_111830030.mp4, downloaded 2026-10-06. 152678024 bytes were read, matching Content-Length 152678024. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

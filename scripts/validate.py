@@ -84,6 +84,25 @@ def main() -> int:
             errors.append(f"{path}: {err.message} ({'.'.join(str(p) for p in err.path)})")
         if data.get("underlying_file_opened") is not False:
             errors.append(f"{path}: underlying_file_opened must stay false until a file is actually opened")
+        if data.get("sha256") and not re.fullmatch(r"[a-f0-9]{64}", data["sha256"]):
+            errors.append(f"{path}: sha256 is not 64 hex characters")
+        if not data.get("sha256_note"):
+            errors.append(f"{path}: sha256_note is required")
+        if data.get("type") in {"video", "audio"} and data.get("dvids_id"):
+            if data.get("dvids_fetch_status") not in {"ok", "failed"}:
+                errors.append(f"{path}: DVIDS id is set but fetch status is missing")
+            if data.get("dvids_fetch_status") == "ok" and not data.get("dvids_title"):
+                errors.append(f"{path}: DVIDS fetch succeeded but the title is empty")
+        if data.get("dvids_wrong_file") and not data.get("dvids_id_conflict"):
+            errors.append(f"{path}: wrong-file flag is set without the conflict note")
+        if data.get("id") in {
+            "fbi-photo-a001",
+            "dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-jan-2023-indopacom",
+        }:
+            if data.get("dvids_wrong_file") is not True:
+                errors.append(f"{path}: this row must stay flagged as a DVIDS id that points at the wrong file")
+            if data.get("sha256"):
+                errors.append(f"{path}: do not store the other file's SHA-256 on the mismatched row")
         check_links(path, text, errors)
         records[path.stem] = data
 
@@ -172,13 +191,18 @@ def main() -> int:
         for err in manifest_validator.iter_errors(manifest):
             errors.append(f"{manifest_path}: {err.message}")
         ids = [item["id"] for item in manifest["records"]]
+        by_id = {item["id"]: item for item in manifest["records"]}
         if len(ids) != manifest["record_count"]:
             errors.append(f"{manifest_path}: record_count does not match the list")
-        for record_id in ids:
+        for record_id, item in by_id.items():
             if record_id not in records:
                 errors.append(f"{manifest_path}: unknown record {record_id}")
             elif records[record_id]["collection"] != manifest["collection"]:
                 errors.append(f"{manifest_path}: {record_id} belongs to a different collection")
+            elif item.get("sha256") != records[record_id].get("sha256"):
+                errors.append(f"{manifest_path}: sha256 for {record_id} does not match the record page")
+            elif item.get("dvids_wrong_file") != records[record_id].get("dvids_wrong_file"):
+                errors.append(f"{manifest_path}: DVIDS wrong-file flag for {record_id} does not match the record page")
         expected = sorted(rid for rid, data in records.items() if data["collection"] == manifest["collection"])
         if sorted(ids) != expected:
             errors.append(f"{manifest_path}: manifest ids do not match records in {manifest['collection']}")

@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1007725/dow-uap-pr095-may-05-2020-gulf-arabia-callsign-platform-dual-uap
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,78 @@ dvids_id: '1007725'
 file_size_bytes: 193686171
 http_etag: 8945ad14899107cdd8624bc2aef93e38-24
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804.mp4
-sha256: null
+sha256: 3169d36bfb5779b697b90d7e1df45daeadbd0a0c305e1b2c071d3055a4a11106
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804.mp4,
+  downloaded 2026-10-06. 193686171 bytes were read, matching Content-Length 193686171. The file was not
+  committed to the repository.
+dvids_title: DOW-UAP-PR095, "May 05 2020 Gulf of Arabia [CALLSIGN] (Platform) Dual UAP"
+dvids_date_taken: 05.05.2020
+dvids_date_posted: 05.22.2026 07:30
+dvids_duration: 00:04:48
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1280x720
+  size_stated: 185 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222364
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 275 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222365
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 186 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222366
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 93 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222367
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 64 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222368
+  http_status: 403
+- resolution: 512x288
+  size_stated: 34 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222369
+  http_status: 403
+- resolution: 256x144
+  size_stated: 18 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222370
+  http_status: 403
+dvids_hls:
+- resolution: 1280x720
+  bandwidth: 3355000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-1280x720-7830k-hls_1.m3u8
+- resolution: 1280x720
+  bandwidth: 2317000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-1280x720-4900k-hls_2.m3u8
+- resolution: 960x540
+  bandwidth: 1650000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-960x540-3066k-hls_3.m3u8
+- resolution: 768x432
+  bandwidth: 1067000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-768x432-1918k-hls_4.m3u8
+- resolution: 768x432
+  bandwidth: 676000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-768x432-1200k-hls_5.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -79,18 +150,67 @@ The government's own description of the file is quoted in the next section. If t
 >
 > AARO Comment: DOW-UAP-PR093 and DOW-UAP-PR095 are not duplicates. Both videos share an uploader-defined title and depict highly similar subject matter, but are distinct.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1007725/dow-uap-pr095-may-05-2020-gulf-arabia-callsign-platform-dual-uap, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+>
+> AARO assesses that this video, whose uploader-defined title is, “May 05 2020 Gulf of Arabia [CALLSIGN] (Platform) Dual UAP,” is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2020. A user uploaded this video to a classified network in May 2020.
+>
+> Video Duration: 00:04:49
+>
+> Video Description:
+>
+> 00:00-00:16: The sensor tracks an area of contrast.
+>
+> 00:17-00:20: The sensor zooms in on the area of contrast. At higher magnification, the area appears as multiple distinct areas of contrast.
+>
+> 00:21-00:35: The sensor zooms in further. The areas of contrast move in and out of the field-of-view as the sensor pans to keep them in frame.
+>
+> 00:36-00:54: The sensor zooms out.
+>
+> 00:55-01:46: The sensor zooms in. The areas of contrast again become more distinct at higher magnification. The areas enter and exit the field-of-view as the sensor pans to keep them in frame.
+>
+> 01:47-01:51: The areas of contrast leave the frame at the lower right edge of the screen.
+>
+> 01:52-04:49: No content.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+>
+> AARO Comment: DOW-UAP-PR093 and DOW-UAP-PR095 are not duplicates. Both videos share an uploader-defined title and depict highly similar subject matter, but are distinct."
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1007725/dow-uap-pr095-may-05-2020-gulf-arabia-callsign-platform-dual-uap
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1007725/dow-uap-pr095-may-05-2020-gulf-arabia-callsign-platform-dual-uap
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804.mp4
-- Size from an HTTP HEAD request: 193.7 MB (193686171 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR095, "May 05 2020 Gulf of Arabia [CALLSIGN] (Platform) Dual UAP"; Date taken: 05.05.2020; Date posted: 05.22.2026 07:30; Duration: 00:04:48.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 193.7 MB (193686171 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1280x720; size stated "185 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222364
+  - 1920x1080; size stated "275 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222365
+  - 1920x1080; size stated "186 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222366
+  - 1280x720; size stated "93 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222367
+  - 1024x576; size stated "64 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222368
+  - 512x288; size stated "34 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222369
+  - 256x144; size stated "18 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222370
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1280x720; 3355000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-1280x720-7830k-hls_1.m3u8
+  - 1280x720; 2317000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-1280x720-4900k-hls_2.m3u8
+  - 960x540; 1650000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-960x540-3066k-hls_3.m3u8
+  - 768x432; 1067000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-768x432-1918k-hls_4.m3u8
+  - 768x432; 676000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804-768x432-1200k-hls_5.m3u8
 - HTTP ETag: `8945ad14899107cdd8624bc2aef93e38-24`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 05.05.2020; Date Posted: 05.22.2026 07:30; Length: 00:04:48; Location: (UNDISCLOSED LOCATION); VIRIN: 200506-D-D0360-9495; Filename: DOD_111719804; Category: B-Roll; Video ID: 1007725.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `3169d36bfb5779b697b90d7e1df45daeadbd0a0c305e1b2c071d3055a4a11106`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719804/DOD_111719804.mp4, downloaded 2026-10-06. 193686171 bytes were read, matching Content-Length 193686171. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

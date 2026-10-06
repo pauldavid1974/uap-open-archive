@@ -44,6 +44,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260807-O-D0360-1139
 video_pairing: []
 pdf_pairing:
@@ -67,14 +80,13 @@ The government's own description of the file is quoted in the next section. If t
 > This file contains Central Intelligence Agency (CIA) memoranda exchanged between the Assistant Director for Special Activities (AD/SA) and the Assistant Director for Scientific Intelligence (AD/SI) regarding an incident allegedly involving unidentified aircraft in the vicinity of Puerto Rico. The AD/SI was then-responsible for analyzing foreign scientific advancements and technological threats, such as Soviet nuclear, chemical, and ballistic missile capabilities. The AD/SA managed the CIA’s classified overhead reconnaissance operations, including the deployment of advanced aircraft like the U-2 and A-12 OXCART. Together, these offices ensured the United States could both gather critical intelligence over contested territories and accurately evaluate the technical capabilities of foreign adversaries during the Cold War.
 >
 > The memoranda refer to an incident on November 19, 1964, in which a U.S. Naval aviator described observing an unidentified object as “delta-shaped, about the size of a jet fighter.” The pilot visually estimated the object’s velocity as Mach 3 (approximately 2,200 mph). A corresponding track from an AN/SPS-49 radar system aboard a U.S. Navy guided missile destroyer in the area, USS Gyatt, measured the object’s speed at 3,800 knots (approximately 4,373 mph). The memoranda indicate that, in the opinion of the AD/SI, the object was conceivably associated with foreign intelligence gathering activities, citing active missile testing within the AFWR, or Atlantic Fleet Weapons Range, as being an attractive reconnaissance target. The AD/SA and AD/SI also ruled out domestic experimental aircraft, such as the YF-12A OXCART, as a potential attribution.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/CIA-UAP-D022_Unidentified-Flying-Object-Reported-near-Puerto-Rico_1965.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

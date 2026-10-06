@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1007803/dow-uap-pr080-20-october-2020-callsign-callsign-observes-uap
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,69 @@ dvids_id: '1007803'
 file_size_bytes: 57312113
 http_etag: 87afd84b75ff816f55990876384cf208-7
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856.mp4
-sha256: null
+sha256: 2ad200be8b01587371f16d1fbe1b95e58f88e2df934543e1430667ca1fda8dd1
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856.mp4,
+  downloaded 2026-10-06. 57312113 bytes were read, matching Content-Length 57312113. The file was not
+  committed to the repository.
+dvids_title: DOW-UAP-PR080, "20 October 2020 [CALLSIGN] [CALLSIGN] Observes UAP
+dvids_date_taken: 10.20.2020
+dvids_date_posted: 05.22.2026 07:30
+dvids_duration: 00:04:54
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1280x720
+  size_stated: 55 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223229
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 112 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223230
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 78 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223231
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 39 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223232
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 29 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223233
+  http_status: 403
+- resolution: 512x288
+  size_stated: 15 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223234
+  http_status: 403
+- resolution: 256x144
+  size_stated: 8 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223235
+  http_status: 403
+dvids_hls:
+- resolution: 1280x720
+  bandwidth: 923000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856-1280x720-4900k-hls_1.m3u8
+- resolution: 960x540
+  bandwidth: 605000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856-960x540-3066k-hls_2.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -78,18 +140,64 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1007803/dow-uap-pr080-20-october-2020-callsign-callsign-observes-uap, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+>
+> AARO assesses that this video, whose uploader-defined title is, “20 October 2020 [CALLSIGN] [CALLSIGN] Observes UAP,” is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2020. A user uploaded this video to a classified network in October 2020.
+>
+> Video Duration: 00:04:54
+>
+> Video Description:
+>
+> 01:17-01:21: An area of contrast enters the sensor field-of-view from the top right of the screen. The sensor pans toward the object, then pans away.
+>
+> 02:45-02:46: An area of contrast transits the sensor field-of-view across the bottom right quarter to the bottom middle edge of the screen.
+>
+> 03:12-03:13: An area of contrast transits the sensor field-of-view from the top right quarter to the bottom left quarter, after which the sensor changes modes and attempts to track the area of contrast.
+>
+> 03:20-03:21: An area of contrast transits the sensor field-of-view from the top right quarter to the bottom left quarter, after which the sensor changes modes and attempts to track the area of contrast.
+>
+> 03:35-03:36: An area of contrast transits the sensor field-of-view across the bottom right quarter, after which the sensor attempts to track the area of contrast.
+>
+> 03:40-03:41: An area of contrast transits the sensor field-of-view across the bottom right quarter to the bottom middle edge of the screen, after which the sensor attempts to track the area of contrast.
+>
+> 04:02-04:03: An area of contrast transits the sensor field-of-view across the bottom right quarter to the bottom middle edge of the screen, after which the sensor attempts to track the area of contrast.
+>
+> 04:22-04:23: An area of contrast transits the sensor field-of-view across the bottom left quarter.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance."
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1007803/dow-uap-pr080-20-october-2020-callsign-callsign-observes-uap
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1007803/dow-uap-pr080-20-october-2020-callsign-callsign-observes-uap
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856.mp4
-- Size from an HTTP HEAD request: 57.3 MB (57312113 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR080, "20 October 2020 [CALLSIGN] [CALLSIGN] Observes UAP; Date taken: 10.20.2020; Date posted: 05.22.2026 07:30; Duration: 00:04:54.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 57.3 MB (57312113 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1280x720; size stated "55 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223229
+  - 1920x1080; size stated "112 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223230
+  - 1920x1080; size stated "78 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223231
+  - 1280x720; size stated "39 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223232
+  - 1024x576; size stated "29 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223233
+  - 512x288; size stated "15 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223234
+  - 256x144; size stated "8 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223235
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1280x720; 923000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856-1280x720-4900k-hls_1.m3u8
+  - 960x540; 605000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856-960x540-3066k-hls_2.m3u8
 - HTTP ETag: `87afd84b75ff816f55990876384cf208-7`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 10.20.2020; Date Posted: 05.22.2026 07:30; Length: 00:04:54; Location: (UNDISCLOSED LOCATION); VIRIN: 201020-D-D0360-1879; Filename: DOD_111720856; Category: B-Roll; Video ID: 1007803.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `2ad200be8b01587371f16d1fbe1b95e58f88e2df934543e1430667ca1fda8dd1`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856.mp4, downloaded 2026-10-06. 57312113 bytes were read, matching Content-Length 57312113. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog
