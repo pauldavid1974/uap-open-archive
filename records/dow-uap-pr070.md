@@ -32,8 +32,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1007783/dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed-unidentified-aerial-phenomena-uap-13-feb-23
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -42,7 +42,85 @@ dvids_id: '1007783'
 file_size_bytes: 37550237
 http_etag: efc6c63db2bfd20dd4b0e00e45d35392-5
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720.mp4
-sha256: null
+sha256: 80c8e1fc5ac44395d54468b5ef86b5cd9723ea568e9a9d6e5cf95e7265be6457
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720.mp4,
+  downloaded 2026-10-06. 37550237 bytes were read, matching Content-Length 37550237. The file was not
+  committed to the repository.
+dvids_title: DOW-UAP-PR070, "IIR 1 655 S0301 23/Eglin AFB Aircrew Observed Unidentified Aerial Phenomena
+  (UAP) on 13 Feb 23"
+dvids_date_taken: 02.13.2023
+dvids_date_posted: 05.22.2026 07:31
+dvids_duration: 00:00:30
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 36 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223127
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 30 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223128
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 21 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223129
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 11 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223130
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 8 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223131
+  http_status: 403
+- resolution: 512x288
+  size_stated: 4 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223132
+  http_status: 403
+- resolution: 256x144
+  size_stated: 2 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223133
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 7571000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-1920x1080-20000k-hls_1.m3u8
+- resolution: 1600x900
+  bandwidth: 5400000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-1600x900-12514k-hls_2.m3u8
+- resolution: 1280x720
+  bandwidth: 3854000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-1280x720-7830k-hls_3.m3u8
+- resolution: 960x540
+  bandwidth: 2494000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-960x540-4900k-hls_4.m3u8
+- resolution: 768x432
+  bandwidth: 1508000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-768x432-3066k-hls_5.m3u8
+- resolution: 768x432
+  bandwidth: 1029000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-768x432-1918k-hls_6.m3u8
+- resolution: 576x324
+  bandwidth: 720000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-576x324-1200k-hls_7.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -71,18 +149,53 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1007783/dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed-unidentified-aerial-phenomena-uap-13-feb-23, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+>
+> AARO assesses that this video, whose uploader-defined title is, “IIR 1 655 S0301 23/Eglin AFB Aircrew Observed Unidentified Aerial Phenomena (UAP) on 13 Feb 23,” is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Northern Command area of responsibility in 2023. A user uploaded this video to a classified network in March 2023.
+>
+> Video Duration: 00:00:30
+>
+> Video Description: A sensor pans to keep an area of contrast in the center of its field-of-view, cycling contrast modes multiple times. At the 22 second mark, the area of contrast loses distinctiveness against the background.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1007783/dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed-unidentified-aerial-phenomena-uap-13-feb-23
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1007783/dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed-unidentified-aerial-phenomena-uap-13-feb-23
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720.mp4
-- Size from an HTTP HEAD request: 37.6 MB (37550237 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR070, "IIR 1 655 S0301 23/Eglin AFB Aircrew Observed Unidentified Aerial Phenomena (UAP) on 13 Feb 23"; Date taken: 02.13.2023; Date posted: 05.22.2026 07:31; Duration: 00:00:30.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 37.6 MB (37550237 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "36 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223127
+  - 1920x1080; size stated "30 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223128
+  - 1920x1080; size stated "21 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223129
+  - 1280x720; size stated "11 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223130
+  - 1024x576; size stated "8 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223131
+  - 512x288; size stated "4 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223132
+  - 256x144; size stated "2 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223133
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 7571000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-1920x1080-20000k-hls_1.m3u8
+  - 1600x900; 5400000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-1600x900-12514k-hls_2.m3u8
+  - 1280x720; 3854000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-1280x720-7830k-hls_3.m3u8
+  - 960x540; 2494000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-960x540-4900k-hls_4.m3u8
+  - 768x432; 1508000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-768x432-3066k-hls_5.m3u8
+  - 768x432; 1029000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-768x432-1918k-hls_6.m3u8
+  - 576x324; 720000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720-576x324-1200k-hls_7.m3u8
 - HTTP ETag: `efc6c63db2bfd20dd4b0e00e45d35392-5`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 02.13.2023; Date Posted: 05.22.2026 07:31; Length: 00:00:30; Location: (UNDISCLOSED LOCATION); VIRIN: 230213-D-D0360-2507; Filename: DOD_111720720; Category: B-Roll; Video ID: 1007783.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `80c8e1fc5ac44395d54468b5ef86b5cd9723ea568e9a9d6e5cf95e7265be6457`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720720/DOD_111720720.mp4, downloaded 2026-10-06. 37550237 bytes were read, matching Content-Length 37550237. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

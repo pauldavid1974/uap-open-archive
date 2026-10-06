@@ -49,6 +49,46 @@ NASA-UAP-D003A, the Gemini 7 audio excerpt, is type VID in the May 20 CSV and ty
 
 Two titles also changed spelling after May 20: DOW-UAP-D052 ("Correspondance" to "Correspondence") and NASA-UAP-D007 ("Techincal" to "Technical"). Those fixes, and the VID-to-AUD change, are the Release 01 differences this archive can see between May 20 and September 29. The row count stays 158.
 
+## DVIDS
+
+For each video and audio row, [manifest.json](manifest.json) has the DVIDS title, date taken, date posted, duration, the description quoted from the page, every download-popup resolution with the size text DVIDS printed, the HLS renditions, and a SHA-256 when the public MP4 was downloaded on October 6, 2026. Those media files are not in this repository. Every download-menu URL on this release returned HTTP 403, so the exact byte length of those renditions was not measured.
+
+DVIDS ids flagged on this release:
+
+- [dow-uap-pr049](../../records/dow-uap-pr049.md): This DVIDS page matches this catalog row. The same id 1006111 is also on: FBI Photo A001. On those rows the id points at this file, not at that catalog entry. The id was not changed.
+- [fbi-photo-a001](../../records/fbi-photo-a001.md): DVIDS id 1006111 points at DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026 (https://www.dvidshub.net/video/1006111/dow-uap-pr49-unresolved-uap-report-department-army-2026), a video, not at this catalog entry (FBI Photo A001), which is a still image. Catalog Image VIRIN: 260508-O-D0360-1021. The id was not changed. No corrected DVIDS id is proposed. On 2026-10-06 the AARO unit page (https://www.dvidshub.net/unit/AARO) listed 0 images and 173 videos. The 120 public image sitemaps contained 0 occurrences of VIRIN 260508-O-D0360-1021 and 0 occurrences of 'photo-a001'.
+
+| Archive id | DVIDS id | DVIDS title | Date taken | Duration | SHA-256 |
+| --- | --- | --- | --- | --- | --- |
+| [dow-uap-pr019](../../records/dow-uap-pr019.md) | `1006056` | DOW-UAP-PR19, Unresolved UAP Report, Middle East, May 2022 | 05.01.2022 | 00:00:05 | a38432ae56298abadf50de06103a6fbd591ea539e124ab1db25a4a511468cfb6 |
+| [dow-uap-pr021](../../records/dow-uap-pr021.md) | `1006059` | DOW-UAP-PR21, Unresolved UAP Report, Iraq, May 2022 | 05.01.2022 | 00:00:10 | af62b4e40a2eb0fd39f98093be2a6ae50271a011e7d5caca2119b26aaabc1212 |
+| [dow-uap-pr022](../../records/dow-uap-pr022.md) | `1006060` | DOW-UAP-PR22, Unresolved UAP Report, Syria, July 2022 | 07.01.2022 | 00:00:14 | 17106a65c823fb0c4c55f41be31f863f18300bd858f536726ea6f9f3cf35ac8c |
+| [dow-uap-pr023](../../records/dow-uap-pr023.md) | `1006062` | DOW-UAP-PR23, Unresolved UAP Report, Iraq, December 2022 | 12.01.2022 | 00:00:10 | d6a177a7004837546b8e3ea12ad0e632d9c31eabca427e05ae6eb9d4e4493f47 |
+| [dow-uap-pr026](../../records/dow-uap-pr026.md) | `1006063` | DOW-UAP-PR26, Unresolved UAP Report, United Arab Emirates, October 2023 | 10.01.2023 | 00:00:43 | 46fdeec860cdaa6b27b6fcc51d0b7e045347d494832cdc65f2038e702eaa58aa |
+| [dow-uap-pr027](../../records/dow-uap-pr027.md) | `1006067` | DOW-UAP-PR27, Unresolved UAP Report, United Arab Emirates, October 2023 | 10.01.2023 | 00:04:57 | 3c510fe34677a0784c656105b9653ce3039d83de46f929f1ee6d6fb820ce3b8c |
+| [dow-uap-pr028](../../records/dow-uap-pr028.md) | `1006073` | DOW-UAP-PR28, Unresolved UAP Report, Greece, January 2024 | 01.01.2024 | 00:01:06 | 9aa868828e0b7be178604162a8abc1e11f0ee6e27d9c48eabbee4d032a50fd72 |
+| [dow-uap-pr029](../../records/dow-uap-pr029.md) | `1006074` | DOW-UAP-PR29, Unresolved UAP Report, United Arab Emirates, June 2024 | 06.01.2024 | 00:00:21 | 4e1882dcb2a3bd0253a29fce2bb415fdb2f1196e694a3185c31a82e3a8127ba8 |
+| [dow-uap-pr031](../../records/dow-uap-pr031.md) | `1006076` | DOW-UAP-PR31, Unresolved UAP Report, Syria, October 2024 | 10.01.2024 | 00:00:05 | 3862ae94ef113a44814a6cc0362ac689333580afd1a307005f51abd0d4b9e3df |
+| [dow-uap-pr032](../../records/dow-uap-pr032.md) | `1006078` | DOW-UAP-PR32, Unresolved UAP Report, Syria, October 2024 | 10.01.2024 | 00:00:06 | 74bd47f0b608c19367b673ba186071db725719eebc7c7b251b8ef2b944c6427e |
+| [dow-uap-pr033](../../records/dow-uap-pr033.md) | `1006079` | DOW-UAP-PR33, Unresolved UAP Report, Syria, October 2024 | 10.01.2024 | 00:00:05 | 5bdc888fd25014c5519d625764233f66ee0214bfa48c1670aff5d7c00029a5d9 |
+| [dow-uap-pr034](../../records/dow-uap-pr034.md) | `1006080` | DOW-UAP-PR34, Unresolved UAP Report, Greece, October 2023 | 10.01.2023 | 00:02:57 | 34eb85ab42bb6ce5d376c02fd2db4eee0211864ed3bcd8a8247a08fe0da8c99e |
+| [dow-uap-pr035](../../records/dow-uap-pr035.md) | `1006082` | DOW-UAP-PR35, Unresolved UAP Report, Greece, October 2023 | 10.01.2023 | 00:00:24 | 670077e60bca959cde784ae1595688d645397804d811a7f5a85912c60045d471 |
+| [dow-uap-pr036](../../records/dow-uap-pr036.md) | `1006083` | DOW-UAP-PR36, Unresolved UAP Report, Middle East, May 2020 | 05.01.2020 | 00:02:17 | 5f32ce0126de2c9571f2af368b2629c15b4f1cb3582700641ef31c1d1a8ceac8 |
+| [dow-uap-pr037](../../records/dow-uap-pr037.md) | `1006087` | DOW-UAP-PR37, Unresolved UAP Report, Middle East, 2020 | 01.01.2020 | 00:00:09 | 5d60cc99eda2223d7509c9ac801aa1b66200ac24572256d306b1cdb754c0ad8a |
+| [dow-uap-pr038](../../records/dow-uap-pr038.md) | `1006088` | DOW-UAP-PR38, Unresolved UAP Report, Middle East, 2013 | 01.01.2013 | 00:01:46 | bd3f5269c3f123b90db76c9496f8ddbb145184c66b0c11cd3cfd9e54f5b683b6 |
+| [dow-uap-pr039](../../records/dow-uap-pr039.md) | `1006089` | DOW-UAP-PR39, Unresolved UAP Report, Middle East, 2020 | 01.01.2020 | 00:00:05 | b0975d88681b2d0afb31cf83c43d4e63fedef67fec5687795bdec257decb0825 |
+| [dow-uap-pr040](../../records/dow-uap-pr040.md) | `1006093` | DOW-UAP-PR40, Unresolved UAP Report, Middle East, 2020 | 01.01.2020 | 00:01:03 | e91f12de19cadaa3af6c324bc3caa83af2ce47c80fefbceeb5e038f5c1866dac |
+| [dow-uap-pr041](../../records/dow-uap-pr041.md) | `1006094` | DOW-UAP-PR41, Unresolved UAP Report, Middle East, 2020 | 01.01.2020 | 00:01:34 | ea6b86de5ec070a789e515456fb7ed2ef0bfbe536b30025117ef47cefa59c503 |
+| [dow-uap-pr042](../../records/dow-uap-pr042.md) | `1006097` | DOW-UAP-PR42, Unresolved UAP Report, Middle East, 2020 | 01.01.2020 | 00:04:53 | 049ce64e1dcd06c0b054e74c196d339b8fd2778091d82ff9d230e5c83253c0d6 |
+| [dow-uap-pr043](../../records/dow-uap-pr043.md) | `1006159` | DOW-UAP-PR43, Unresolved UAP Report, Africa, 2025 | 01.01.2025 | 00:00:11 | 1847cfc831b0a2299b070c958234a1679ebc719489a0eabe032b667eac65588f |
+| [dow-uap-pr044](../../records/dow-uap-pr044.md) | `1006104` | DOW-UAP-PR44, Unresolved UAP Report, Middle East, 2020 | 01.01.2020 | 00:05:12 | 9db22223a0384d0439235fe6583cb5be5e7fd38f0d040fec8402ba2edbedd883 |
+| [dow-uap-pr045](../../records/dow-uap-pr045.md) | `1006105` | DOW-UAP-PR45, Unresolved UAP Report, Middle East, 2020 | 01.01.2020 | 00:00:58 | 30d4ecc8af56475042a65e52e5910be9d95e3cb08e397293fb52885ba23e9b6e |
+| [dow-uap-pr046](../../records/dow-uap-pr046.md) | `1006106` | DOW-UAP-PR46, Unresolved UAP Report, INDOPACOM, 2024 | 01.01.2024 | 00:00:09 | 34ffb5ae5fe4f85871d41579767e4e37bc5c8cbba47fb63a40b8a4e4f39d613d |
+| [dow-uap-pr047](../../records/dow-uap-pr047.md) | `1006107` | DOW-UAP-PR47, Unresolved UAP Report, INDOPACOM, 2023 | 01.01.2023 | 00:01:59 | 5d4d87441b6ed4527bfd563900b1534817a751d7897e03e1c61b51b46b95a610 |
+| [dow-uap-pr048](../../records/dow-uap-pr048.md) | `1006110` | DOW-UAP-PR48, Unresolved UAP Report, INDOPACOM, 2024 | 01.01.2024 | 00:01:39 | bd1f002f45052b12ee067455a0a4b589b0bdaed40d75874d8da8fbf64eae8dd1 |
+| [dow-uap-pr049](../../records/dow-uap-pr049.md) | `1006111` | DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026 | 01.01.2026 | 00:01:49 | dbf0b1a061cc741f88818ac9c938d6752fb5d1c0a3e729b1e6b42f4e859f472f |
+| [nasa-uap-d003a](../../records/nasa-uap-d003a.md) | `1006119` | NASA Audio 12/5/1965 Low Earth Orbit | 12.04.1965 | 00:06:11 | 4965639958d9a9dde9c98a17357f1b9818bf2bd36c9e857b69e1d8990fdd095f |
+
 The machine-readable list, including these version counts, is [manifest.json](manifest.json). Each item also has a page in [`records/`](../../records/).
 
 | Archive id | Official id | Type | Redaction flag | Agency | Title |

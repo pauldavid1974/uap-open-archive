@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1010336/nasa-uap-d025-apollo-16-scientific-debriefing
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,75 @@ dvids_id: '1010336'
 file_size_bytes: 1276096477
 http_etag: 1f80e714bc221b883d519c1a66f1b9d9-153
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902.mp4
-sha256: null
+sha256: d8a387fc4350ad6e9a14aae784b011f5e5bbd24799e6d3b079a0901ab6478a5c
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902.mp4,
+  downloaded 2026-10-06. 1276096477 bytes were read, matching Content-Length 1276096477. The file was
+  not committed to the repository.
+dvids_title: NASA-UAP-D025, “Apollo 16 Scientific Debriefing”
+dvids_date_taken: 05.01.1972
+dvids_date_posted: 06.11.2026 08:37
+dvids_duration: 00:55:41
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 1 GB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254939
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 1 GB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254940
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 989 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254941
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 664 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254942
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 527 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254943
+  http_status: 403
+- resolution: 512x288
+  size_stated: 286 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254944
+  http_status: 403
+- resolution: 256x144
+  size_stated: 146 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254945
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 2182000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-1920x1080-7830k-hls_1.m3u8
+- resolution: 1280x720
+  bandwidth: 1372000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-1280x720-3066k-hls_2.m3u8
+- resolution: 960x540
+  bandwidth: 984000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-960x540-1918k-hls_3.m3u8
+- resolution: 768x432
+  bandwidth: 664000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-768x432-1200k-hls_4.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -63,18 +131,42 @@ The government's own description of the file is quoted in the next section. If t
 
 > At 32:41, the speaker makes an off-handed comment, “Could be an alien starbase or something, I don’t know” when discussing correlations between experimental data sets.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1010336/nasa-uap-d025-apollo-16-scientific-debriefing, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> At 32:41, the speaker makes an off-handed comment, “Could be an alien starbase or something, I don’t know” when discussing correlations between experimental data sets.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1010336/nasa-uap-d025-apollo-16-scientific-debriefing
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1010336/nasa-uap-d025-apollo-16-scientific-debriefing
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902.mp4
-- Size from an HTTP HEAD request: 1.28 GB (1276096477 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: NASA-UAP-D025, “Apollo 16 Scientific Debriefing”; Date taken: 05.01.1972; Date posted: 06.11.2026 08:37; Duration: 00:55:41.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 1.28 GB (1276096477 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "1 GB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254939
+  - 1920x1080; size stated "1 GB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254940
+  - 1920x1080; size stated "989 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254941
+  - 1280x720; size stated "664 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254942
+  - 1024x576; size stated "527 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254943
+  - 512x288; size stated "286 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254944
+  - 256x144; size stated "146 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254945
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 2182000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-1920x1080-7830k-hls_1.m3u8
+  - 1280x720; 1372000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-1280x720-3066k-hls_2.m3u8
+  - 960x540; 984000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-960x540-1918k-hls_3.m3u8
+  - 768x432; 664000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902-768x432-1200k-hls_4.m3u8
 - HTTP ETag: `1f80e714bc221b883d519c1a66f1b9d9-153`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 05.01.1972; Date Posted: 06.11.2026 08:37; Length: 00:55:41; Location: US; VIRIN: 720501-D-D0360-7145; Filename: DOD_111764902; Category: Briefings; Video ID: 1010336.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `d8a387fc4350ad6e9a14aae784b011f5e5bbd24799e6d3b079a0901ab6478a5c`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764902/DOD_111764902.mp4, downloaded 2026-10-06. 1276096477 bytes were read, matching Content-Length 1276096477. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

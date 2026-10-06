@@ -42,6 +42,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260508-O-D0360-1120
 video_pairing: []
 pdf_pairing: []
@@ -62,14 +75,13 @@ The government's own description of the file is quoted in the next section. If t
 **Label: official.** Quoted from the Department of War PURSUE catalog spreadsheet `uap-data.csv`, snapshot archived September 29, 2026 (`release=6v5`), row 418 in that file. This is the catalog's description. It is not a transcript and not text extracted from the file.
 
 > This file contains memoranda, correspondence, reports, and other materials relating to contemporary scientific interest in investigating the nature of luminous phenomena reported by astronauts John Glenn and Walter Schirra during spaceflight. This collection includes transcripts from NASA interviews and debriefings with both astronauts regarding those observations. It also contains details relating to scientific observations of atmospheric phenomena, including brief descriptions of luminous particles, experiences while aboard spacecraft, and circa 1955 theoretical analysis of meteoric particles entering the atmosphere. Pages 34-35, 55-56, 57-63, 64-113, and 122-127 feature content relevant to the PURSUE initiative.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D015_Astronaut-Scientific-Debriefings_1962-1963.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

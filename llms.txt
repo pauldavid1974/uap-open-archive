@@ -21,7 +21,8 @@ Read [AI_GUIDE.md](AI_GUIDE.md) before answering from this repository. Labels ar
 
 ## Do not skip
 
-- [gaps/not-opened.md](gaps/not-opened.md): PDFs and videos were not opened; war.gov returned HTTP 403
+- [gaps/not-opened.md](gaps/not-opened.md): PDFs were not opened and videos were not watched; war.gov returned HTTP 403
+- [gaps/dvids-coverage.md](gaps/dvids-coverage.md): DVIDS titles, download rows, checksums, and the two ids that point at the wrong file
 - [analysis/catalog-quality.md](analysis/catalog-quality.md): Duplicate ids, "Westen," date cells that disagree with titles
 - [gaps/keyword-search.md](gaps/keyword-search.md): Nimitz, Gimbal, Roswell, and other names that are not in the spreadsheet
 - [gaps/unverified-claims.md](gaps/unverified-claims.md): Thirteen claims left unverified on purpose

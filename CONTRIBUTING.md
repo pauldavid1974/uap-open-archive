@@ -26,6 +26,7 @@ These paths are rewritten by `python scripts/build_archive.py`. Do not hand-edit
 - `analysis/redaction.md`
 - `analysis/catalog-quality.md`
 - `gaps/keyword-search.md`
+- `gaps/dvids-coverage.md`
 - the READMEs under `sources/` that the script writes
 
 Case pages, entity pages, timelines, and the other analysis and gap notes are written by hand. If a rebuild changes `sources/case-membership.json`, update the matching case's `records:` list to the new order. The validator checks that the two lists match.

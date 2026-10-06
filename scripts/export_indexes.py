@@ -90,6 +90,8 @@ def main() -> None:
         summary_lines = [line for line in summary.splitlines() if line.strip() and not line.startswith("**Label:")]
         meta = dict(meta)
         meta["official_description"] = description
+        dvids_description = unquote(section(body, "Official DVIDS description")).replace("]\\(", "](")
+        meta["dvids_official_description"] = dvids_description or None
         meta["plain_summary"] = "\n".join(summary_lines).strip()
         meta["path"] = f"records/{path.name}"
         records.append(meta)
@@ -132,7 +134,12 @@ def main() -> None:
             "redaction_level",
             "featured",
             "dvids_id",
+            "dvids_title",
+            "dvids_date_taken",
+            "dvids_duration",
+            "dvids_wrong_file",
             "file_size_bytes",
+            "sha256",
             "media_url",
             "related_cases",
             "underlying_file_opened",

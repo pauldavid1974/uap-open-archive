@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1007706/dow-uap-pr050-4-uap-formation-iran-26-aug-2022-over-water-callsign
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,69 @@ dvids_id: '1007706'
 file_size_bytes: 3103288
 http_etag: 765dd2a36080415783357e7992ed1425
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709.mp4
-sha256: null
+sha256: b542f90ec73780e22740561c5fa4c6bc929505019f69a318e1267a686e9be3b2
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709.mp4,
+  downloaded 2026-10-06. 3103288 bytes were read, matching Content-Length 3103288. The file was not committed
+  to the repository.
+dvids_title: DOW-UAP-PR050, "4 UAP Formation Iran 26 Aug 2022 over water [CALLSIGN]"
+dvids_date_taken: 08.26.2022
+dvids_date_posted: 05.22.2026 07:30
+dvids_duration: 00:00:09
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 640x360
+  size_stated: 3 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222109
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 10 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222110
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 7 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222111
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 3 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222112
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 2 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222113
+  http_status: 403
+- resolution: 512x288
+  size_stated: 1 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222114
+  http_status: 403
+- resolution: 256x144
+  size_stated: 739 KB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222115
+  http_status: 403
+dvids_hls:
+- resolution: 640x360
+  bandwidth: 1412000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709-640x360-3066k-hls_1.m3u8
+- resolution: 576x324
+  bandwidth: 662000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709-576x324-1200k-hls_2.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -72,18 +134,52 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1007706/dow-uap-pr050-4-uap-formation-iran-26-aug-2022-over-water-callsign, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+>
+> AARO assesses that this video, whose uploader-defined title is, “4 UAP Formation Iran 26 Aug 2022 over water [CALLSIGN],” is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2022. A user uploaded this video to a classified network in June 2024.
+>
+> Video Duration: 00:00:20
+>
+> Video Description:
+>
+> 00:01-00:04: Four areas of contrast transit the sensor field-of-view, entering from the lower third of the left side of the screen and exiting near the center of the bottom of the frame.
+>
+> 00:05-00:06: An area of contrast enters the sensor field-of-view from the top left corner of the screen.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1007706/dow-uap-pr050-4-uap-formation-iran-26-aug-2022-over-water-callsign
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1007706/dow-uap-pr050-4-uap-formation-iran-26-aug-2022-over-water-callsign
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709.mp4
-- Size from an HTTP HEAD request: 3.1 MB (3103288 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR050, "4 UAP Formation Iran 26 Aug 2022 over water [CALLSIGN]"; Date taken: 08.26.2022; Date posted: 05.22.2026 07:30; Duration: 00:00:09.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 3.1 MB (3103288 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 640x360; size stated "3 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222109
+  - 1920x1080; size stated "10 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222110
+  - 1920x1080; size stated "7 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222111
+  - 1280x720; size stated "3 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222112
+  - 1024x576; size stated "2 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222113
+  - 512x288; size stated "1 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222114
+  - 256x144; size stated "739 KB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222115
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 640x360; 1412000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709-640x360-3066k-hls_1.m3u8
+  - 576x324; 662000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709-576x324-1200k-hls_2.m3u8
 - HTTP ETag: `765dd2a36080415783357e7992ed1425`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 08.26.2022; Date Posted: 05.22.2026 07:30; Length: 00:00:09; Location: IR; VIRIN: 220826-D-D0360-7996; Filename: DOD_111719709; Category: B-Roll; Video ID: 1007706.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `b542f90ec73780e22740561c5fa4c6bc929505019f69a318e1267a686e9be3b2`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719709/DOD_111719709.mp4, downloaded 2026-10-06. 3103288 bytes were read, matching Content-Length 3103288. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

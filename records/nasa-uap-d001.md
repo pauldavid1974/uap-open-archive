@@ -42,6 +42,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260508-O-D0360-1059
 video_pairing: []
 pdf_pairing: []
@@ -66,14 +79,13 @@ The government's own description of the file is quoted in the next section. If t
 > o	At 05:19:27:25, the pilot of the Lunar Module (LMP-LM), Astronaut Alan L. Bean, described observing particles and flashes of light “sailing off in space” via the onboard Alignment Optical Telescope (AOT). He characterized these phenomenon as “escaping the Moon.”
 > •	Day 06, Hour 00, Minute 21, Second 42 through Day 06, Hour 00, Minute 23, Second 33:
 > o	Mission Commander, Charles “Pete” Conrad, described observing floating debris outside the lunar module, which had been illuminated by the module’s onboard tracking light. At 06:00:21:51, Conrad assessed that the tracking light had burnt out because he could no longer see the debris from the module.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/release_1/nasa-uap-d1-apollo-12-transcript-1969.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog
