@@ -1,0 +1,29 @@
+# UAP Open Archive
+
+> A public, source-linked index of the six 2026 U.S. Department of War PURSUE releases (war.gov/UFO). 450 catalog rows. Government descriptions are quoted. The underlying files were not opened. Do not invent the rest.
+
+Read [AI_GUIDE.md](AI_GUIDE.md) before answering from this repository. Labels are official, press, advocate, skeptic, and analysis. Do not blend them.
+
+## Start here
+
+- [README.md](README.md): What this is, ten cases to open first, release counts, labels, limits, license
+- [AI_GUIDE.md](AI_GUIDE.md): How to search, cite, and avoid the known mix-ups
+- [cases/README.md](cases/README.md): One page per episode, with status
+- [CONTRIBUTING.md](CONTRIBUTING.md): How to add a release and re-count the official catalog
+
+## Data
+
+- [data/records.json](data/records.json): Every catalog row, including the official description
+- [data/records.csv](data/records.csv): The same rows, as a table
+- [data/cases.json](data/cases.json): Case index
+- [data/entities.json](data/entities.json): People, offices, programs, places, platforms
+- [sources/catalog/uap-data-2026-09-29-release-6v5.csv](sources/catalog/uap-data-2026-09-29-release-6v5.csv): Untouched official spreadsheet (450 rows)
+
+## Do not skip
+
+- [gaps/not-opened.md](gaps/not-opened.md): PDFs and videos were not opened; war.gov returned HTTP 403
+- [analysis/catalog-quality.md](analysis/catalog-quality.md): Duplicate ids, "Westen," date cells that disagree with titles
+- [gaps/keyword-search.md](gaps/keyword-search.md): Nimitz, Gimbal, Roswell, and other names that are not in the spreadsheet
+- [gaps/unverified-claims.md](gaps/unverified-claims.md): Thirteen claims left unverified on purpose
+- [sources/pursue-01/manifest.md](sources/pursue-01/manifest.md): Release 01's count over time (162 in launch-week press, 158 in the stored CSVs)
+- [sources/pursue-06/manifest.md](sources/pursue-06/manifest.md): Release 06 grew from 71 rows to 75

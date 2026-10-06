@@ -1,0 +1,47 @@
+# License
+
+Two licenses apply to different parts of this repository. United States government records are in the public domain either way.
+
+## Our writing and the indexes
+
+The original writing in this repository — summaries, case pages, entity pages, timelines, analysis, gap notes, the README, and the AI guide — and the JSON and CSV indexes generated from it are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You can share and adapt the material for any purpose, including commercially. You must give appropriate credit, link to the license, and say if you changed anything. You may not suggest that the authors or the U.S. government endorse you.
+
+Suggested credit: "UAP Open Archive, https://github.com/pauldavid1974/uap-open-archive, CC BY 4.0."
+
+## The scripts
+
+The programs in `scripts/` are licensed under the MIT License:
+
+```
+MIT License
+
+Copyright (c) 2026 Paul Osborn and contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## United States government records
+
+The catalog spreadsheets in `sources/catalog/`, the official descriptions quoted on each record page, and the press-release extracts in `sources/press/` are U.S. government works. They are in the public domain in the United States and are not restricted by the CC BY or MIT terms above. See [17 U.S.C. § 105](https://www.govinfo.gov/content/pkg/USCODE-2023-title17/html/USCODE-2023-title17-chap1-sec105.htm).
+
+Quotations from those records are included so the archive can be searched. They are not a claim of copyright in the government's words.
+
+Press articles, advocate posts, and skeptic essays are not copied here. They are linked, and any paraphrase is labeled.
