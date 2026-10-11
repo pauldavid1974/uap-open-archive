@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1007795/dow-uap-pr075-09jun2021-platform-observed-uap-ecs
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,78 @@ dvids_id: '1007795'
 file_size_bytes: 19009940
 http_etag: 64fc79267f77cdc99c92b84d0d290cfa-3
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809.mp4
-sha256: null
+sha256: f97c19f0ba2ba284c2a86cf2e6c20c0b3908f213d2d1e2b2e3c58f4b57807e34
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809.mp4,
+  downloaded 2026-10-06. 19009940 bytes were read, matching Content-Length 19009940. The file was not
+  committed to the repository.
+dvids_title: DOW-UAP-PR075, "09JUN2021 [Platform] observed UAP in the ECS"
+dvids_date_taken: 06.09.2021
+dvids_date_posted: 05.22.2026 07:30
+dvids_duration: 00:00:23
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 18 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223076
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 16 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223077
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 11 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223078
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 6 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223079
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 4 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223080
+  http_status: 403
+- resolution: 512x288
+  size_stated: 2 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223081
+  http_status: 403
+- resolution: 256x144
+  size_stated: 1 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10223082
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 4059000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-1920x1080-20000k-hls_1.m3u8
+- resolution: 1600x900
+  bandwidth: 2448000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-1600x900-4900k-hls_2.m3u8
+- resolution: 1280x720
+  bandwidth: 1535000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-1280x720-3066k-hls_3.m3u8
+- resolution: 960x540
+  bandwidth: 1059000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-960x540-1918k-hls_4.m3u8
+- resolution: 768x432
+  bandwidth: 691000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-768x432-1200k-hls_5.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -72,18 +143,55 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1007795/dow-uap-pr075-09jun2021-platform-observed-uap-ecs, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+>
+> AARO assesses that this video, whose uploader-defined title is, “09JUN2021 [Platform] observed UAP in the ECS,” is likely derived from an infrared sensor aboard a U.S. military platform operating above the East China Sea in 2021. A user uploaded this video to a classified network in June 2021.
+>
+> Video Duration: 00:00:23
+>
+> Video Description:
+>
+> 00:01-00:18: The sensor pans to track an area of contrast. At the 18 second mark, the sensor loses sight of the object.
+>
+> 00:19-00:23: No content.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1007795/dow-uap-pr075-09jun2021-platform-observed-uap-ecs
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1007795/dow-uap-pr075-09jun2021-platform-observed-uap-ecs
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809.mp4
-- Size from an HTTP HEAD request: 19.0 MB (19009940 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR075, "09JUN2021 [Platform] observed UAP in the ECS"; Date taken: 06.09.2021; Date posted: 05.22.2026 07:30; Duration: 00:00:23.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 19.0 MB (19009940 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "18 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223076
+  - 1920x1080; size stated "16 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223077
+  - 1920x1080; size stated "11 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223078
+  - 1280x720; size stated "6 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223079
+  - 1024x576; size stated "4 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223080
+  - 512x288; size stated "2 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223081
+  - 256x144; size stated "1 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10223082
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 4059000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-1920x1080-20000k-hls_1.m3u8
+  - 1600x900; 2448000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-1600x900-4900k-hls_2.m3u8
+  - 1280x720; 1535000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-1280x720-3066k-hls_3.m3u8
+  - 960x540; 1059000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-960x540-1918k-hls_4.m3u8
+  - 768x432; 691000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809-768x432-1200k-hls_5.m3u8
 - HTTP ETag: `64fc79267f77cdc99c92b84d0d290cfa-3`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 06.09.2021; Date Posted: 05.22.2026 07:30; Length: 00:00:23; Location: AT SEA; VIRIN: 210609-D-D0360-8092; Filename: DOD_111720809; Category: B-Roll; Video ID: 1007795.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `f97c19f0ba2ba284c2a86cf2e6c20c0b3908f213d2d1e2b2e3c58f4b57807e34`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720809/DOD_111720809.mp4, downloaded 2026-10-06. 19009940 bytes were read, matching Content-Length 19009940. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

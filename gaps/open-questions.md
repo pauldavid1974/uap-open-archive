@@ -14,8 +14,8 @@ Tracked in [catalog quality](../analysis/catalog-quality.md). The ones that chan
 - Puerto Rico: description says November 19, 1964; the date cell says 2/1/65.
 - Several mission-report titles name a country and a year that the date and location cells do not match.
 - FBI-UAP-D014 is two different files.
-- DVIDS id 1006111 is attached both to a 2026 Army video and to FBI Photo A001. The DVIDS page is the Army video.
-- DVIDS id 1007720 is attached to both PR057a and PR057b. The DVIDS page is PR057a.
+- DVIDS id 1006111 is attached both to a 2026 Army video and to FBI Photo A001. The DVIDS page is the Army video. No corrected id for the still is proposed. See [DVIDS coverage](dvids-coverage.md).
+- DVIDS id 1007720 is attached to both PR057a and PR057b. The DVIDS page is PR057a. No corrected id for PR057b is proposed. See [DVIDS coverage](dvids-coverage.md).
 
 ## Numbering holes
 

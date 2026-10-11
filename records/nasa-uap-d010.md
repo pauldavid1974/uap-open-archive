@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1007874/nasa-uap-d010-mercury-atlas-9-audio-excerpt-may-15-1963
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases:
 - astronaut-particles
 related_records: []
@@ -42,7 +42,81 @@ dvids_id: '1007874'
 file_size_bytes: 164897834
 http_etag: 996e88370806dc4895f1fdc2dee73996-20
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711.mp4
-sha256: null
+sha256: 392c58d3ebec32241cbaac7b27a1437be827432cf94dcc458e4367dec9eb4a30
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711.mp4,
+  downloaded 2026-10-06. 164897834 bytes were read, matching Content-Length 164897834. The file was not
+  committed to the repository.
+dvids_title: NASA-UAP-D010, Mercury Atlas 9 Audio Excerpt, May 15, 1963
+dvids_date_taken: 05.15.1963
+dvids_date_posted: 05.22.2026 07:30
+dvids_duration: 00:03:00
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 157 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10224025
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 156 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10224026
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 115 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10224027
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 63 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10224028
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 43 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10224029
+  http_status: 403
+- resolution: 512x288
+  size_stated: 23 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10224030
+  http_status: 403
+- resolution: 256x144
+  size_stated: 12 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10224031
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 4839000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-1920x1080-12514k-hls_1.m3u8
+- resolution: 1600x900
+  bandwidth: 3532000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-1600x900-7830k-hls_2.m3u8
+- resolution: 1280x720
+  bandwidth: 2422000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-1280x720-4900k-hls_3.m3u8
+- resolution: 768x432
+  bandwidth: 1564000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-768x432-3066k-hls_4.m3u8
+- resolution: 576x324
+  bandwidth: 957000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-576x324-1918k-hls_5.m3u8
+- resolution: 360x202
+  bandwidth: 539000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-360x202-1200k-hls_6.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -64,18 +138,44 @@ The government's own description of the file is quoted in the next section. If t
 
 > Approximately one hour and 41 minutes into the final and longest flight of Project Mercury, Mercury-Atlas 9 mission (MA-9) Faith 7 Pilot L. Gordon Cooper Jr. notes that he sees “John’s fireflies,” referring to John Glenn’s term from the Mercury-Atlas 6 mission. NASA later determined that the “fireflies” are attributable to frozen condensation separating from the spacecraft body. The white, green-hued appearance of this phenomenon results from sunlight reflecting off frozen condensation.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1007874/nasa-uap-d010-mercury-atlas-9-audio-excerpt-may-15-1963, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> Approximately one hour and 41 minutes into the final and longest flight of Project Mercury, Mercury-Atlas 9 mission (MA-9) Faith 7 Pilot L. Gordon Cooper Jr. notes that he sees “John’s fireflies,” referring to John Glenn’s term from the Mercury-Atlas 6 mission. NASA later determined that the “fireflies” are attributable to frozen condensation separating from the spacecraft body. The white, green-hued appearance of this phenomenon results from sunlight reflecting off frozen condensation.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1007874/nasa-uap-d010-mercury-atlas-9-audio-excerpt-may-15-1963
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1007874/nasa-uap-d010-mercury-atlas-9-audio-excerpt-may-15-1963
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711.mp4
-- Size from an HTTP HEAD request: 164.9 MB (164897834 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: NASA-UAP-D010, Mercury Atlas 9 Audio Excerpt, May 15, 1963; Date taken: 05.15.1963; Date posted: 05.22.2026 07:30; Duration: 00:03:00.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 164.9 MB (164897834 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "157 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10224025
+  - 1920x1080; size stated "156 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10224026
+  - 1920x1080; size stated "115 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10224027
+  - 1280x720; size stated "63 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10224028
+  - 1024x576; size stated "43 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10224029
+  - 512x288; size stated "23 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10224030
+  - 256x144; size stated "12 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10224031
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 4839000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-1920x1080-12514k-hls_1.m3u8
+  - 1600x900; 3532000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-1600x900-7830k-hls_2.m3u8
+  - 1280x720; 2422000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-1280x720-4900k-hls_3.m3u8
+  - 768x432; 1564000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-768x432-3066k-hls_4.m3u8
+  - 576x324; 957000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-576x324-1918k-hls_5.m3u8
+  - 360x202; 539000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711-360x202-1200k-hls_6.m3u8
 - HTTP ETag: `996e88370806dc4895f1fdc2dee73996-20`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 05.15.1963; Date Posted: 05.22.2026 07:30; Length: 00:03:00; Location: (UNDISCLOSED LOCATION); VIRIN: 630515-D-D0360-4757; Filename: DOD_111721711; Category: Briefings; Video ID: 1007874.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `392c58d3ebec32241cbaac7b27a1437be827432cf94dcc458e4367dec9eb4a30`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711.mp4, downloaded 2026-10-06. 164897834 bytes were read, matching Content-Length 164897834. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

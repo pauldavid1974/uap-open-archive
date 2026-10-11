@@ -42,6 +42,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260508-S-D0360-1003
 video_pairing: []
 pdf_pairing:
@@ -65,14 +78,13 @@ The government's own description of the file is quoted in the next section. If t
 > This document is a U.S. Department of State diplomatic cable from the U.S. Embassy in Port Moresby, Papua New Guinea to USCINCPAC (United States Indo-Pacific Command) at Honolulu, HI on January 28, 1985. 
 > The cable reports that the U.S. Embassy to Papua New Guinea received an inquiry from the host nation’s intelligence services regarding reports of high-altitude, high-speed aircraft in Papua New Guinean airspace on the evening of January 24, 1985. The cable refers to a representative of the local intelligence services as “NIO,” or National Intelligence Officer, throughout. The NIO relayed to U.S. diplomatic personnel that residents had been “frightened by overflights, which led to the provincial premier’s calling of a public meeting on the subject.” The NIO also stated there had been “various reports of unidentified aerial phenomena the night of January 24, including fast-moving objects with lights, contrails, and noise.” The NIO assessed these reports as credible based upon the testimony of an Air Niugini pilot who said that their radar had “picked up aircraft flying south to north at high altitude and high speed.”
 > The cable concludes by characterizing the information provided by the NIO as “very sketchy.” It also sought clarification from U.S. INDOPACOM on the presence or absence of U.S. military aircraft within Papua New Guinean airspace on the night in question.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/release_1/dos-uap-d1-cable-1-papua-new-guinea-january-1985.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

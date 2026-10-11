@@ -43,6 +43,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260807-O-D0360-1148
 video_pairing: []
 pdf_pairing:
@@ -64,14 +77,13 @@ The government's own description of the file is quoted in the next section. If t
 **Label: official.** Quoted from the Department of War PURSUE catalog spreadsheet `uap-data.csv`, snapshot archived September 29, 2026 (`release=6v5`), row 377 in that file. This is the catalog's description. It is not a transcript and not text extracted from the file.
 
 > This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records an April 2025 interview with two former U.S. military service members, in which the interviewees describe an incident potentially involving unidentified anomalous phenomena (UAP) in June or July of 2011. An FBI digital rendering based upon the observers’ descriptions accompanies this document, under the title FBI-UAP-D029.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/FBI-UAP-D028_FD-302_Dark-Triangle-with-Lights_2011.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

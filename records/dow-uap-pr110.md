@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1014112/dow-uap-pr110-unresolved-uap-report-eastern-united-states-2020
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,72 @@ dvids_id: '1014112'
 file_size_bytes: 7089077
 http_etag: 37b6741588e0ab6b558ff4986f655eed
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075.mp4
-sha256: null
+sha256: ba1a7ddc29e5c0151bd5cf64f00fe92106b3acf56b28690d152037f0da892f0b
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075.mp4,
+  downloaded 2026-10-06. 7089077 bytes were read, matching Content-Length 7089077. The file was not committed
+  to the repository.
+dvids_title: DOW-UAP-PR110, Unresolved UAP Report, Eastern United States, 2020
+dvids_date_taken: 01.01.2020
+dvids_date_posted: 07.10.2026 07:15
+dvids_duration: 00:00:22
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 7 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302302
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 8 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302303
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 5 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302304
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 3 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302305
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 2 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302306
+  http_status: 403
+- resolution: 512x288
+  size_stated: 962 KB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302307
+  http_status: 403
+- resolution: 256x144
+  size_stated: 747 KB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10302308
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 1396000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075-1920x1080-7830k-hls_1.m3u8
+- resolution: 1600x900
+  bandwidth: 938000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075-1600x900-4900k-hls_2.m3u8
+- resolution: 1280x720
+  bandwidth: 640000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075-1280x720-3066k-hls_3.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -71,18 +136,53 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1014112/dow-uap-pr110-unresolved-uap-report-eastern-united-states-2020, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> "The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 27 seconds of video footage from an infrared sensor aboard a U.S. military platform in 2020.
+>
+> Video Description:
+>
+> 00:01-00:02: No content.
+>
+> 00:03-00:10: An area of contrast become visible to the right of the center of the frame. The sensor pans to track the area of contrast, causing it to appear to move about the field-of-view.
+>
+> 00:11-00:19: An auto-tracking reticle surrounds the area of contrast. The area of contrast gradually increases in angular size.
+>
+> 00:20-00:22: The area of contrast exits the sensor field-of-view to the right side of the frame.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance."
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1014112/dow-uap-pr110-unresolved-uap-report-eastern-united-states-2020
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1014112/dow-uap-pr110-unresolved-uap-report-eastern-united-states-2020
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075.mp4
-- Size from an HTTP HEAD request: 7.1 MB (7089077 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR110, Unresolved UAP Report, Eastern United States, 2020; Date taken: 01.01.2020; Date posted: 07.10.2026 07:15; Duration: 00:00:22.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 7.1 MB (7089077 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "7 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302302
+  - 1920x1080; size stated "8 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302303
+  - 1920x1080; size stated "5 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302304
+  - 1280x720; size stated "3 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302305
+  - 1024x576; size stated "2 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302306
+  - 512x288; size stated "962 KB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302307
+  - 256x144; size stated "747 KB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10302308
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 1396000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075-1920x1080-7830k-hls_1.m3u8
+  - 1600x900; 938000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075-1600x900-4900k-hls_2.m3u8
+  - 1280x720; 640000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075-1280x720-3066k-hls_3.m3u8
 - HTTP ETag: `37b6741588e0ab6b558ff4986f655eed`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 01.01.2020; Date Posted: 07.10.2026 07:15; Length: 00:00:22; Location: US; VIRIN: 200101-D-D0360-2300; Filename: DOD_111830075; Category: B-Roll; Video ID: 1014112.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `ba1a7ddc29e5c0151bd5cf64f00fe92106b3acf56b28690d152037f0da892f0b`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2607/DOD_111830075/DOD_111830075.mp4, downloaded 2026-10-06. 7089077 bytes were read, matching Content-Length 7089077. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

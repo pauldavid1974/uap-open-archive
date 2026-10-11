@@ -44,6 +44,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260807-O-D0360-1143
 video_pairing: []
 pdf_pairing:
@@ -68,14 +81,13 @@ The government's own description of the file is quoted in the next section. If t
 > This document is a Central Intelligence Agency (CIA) Foreign Broadcast Information Service (FBIS) wire report dated November 9, 1963, tracking a local Portuguese-language radio broadcast from Rio de Janeiro, Brazil, regarding an alleged crash of a “large metal sphere” containing a deceased occupant in Conde, Bahia, Brazil. This FBIS report is excerpted from the files of Edward C. Welsh, Executive Secretary of the National Aeronautics and Space Council (NASC). NASC was a cabinet-level advisory body within the Executive Office of the President responsible for coordinating U.S. space policy from 1958 to 1973.
 >
 > Handwritten annotations dated November 13, 1963, document a communication between officials at NASC and the U.S. Department of State. The note records a NASC request to a State Department official to query the U.S. Embassy in Rio de Janeiro for local verification of the reporting. This inter-agency request precedes a subsequent diplomatic cable sent by the Embassy the following day, cataloged in this collection under the title “DOS-UAP-D001.”
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/EOP-UAP-D001_NASC-Inquiry-into-Bahia-Brazil-Incident_November-13-1963.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

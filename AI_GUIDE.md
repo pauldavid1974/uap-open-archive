@@ -53,9 +53,9 @@ Use this shape:
 
 > Official, catalog description of DOW-UAP-D102, PURSUE Release 06 (posted September 18, 2026), quoted in `records/dow-uap-d102.md`. Spreadsheet: Internet Archive capture 2026-09-29 of `https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5`.
 
-If you also used a DVIDS page, say the DVIDS URL and that the media bytes were not in the git repository. File size, when present, is from an HTTP HEAD request on October 6, 2026, not from a government size field. `http_etag` is not a SHA-256. Multipart S3 ETags end in a hyphen and a part count.
+If you also used a DVIDS page, say the DVIDS URL. The media bytes are not in the git repository. `file_size_bytes` is the Content-Length of the public MP4 linked from the DVIDS page, from an HTTP HEAD request on October 6, 2026, not a government size field. The download popup's size text (for example "7 MB") is what DVIDS printed. Those menu URLs returned HTTP 403, so that text was not turned into an exact byte count. `http_etag` is not a SHA-256. Multipart S3 ETags end in a hyphen and a part count.
 
-`sha256` on a record is null. Do not invent a checksum.
+`sha256`, when set, is the SHA-256 of that public DVIDS MP4, computed October 6, 2026 by downloading it. Read `sha256_note`. Do not invent a checksum. Do not copy the hash onto a row whose DVIDS id points at a different file. DVIDS `1006111` is the Army video DOW-UAP-PR049; the same id on FBI Photo A001 is the wrong file. DVIDS `1007720` is DOW-UAP-PR057a; the same id on DOW-UAP-PR057b is the wrong file. No corrected id is proposed. See [DVIDS coverage](gaps/dvids-coverage.md).
 
 ## Rules that prevent a bad answer
 

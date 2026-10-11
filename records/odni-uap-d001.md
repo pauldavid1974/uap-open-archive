@@ -76,6 +76,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260508-O-D0360-1074
 video_pairing: []
 pdf_pairing:
@@ -131,14 +144,13 @@ The government's own description of the file is quoted in the next section. If t
 > This document is a first-hand account written by a currently serving (May 2026) senior U.S. intelligence official. The official was part of a team investigating reports of unusual noises and sightings of unidentified anomalous phenomena in and near a sensitive U.S. military facility in late 2025. From the official’s vantage point as a helicopter passenger, the official recounts encountering unidentified “glowing orbs” both at close range and at a distance. The account describes an apparent high-speed object moving low to the ground, which appeared to split in two and accelerate away in two different directions. It also describes numerous higher-altitude “orbs,” some of which the official assessed to be in close proximity to the helicopter. This account is accompanied by infrared imagery taken during the same exercise by other federal officials from the ground, originally released on war.gov/UFO on May 8, 2026.
 >
 > May 26, 2026, correction: The document originally posted to the PURSUE collection of UAP-related records on May 22, 2026, under the name “ODNI-UAP-D001, USPER Narrative, Senior USIC Official,” contained a typographic error in the second paragraph, describing a helicopter flight profile as “map-of-the-earth.” The correct military aviation term for this profile is “nap-of-the-earth.” This document has been updated to reflect this correction.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/052226/release_02/documents/ODNI-UAP-D001_USPER_Narrative_Senior_USIC.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

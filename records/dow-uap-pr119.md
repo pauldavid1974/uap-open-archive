@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1017798/dow-uap-pr119-unresolved-uap-report-gulf-oman-2021
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases:
 - gulf-of-oman-orbs-2021
 related_records:
@@ -47,7 +47,78 @@ dvids_id: '1017798'
 file_size_bytes: 2137188
 http_etag: 997dfeeaae3a21aeedee53b75f115520
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421.mp4
-sha256: null
+sha256: fe5c7457ec5b104fa279861d2684a6787e021edb75a35099ee0a3f117166b4b6
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421.mp4,
+  downloaded 2026-10-06. 2137188 bytes were read, matching Content-Length 2137188. The file was not committed
+  to the repository.
+dvids_title: DOW-UAP-PR119, Unresolved UAP Report, Gulf of Oman, 2021
+dvids_date_taken: 09.08.2021
+dvids_date_posted: 08.07.2026 07:15
+dvids_duration: 00:00:02
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 2 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347580
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 2 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347581
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 2 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347582
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 850 KB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347583
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 520 KB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347584
+  http_status: 403
+- resolution: 512x288
+  size_stated: 316 KB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347585
+  http_status: 403
+- resolution: 256x144
+  size_stated: 144 KB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347586
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 4157000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-1920x1080-12514k-hls_1.m3u8
+- resolution: 1600x900
+  bandwidth: 2562000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-1600x900-4900k-hls_2.m3u8
+- resolution: 1280x720
+  bandwidth: 1441000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-1280x720-3066k-hls_3.m3u8
+- resolution: 960x540
+  bandwidth: 1051000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-960x540-1918k-hls_4.m3u8
+- resolution: 768x432
+  bandwidth: 665000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-768x432-1200k-hls_5.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing:
 - DOW-UAP-PR117
@@ -81,18 +152,49 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1017798/dow-uap-pr119-unresolved-uap-report-gulf-oman-2021, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of two seconds of video footage. This footage is a secondary capture, recorded via a cellular device, of an infrared sensor display aboard a U.S. Special Operations Forces AC-130J Gunship. This footage does not represent native primary sensor data, and the secondary recording method introduces limitations in fidelity, resolution, and overall visual quality. Artifacts inherent to filming a screen, such as blurring or flickering, may be present. The footage contained within DOW-UAP-PR117 through DOW-UAP-PR122 was captured contemporaneously. An accompanying Intelligence Information Report, DOW-UAP-D101, describes the phenomena as “cold orbs” approximately four feet in diameter.
+>
+> Video description:
+>
+> 00:00-00:02: An area of contrast remains generally within the center of the sensor field-of-view.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1017798/dow-uap-pr119-unresolved-uap-report-gulf-oman-2021
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1017798/dow-uap-pr119-unresolved-uap-report-gulf-oman-2021
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421.mp4
-- Size from an HTTP HEAD request: 2.1 MB (2137188 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR119, Unresolved UAP Report, Gulf of Oman, 2021; Date taken: 09.08.2021; Date posted: 08.07.2026 07:15; Duration: 00:00:02.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 2.1 MB (2137188 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "2 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347580
+  - 1920x1080; size stated "2 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347581
+  - 1920x1080; size stated "2 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347582
+  - 1280x720; size stated "850 KB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347583
+  - 1024x576; size stated "520 KB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347584
+  - 512x288; size stated "316 KB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347585
+  - 256x144; size stated "144 KB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347586
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 4157000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-1920x1080-12514k-hls_1.m3u8
+  - 1600x900; 2562000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-1600x900-4900k-hls_2.m3u8
+  - 1280x720; 1441000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-1280x720-3066k-hls_3.m3u8
+  - 960x540; 1051000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-960x540-1918k-hls_4.m3u8
+  - 768x432; 665000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421-768x432-1200k-hls_5.m3u8
 - HTTP ETag: `997dfeeaae3a21aeedee53b75f115520`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 09.08.2021; Date Posted: 08.07.2026 07:15; Length: 00:00:02; Location: GULF OF OMAN; VIRIN: 210908-D-D0360-4689; Filename: DOD_111887421; Category: B-Roll; Video ID: 1017798.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `fe5c7457ec5b104fa279861d2684a6787e021edb75a35099ee0a3f117166b4b6`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887421/DOD_111887421.mp4, downloaded 2026-10-06. 2137188 bytes were read, matching Content-Length 2137188. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

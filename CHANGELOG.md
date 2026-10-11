@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.0 — 2026-10-06
+
+DVIDS page metadata for every catalog DVIDS id, fetched again the same day and kept beside the first scrape.
+
+- For each id: page URL, title, date taken, date posted, duration, the description paragraph verbatim, each download-popup resolution with the size text DVIDS printed, and the HLS renditions. The fetch date and source are on the record.
+- Download-menu URLs returned HTTP 403. Exact byte lengths of those renditions were not measured and were not guessed.
+- SHA-256 of the public MP4 linked from each DVIDS page, 149 files. The bytes were not committed. The hash is stored on the catalog row the page matches.
+- DVIDS 1006111 and 1007720 are flagged. 1006111 is the Army video DOW-UAP-PR049, and the same id on FBI Photo A001 points at that video. 1007720 is DOW-UAP-PR057a, and the same id on DOW-UAP-PR057b points at that video. No corrected id is proposed. The sitemap search is in [gaps/dvids-coverage.md](gaps/dvids-coverage.md).
+- No DVIDS caption file or transcript heading was on these pages. None were added.
+- war.gov/UFO still returned HTTP 403. The underlying files were still not opened.
+
 ## 1.0.0 — 2026-10-06
 
 First version of the archive.

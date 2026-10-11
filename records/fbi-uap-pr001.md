@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1010263/fbi-uap-pr001-triangle-orbs-2021
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,72 @@ dvids_id: '1010263'
 file_size_bytes: 81758206
 http_etag: e8c6ba299138b361d937bf367a596a74-10
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142.mp4
-sha256: null
+sha256: b6db4902491033aa6ce5c36da367747b16ae4f2344739b27f0b4729f6d090e98
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142.mp4,
+  downloaded 2026-10-06. 81758206 bytes were read, matching Content-Length 81758206. The file was not
+  committed to the repository.
+dvids_title: FBI-UAP-PR001_Triangle-Orbs_2021
+dvids_date_taken: 11.01.2021
+dvids_date_posted: 06.12.2026 07:00
+dvids_duration: 00:02:42
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1920x1080
+  size_stated: 78 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254131
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 96 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254132
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 74 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254133
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 24 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254134
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 12 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254135
+  http_status: 403
+- resolution: 512x288
+  size_stated: 5 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254136
+  http_status: 403
+- resolution: 256x144
+  size_stated: 3 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10254137
+  http_status: 403
+dvids_hls:
+- resolution: 1920x1080
+  bandwidth: 2252000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142-1920x1080-7830k-hls_1.m3u8
+- resolution: 1600x900
+  bandwidth: 947000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142-1600x900-4900k-hls_2.m3u8
+- resolution: 1280x720
+  bandwidth: 513000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142-1280x720-3066k-hls_3.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -65,18 +130,43 @@ The government's own description of the file is quoted in the next section. If t
 >
 > The description above is derived from statements provided to the Federal Bureau of Investigation (FBI) by the eyewitness to the event. The FBI assesses the individual who reported this event as highly credible. The subject matter described in files FBI-UAP-D004 through FBI-UAP-D008 and depicted in the video footage FBI-UAP-PR001 through FBI-UAP-PR003 corresponds to reports originating from the same general area in the northeastern United States.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1010263/fbi-uap-pr001-triangle-orbs-2021, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> "In November 2021, at approximately 0500 local time in the northeastern United States, an  eyewitness observed a bright light source near the horizon at an estimated distance of  2,000 feet. The light source initially appeared as a single intense luminous object before resolving into multiple lights exhibiting erratic rotational motion relative to one another. The object slowly moved laterally from left to right during the encounter. The eyewitness captured the video with a hand-held iPhone 12 Pro, resulting in unintended camera movement. The location was well known to the eyewitness and is sparsely populated.
+>
+> The description above is derived from statements provided to the Federal Bureau of Investigation (FBI) by the eyewitness to the event. The FBI assesses the individual who reported this event as highly credible. The subject matter described in files FBI-UAP-D004 through FBI-UAP-D008 and depicted in the video footage FBI-UAP-PR001 through FBI-UAP-PR003 corresponds to reports originating from the same general area in the northeastern United States. "
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1010263/fbi-uap-pr001-triangle-orbs-2021
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1010263/fbi-uap-pr001-triangle-orbs-2021
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142.mp4
-- Size from an HTTP HEAD request: 81.8 MB (81758206 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: FBI-UAP-PR001_Triangle-Orbs_2021; Date taken: 11.01.2021; Date posted: 06.12.2026 07:00; Duration: 00:02:42.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 81.8 MB (81758206 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1920x1080; size stated "78 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254131
+  - 1920x1080; size stated "96 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254132
+  - 1920x1080; size stated "74 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254133
+  - 1280x720; size stated "24 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254134
+  - 1024x576; size stated "12 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254135
+  - 512x288; size stated "5 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254136
+  - 256x144; size stated "3 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10254137
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1920x1080; 2252000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142-1920x1080-7830k-hls_1.m3u8
+  - 1600x900; 947000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142-1600x900-4900k-hls_2.m3u8
+  - 1280x720; 513000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142-1280x720-3066k-hls_3.m3u8
 - HTTP ETag: `e8c6ba299138b361d937bf367a596a74-10`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 11.01.2021; Date Posted: 06.12.2026 07:00; Length: 00:02:42; Location: US; VIRIN: 211101-D-D0360-3247; Filename: DOD_111764142; Category: B-Roll; Video ID: 1010263.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `b6db4902491033aa6ce5c36da367747b16ae4f2344739b27f0b4729f6d090e98`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2606/DOD_111764142/DOD_111764142.mp4, downloaded 2026-10-06. 81758206 bytes were read, matching Content-Length 81758206. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

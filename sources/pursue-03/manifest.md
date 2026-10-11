@@ -42,6 +42,22 @@ The counts above are the September 29, 2026 snapshot (`release=6v5`). That is th
 
 Across the September snapshots stored here, this release's row count, redaction count, and type counts do not change. The May 20, 2026 snapshot contains Release 01 only, so it is absent from the table.
 
+## DVIDS
+
+For each video and audio row, [manifest.json](manifest.json) has the DVIDS title, date taken, date posted, duration, the description quoted from the page, every download-popup resolution with the size text DVIDS printed, the HLS renditions, and a SHA-256 when the public MP4 was downloaded on October 6, 2026. Those media files are not in this repository. Every download-menu URL on this release returned HTTP 403, so the exact byte length of those renditions was not measured.
+
+| Archive id | DVIDS id | DVIDS title | Date taken | Duration | SHA-256 |
+| --- | --- | --- | --- | --- | --- |
+| [fbi-uap-pr001](../../records/fbi-uap-pr001.md) | `1010263` | FBI-UAP-PR001_Triangle-Orbs_2021 | 11.01.2021 | 00:02:42 | b6db4902491033aa6ce5c36da367747b16ae4f2344739b27f0b4729f6d090e98 |
+| [fbi-uap-pr002](../../records/fbi-uap-pr002.md) | `1010264` | FBI-UAP-PR002, “Red Orb Rotation,” Northeastern United States, 2022 | 03.01.2022 | 00:02:42 | 1152a7b068ec9092afa5886df224500ef52100d32449ac2616d1dc3309b8c59e |
+| [fbi-uap-pr003](../../records/fbi-uap-pr003.md) | `1010267` | FBI-UAP-PR003, “Orbs Over the Pond,” 2024 | 10.01.2024 | 00:04:25 | fa297d9788cbaab0adca007eb78bcfdf2e8ecd9d9f98c813aa492593e47b1623 |
+| [fbi-uap-pr004](../../records/fbi-uap-pr004.md) | `1010269` | FBI-UAP-PR004, “Northeastern Orb Sighting,” 2025 | 07.01.2025 | 00:00:49 | 5b9b63bcffdc7725604519aa34d7adbc0336acfee4065784e1003367e094c1fc |
+| [fbi-uap-pr005](../../records/fbi-uap-pr005.md) | `1010272` | FBI-UAP-PR005, Digital Recreation, Narrative Statement 3-1, Western United States Event, 2023 | 01.01.2023 | 00:00:53 | 599edbeb6a363a6dd092e79f16384797a9d980cf0f0b5e9d4e05c945d698592d |
+| [fbi-uap-pr006](../../records/fbi-uap-pr006.md) | `1010276` | FBI-UAP-PR006, Digital Recreation, Narrative Statement 3-2, Western United States Event, 2023 | 01.01.2023 | 00:00:21 | 5a59447fc9f517001323228cd58c9bbbdcb61104a7708bd7d907b146981e5078 |
+| [nasa-uap-d023](../../records/nasa-uap-d023.md) | `1010337` | NASA-UAP-D023, Interview Excerpt with Astronaut Gordon Cooper, 1962 | 11.01.1962 | 00:02:03 | f42fd13b3efe8ab23cf2d0c3ca35a17b1fa9b41ec3928fa616c84ccf5829d05c |
+| [nasa-uap-d024](../../records/nasa-uap-d024.md) | `1010319` | NASA-UAP-D024, “Apollo 16 Scientific Debriefing” | 05.01.1972 | 01:36:32 | 6802ea0227e7be4f6ea844e58894075540dda14465735972f06f2bb0f963b7dc |
+| [nasa-uap-d025](../../records/nasa-uap-d025.md) | `1010336` | NASA-UAP-D025, “Apollo 16 Scientific Debriefing” | 05.01.1972 | 00:55:41 | d8a387fc4350ad6e9a14aae784b011f5e5bbd24799e6d3b079a0901ab6478a5c |
+
 The machine-readable list, including these version counts, is [manifest.json](manifest.json). Each item also has a page in [`records/`](../../records/).
 
 | Archive id | Official id | Type | Redaction flag | Agency | Title |

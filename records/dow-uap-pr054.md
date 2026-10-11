@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1007711/dow-uap-pr054-spherical-uap-erratic-movement-callsign-mission-2022
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records: []
 underlying_file_opened: false
@@ -41,7 +41,72 @@ dvids_id: '1007711'
 file_size_bytes: 61738864
 http_etag: 5c0fdeee79d2378aa51bafb0edb68867-8
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726.mp4
-sha256: null
+sha256: dc7f11bf9ccb567929b22350dd7cc117c03f90b98a73335b056bd714fdabe58d
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726.mp4,
+  downloaded 2026-10-06. 61738864 bytes were read, matching Content-Length 61738864. The file was not
+  committed to the repository.
+dvids_title: DOW-UAP-PR054, "Spherical UAP Erratic movement [CALLSIGN] (Mission) 2022"
+dvids_date_taken: 08.01.2022
+dvids_date_posted: 05.22.2026 07:30
+dvids_duration: 00:03:57
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1280x720
+  size_stated: 59 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222181
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 129 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222182
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 87 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222183
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 45 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222184
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 35 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222185
+  http_status: 403
+- resolution: 512x288
+  size_stated: 19 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222186
+  http_status: 403
+- resolution: 256x144
+  size_stated: 11 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10222187
+  http_status: 403
+dvids_hls:
+- resolution: 1280x720
+  bandwidth: 1424000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726-1280x720-4900k-hls_1.m3u8
+- resolution: 960x540
+  bandwidth: 899000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726-960x540-1918k-hls_2.m3u8
+- resolution: 768x432
+  bandwidth: 626000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726-768x432-1200k-hls_3.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing: []
 pdf_pairing: []
@@ -73,18 +138,53 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1007711/dow-uap-pr054-spherical-uap-erratic-movement-callsign-mission-2022, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+>
+> AARO assesses that this video, whose uploader-defined title is “Spherical UAP Erratic movement [CALLSIGN]\(Mission) 2022,” is likely derived from an infrared sensor aboard a U.S. military platform operating in the United States European Command area of responsibility in August 2022. A user uploaded this video to a classified network in June 2024.
+>
+> Video Duration: 00:03:57
+>
+> Video Description: This media was digitally altered prior to its upload to a classified network, and is presented as received.
+>
+> 00:00-00:45: The video features an area of contrast generally within the center the frame. The sensor pans to track the area of contrast. Digital alterations to the video footage significantly influence the area of contrast’s apparent performance characteristics.
+>
+> 00:46-03:57: The video appears to cut, refocusing on an area of contrast generally within the center of the frame. The area of contrast intermittently passes in and out of frame as the sensor pans to track it.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1007711/dow-uap-pr054-spherical-uap-erratic-movement-callsign-mission-2022
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1007711/dow-uap-pr054-spherical-uap-erratic-movement-callsign-mission-2022
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726.mp4
-- Size from an HTTP HEAD request: 61.7 MB (61738864 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR054, "Spherical UAP Erratic movement [CALLSIGN] (Mission) 2022"; Date taken: 08.01.2022; Date posted: 05.22.2026 07:30; Duration: 00:03:57.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 61.7 MB (61738864 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1280x720; size stated "59 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222181
+  - 1920x1080; size stated "129 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222182
+  - 1920x1080; size stated "87 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222183
+  - 1280x720; size stated "45 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222184
+  - 1024x576; size stated "35 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222185
+  - 512x288; size stated "19 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222186
+  - 256x144; size stated "11 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10222187
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1280x720; 1424000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726-1280x720-4900k-hls_1.m3u8
+  - 960x540; 899000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726-960x540-1918k-hls_2.m3u8
+  - 768x432; 626000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726-768x432-1200k-hls_3.m3u8
 - HTTP ETag: `5c0fdeee79d2378aa51bafb0edb68867-8`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 08.01.2022; Date Posted: 05.22.2026 07:30; Length: 00:03:57; Location: (UNDISCLOSED LOCATION); VIRIN: 220822-D-D0360-6084; Filename: DOD_111719726; Category: B-Roll; Video ID: 1007711.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `dc7f11bf9ccb567929b22350dd7cc117c03f90b98a73335b056bd714fdabe58d`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726.mp4, downloaded 2026-10-06. 61738864 bytes were read, matching Content-Length 61738864. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

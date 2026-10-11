@@ -87,6 +87,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260918-D-D0360-1139
 video_pairing: []
 pdf_pairing:
@@ -152,14 +165,13 @@ The government's own description of the file is quoted in the next section. If t
 > This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for later analytic use. DIRDs are best understood as reference and synthesis products rather than as original research. It is one of 38 DIRDs produced under the Advanced Aerospace Weapon System Applications Program (AAWSAP) between 2009 and 2011. Because AAWSAP’s scope permitted a broad range of supporting topics, not every DIRD in the series directly concerns aerospace systems or future threat assessment. The following summary reflects the DIRD’s scope and framing at the time of writing and should not be read as implying current validation of the concepts discussed.
 >
 > This DIRD surveys advanced computing concepts for future space and automation applications, focusing on quantum and molecular (DNA-based) computing as potential alternatives to conventional silicon electronics. The report introduces quantum computing principles alongside DNA-based logic gates, self-assembly, and nanoscale repair mechanisms, arguing that these unconventional architectures might eventually offer advantages in radiation tolerance, physical robustness, and specialized onboard processing for space-based platforms. It notes that near-term practical barriers remain substantial. Quantum systems continue to depend on complex cryogenics, shielding, and unsolved reliability challenges, while DNA-based computing remains a far-future concept rather than a viable alternative to general-purpose processors. Overall, the document presents both frameworks as long-term possibilities to complement, rather than immediately replace proven space-qualified electronics. It concludes that the stronger, nearer-term cases for such architectures are in highly specialized or hybrid roles rather than in fully mature general-purpose onboard computing applications.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/sept-18/release-06/assets/DOW-UAP-D150_AAWSAP-DIRD-Quantum-Computing-and-Utilizing-Organic-Molecules-in-Automation-Technology-December-10-2010.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

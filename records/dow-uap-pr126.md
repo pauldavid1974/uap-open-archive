@@ -31,8 +31,8 @@ sources:
   label: official
   url: https://www.dvidshub.net/video/1017790/dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019
   archive_url: null
-  note: DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from
-    HTTP HEAD.
+  note: DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public
+    MP4 linked from that page. Download-menu URLs were requested separately and are listed on the record.
 related_cases: []
 related_records:
 - dow-uap-pr123
@@ -45,7 +45,78 @@ dvids_id: '1017790'
 file_size_bytes: 89415992
 http_etag: 800fe395329da4ed2d7a45fcf8ddd400-11
 media_url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380.mp4
-sha256: null
+sha256: 88adfe16ded6a14baf5b06373a7d8a3d6bc054ba7b3ee3d2a51754761be84a30
+sha256_note: SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380.mp4,
+  downloaded 2026-10-06. 89415992 bytes were read, matching Content-Length 89415992. The file was not
+  committed to the repository.
+dvids_title: DOW-UAP-PR126, Unresolved UAP Report, Pacific Ocean, 2019
+dvids_date_taken: 01.01.2019
+dvids_date_posted: 08.07.2026 07:15
+dvids_duration: 00:02:32
+dvids_fetch_date: '2026-10-06'
+dvids_fetch_status: ok
+dvids_downloads:
+- resolution: 1280x720
+  size_stated: 85 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347545
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 152 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347546
+  http_status: 403
+- resolution: 1920x1080
+  size_stated: 107 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347547
+  http_status: 403
+- resolution: 1280x720
+  size_stated: 54 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347548
+  http_status: 403
+- resolution: 1024x576
+  size_stated: 38 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347549
+  http_status: 403
+- resolution: 512x288
+  size_stated: 20 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347550
+  http_status: 403
+- resolution: 256x144
+  size_stated: 13 MB
+  size_bytes: null
+  bitrate_stated: null
+  url: https://www.dvidshub.net/download/videofile/10347551
+  http_status: 403
+dvids_hls:
+- resolution: 1280x720
+  bandwidth: 3602000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-1280x720-12514k-hls_1.m3u8
+- resolution: 960x540
+  bandwidth: 2521000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-960x540-4900k-hls_2.m3u8
+- resolution: 768x432
+  bandwidth: 1550000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-768x432-3066k-hls_3.m3u8
+- resolution: 640x360
+  bandwidth: 1083000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-640x360-1918k-hls_4.m3u8
+- resolution: 576x324
+  bandwidth: 701000
+  url: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-576x324-1200k-hls_5.m3u8
+dvids_captions_status: absent
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: null
 video_pairing:
 - DOW-UAP-PR123
@@ -83,18 +154,55 @@ The government's own description of the file is quoted in the next section. If t
 >
 > This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
 
+## Official DVIDS description
+
+**Label: official.** Quoted from the DVIDS page https://www.dvidshub.net/video/1017790/dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019, fetched 2026-10-06. The source on the page was the description paragraph. This is not a caption file and not a speech transcript.
+
+> The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 2 minutes and 32 seconds of footage captured via hand-held recording device by a U.S. military service member in 2019. Low-light conditions at the time of capture influence the overall visual quality of the footage. The footage contained within DOW-UAP-PR123 through DOW-UAP-PR127 was captured contemporaneously. This media was digitally altered before being reported to AARO, and is presented as it was received.
+>
+> Video description:
+>
+> 00:00-00:08: The camera pans against the background, bringing two apparent light sources into frame from the top left corner. The recording device focuses on the light sources, keeping them generally within the center of the frame.
+>
+> 00:09-00:53: The camera pans against the background. As the camera pans, it repeatedly brings several apparent light sources into and out of the frame.
+>
+> 00:54-01:23: The sensor zooms in on the light source in the lower left quarter of the frame, focusing to bring it into the center of the field-of-view.
+>
+> 01:24-02:32: The sensor zooms out and continues to pan to track apparent light sources. As the camera pans, it repeatedly brings several apparent light sources into and out of the frame.
+>
+> This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+## Official DVIDS captions or transcript
+
+**Label: analysis.** No caption track, WebVTT or SRT link, transcript heading, or HLS subtitle rendition was on the DVIDS page fetched 2026-10-06.
+
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - The catalog row has no direct file URL in the "PDF | Image Link" column.
-- DVIDS page (live, retrieved October 6, 2026): https://www.dvidshub.net/video/1017790/dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019
+- DVIDS page (live, retrieved 2026-10-06): https://www.dvidshub.net/video/1017790/dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019
 - Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine.
-- Media URL from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380.mp4
-- Size from an HTTP HEAD request: 89.4 MB (89415992 bytes). The file was not downloaded.
+- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Title: DOW-UAP-PR126, Unresolved UAP Report, Pacific Ocean, 2019; Date taken: 01.01.2019; Date posted: 08.07.2026 07:15; Duration: 00:02:32.
+- Public media URL linked from the DVIDS page: https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380.mp4. The URL is the file this DVIDS id serves.
+- Size of that public media file, from an HTTP HEAD request on 2026-10-06: 89.4 MB (89415992 bytes).
+- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:
+  - 1280x720; size stated "85 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347545
+  - 1920x1080; size stated "152 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347546
+  - 1920x1080; size stated "107 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347547
+  - 1280x720; size stated "54 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347548
+  - 1024x576; size stated "38 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347549
+  - 512x288; size stated "20 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347550
+  - 256x144; size stated "13 MB"; bitrate not stated; exact byte length unknown; HTTP 403; https://www.dvidshub.net/download/videofile/10347551
+- Resolutions and size text come from the DVIDS download popup. HEAD requests to those download URLs returned HTTP [403]. size_bytes is set only when that HEAD returned Content-Length with HTTP 200.
+- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). These are streams. The byte length of each rendition was not measured:
+  - 1280x720; 3602000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-1280x720-12514k-hls_1.m3u8
+  - 960x540; 2521000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-960x540-4900k-hls_2.m3u8
+  - 768x432; 1550000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-768x432-3066k-hls_3.m3u8
+  - 640x360; 1083000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-640x360-1918k-hls_4.m3u8
+  - 576x324; 701000 bps; https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380-576x324-1200k-hls_5.m3u8
 - HTTP ETag: `800fe395329da4ed2d7a45fcf8ddd400-11`. This is the server's ETag, not a SHA-256 of the file. Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum.
-- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): Date Taken: 01.01.2019; Date Posted: 08.07.2026 07:15; Length: 00:02:32; Location: PACIFIC OCEAN; VIRIN: 190101-D-D0360-9686; Filename: DOD_111887380; Category: B-Roll; Video ID: 1017790.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 of the public DVIDS media file: `88adfe16ded6a14baf5b06373a7d8a3d6bc054ba7b3ee3d2a51754761be84a30`. SHA-256 of the public DVIDS media file https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111887380/DOD_111887380.mp4, downloaded 2026-10-06. 89415992 bytes were read, matching Content-Length 89415992. The file was not committed to the repository.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

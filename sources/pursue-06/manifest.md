@@ -43,6 +43,29 @@ By September 29 (`release=6v5`) the count is 75. LLE-UAP-D002, D003, and D004 ar
 
 A same-day news count of 71 matches the 11:39 UTC spreadsheet. It does not match the catalog after the transcripts were added. This archive does not hold a September 22 CSV. An October 5 fact-check of further Wayback copies reported that D002–D004 appeared between September 22 and September 29.
 
+## DVIDS
+
+For each video and audio row, [manifest.json](manifest.json) has the DVIDS title, date taken, date posted, duration, the description quoted from the page, every download-popup resolution with the size text DVIDS printed, the HLS renditions, and a SHA-256 when the public MP4 was downloaded on October 6, 2026. Those media files are not in this repository. Every download-menu URL on this release returned HTTP 403, so the exact byte length of those renditions was not measured.
+
+| Archive id | DVIDS id | DVIDS title | Date taken | Duration | SHA-256 |
+| --- | --- | --- | --- | --- | --- |
+| [dow-uap-pr133](../../records/dow-uap-pr133.md) | `1023396` | DOW-UAP-PR133, Unresolved UAP Report, Middle East, 2025 | 01.01.2025 | 00:04:58 | 22bc76841b16cc872fa182f1d050c2f7ab2c19db917be59546b232c6fc523e45 |
+| [dow-uap-pr135](../../records/dow-uap-pr135.md) | `1023397` | DOW-UAP-PR135, Unresolved UAP Report, Middle East, 2025 | 01.01.2025 | 00:00:59 | ba4bc92e1202ce33b27ecb86e538fd20a6efc39408bb8309b120e710718fac60 |
+| [dow-uap-pr140](../../records/dow-uap-pr140.md) | `1023398` | DOW-UAP-PR140, Unresolved UAP Report, Middle East, 2022 | 01.01.2022 | 00:01:47 | a8aa9229a647ab152c95d09a20c00925d960efc0acf17c50d2ad198896908779 |
+| [dow-uap-pr141](../../records/dow-uap-pr141.md) | `1023400` | DOW-UAP-PR141, Unresolved UAP Report, Middle East, 2022 | 01.01.2022 | 00:02:36 | 04fdf723f358a3760a04739d488c0e45ac142ecb5edede5c77b1e99e4c6e5b39 |
+| [dow-uap-pr143](../../records/dow-uap-pr143.md) | `1023403` | DOW-UAP-PR143, Unresolved UAP Report, Yellow Sea, 2023 | 01.01.2023 | 00:00:19 | b08ea1a97c3f83e8fb6bd5984c1e95dbcae37d77df6d7508cb8296ed2edf057e |
+| [dow-uap-pr144](../../records/dow-uap-pr144.md) | `1023404` | DOW-UAP-PR144, Unresolved UAP Report, Yellow Sea, 2023 | 01.01.2023 | 00:00:27 | 68e7d5eb88f8454b820ae4f72407048cc9c2f3f478e7f49549f6e4c70aaf4b33 |
+| [dow-uap-pr148](../../records/dow-uap-pr148.md) | `1023405` | DOW-UAP-PR148, Unresolved UAP Report, East China Sea, 2023 | 01.01.2023 | 00:00:59 | 785564c576978f9d9c43eba6e797e8ebbd7f287fb7ae767a77b581ab740ecc49 |
+| [dow-uap-pr150](../../records/dow-uap-pr150.md) | `1023406` | DOW-UAP-PR150, Unresolved UAP Report, Yellow Sea, 2023 | 01.01.2023 | 00:00:57 | c5312e6f6ab2f5708b052a4195117276ceb504e05629b596427b54d07475ab20 |
+| [dow-uap-pr151](../../records/dow-uap-pr151.md) | `1023408` | DOW-UAP-PR151, Unresolved UAP Report, Yellow Sea, 2023 | 01.01.2023 | 00:00:49 | 15e38b37ac6325fe9c89de3993973754a7bd54aec68d97d07d35187df4fd1743 |
+| [dow-uap-pr152](../../records/dow-uap-pr152.md) | `1023410` | DOW-UAP-PR152, Unresolved UAP Report, Yellow Sea, 2023 | 01.01.2023 | 00:01:38 | 6d657bfe51e9a2c9539ebff44889311c4cd3e34cdbb0d4716c444895c80394e7 |
+| [dow-uap-pr159](../../records/dow-uap-pr159.md) | `1023402` | DOW-UAP-PR159, Historical Film of Reported UFOs, Utah, 1952 | 07.02.1952 | 00:01:10 | 5654affbd88cf777c4c7b2b73e90d85e312f6e0a4c35fcc8be8a64c75e1b8c33 |
+| [dow-uap-pr160](../../records/dow-uap-pr160.md) | `1023407` | DOW-UAP-PR160, Presentation by Captain Edward J. Ruppelt, 1952 | 03.26.1952 | 01:05:13 | ddc0e05e8202cba03b25f7be8d5807fa54aac9adfe01cdcef4918295d5d41415 |
+| [lle-uap-pr001](../../records/lle-uap-pr001.md) | `1023409` | LLE-UAP-PR001, Unresolved UAP Report, Colorado, 2023 | 10.01.2023 | 00:01:19 | 9ae66a2ff29d08d22c0e440eab1b54118503cc327fa4548cf4fd7b9cbbaa198a |
+| [lle-uap-pr002](../../records/lle-uap-pr002.md) | `1023412` | LLE-UAP-PR002, Unresolved UAP Report, Colorado, October 2023 | 10.01.2023 | 00:15:00 | e7e6c2421efc864955b78b90c0060ac8ddce8144756599b8556c73d00f89006f |
+| [lle-uap-pr003](../../records/lle-uap-pr003.md) | `1023414` | LLE-UAP-PR003, Unresolved UAP Report, Colorado, October 2023 | 10.01.2023 | 00:00:27 | 11eb759486a41bfe9c25c6f76620b2c406cb53f74f7fdaa8c48850e735667829 |
+| [lle-uap-pr004](../../records/lle-uap-pr004.md) | `1023416` | LLE-UAP-PR004, Unresolved UAP Report, Colorado, October 2023 | 10.01.2023 | 00:01:42 | 9e552721b947e80b3ff9b5609bc0a7eb520b34ef6faa74ff55a13b9a7cec3228 |
+
 The machine-readable list, including these version counts, is [manifest.json](manifest.json). Each item also has a page in [`records/`](../../records/).
 
 | Archive id | Official id | Type | Redaction flag | Agency | Title |

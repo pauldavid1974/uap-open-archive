@@ -42,6 +42,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260508-D-D0360-1024
 video_pairing: []
 pdf_pairing: []
@@ -64,14 +77,13 @@ The government's own description of the file is quoted in the next section. If t
 > This document is a Mission Report (MISREP), a standardized reporting form the U.S. Military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to report Unidentified Anomalous Phenomena (UAP) to AARO. The GENTEXT, or “general text” section of these reports often contains important qualitative, contextual information, distinguishing it from the more quantitative, or numerical, data found elsewhere in the report.
 > A U.S. military operator reported observing one UAP, estimating its speed as “approximately 434 knots (499 mph)”. The observer described the UAP as diamond-shaped, with a non-maneuvering probe at the bottom. The observer noted that the UAP was only visible when viewed via an onboard Short-Wave Infrared (SWIR) sensor. The observer reported that the event occurred over a duration of approximately two minutes. 
 > All descriptive and estimative language contained in this report reflects the reporter’s subjective interpretation at the time of the event. Such characterizations should not be interpreted as a conclusive indication of the presence or absence of any intrinsic object features or performance characteristics.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

@@ -67,6 +67,11 @@ Some shares are a written report and its video. Two shares do not look like that
 - DVIDS `1006111` page title "DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026" is listed on [dow-uap-pr049](../records/dow-uap-pr049.md), [fbi-photo-a001](../records/fbi-photo-a001.md).
 - DVIDS `1007720` page title "DOW-UAP-PR057a, "Spherical UAP in clouds"" is listed on [dow-uap-pr057a-spherical-uap-in-clouds](../records/dow-uap-pr057a-spherical-uap-in-clouds.md), [dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-jan-2023-indopacom](../records/dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-jan-2023-indopacom.md).
 
+The shares that are a wrong file, rather than a written report paired with its video, are below. The spreadsheet id was left in place. No replacement id is proposed. The search notes are in [DVIDS coverage](../gaps/dvids-coverage.md).
+
+- [dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-jan-2023-indopacom](../records/dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-jan-2023-indopacom.md): catalog title "DOW-UAP-PR057b, "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM"". DVIDS `1007720` page title is "DOW-UAP-PR057a, "Spherical UAP in clouds"".
+- [fbi-photo-a001](../records/fbi-photo-a001.md): catalog title "FBI Photo A001". DVIDS `1006111` page title is "DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026".
+
 ## What changed in Release 01 after May 20
 
 The May 20, 2026 catalog is Release 01 only: 158 rows, 116 PDF, 28 VID, 14 IMG, 105 flagged redacted, and no audio row. The September 29 Release 01 rows are the same count, with two title spelling fixes and one type change:

@@ -43,6 +43,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260918-D-D0360-1145
 video_pairing:
 - DOW-UAP-PR160
@@ -64,14 +77,13 @@ The government's own description of the file is quoted in the next section. If t
 **Label: official.** Quoted from the Department of War PURSUE catalog spreadsheet `uap-data.csv`, snapshot archived September 29, 2026 (`release=6v5`), row 6 in that file. This is the catalog's description. It is not a transcript and not text extracted from the file.
 
 > This document is a transcript of a March 1952 presentation by Captain Edward J. Ruppelt outlining the U.S. Air Force’s reorganized investigation into unidentified flying objects (UFOs). The presentation previews prospective technical methodologies, such as diffraction-grating photography and radar-scope synchronization, that were subsequently incorporated into Project Blue Book, a U.S. Air Force program active from 1952 to 1969 that investigated the nature and origin of UFOs. Ruppelt explains that out of approximately 800 historical cases reviewed by the Air Force, approximately 20% remained unexplained after technical analysis. These unresolved reports were sourced from credible military personnel, commercial pilots, and other qualified technical observers. He highlights geographic report concentrations around sensitive national security and nuclear weapons installations (including Los Alamos, Albuquerque, and Oak Ridge National Laboratories) and notes recurring anomalous characteristics, including silent high-speed flight and radar detections indicating unconfirmed air speeds between 1,000 and 3,500 miles per hour. Emphasizing that the Air Force found no conclusive evidence regarding the nature or origin of the phenomena, Ruppelt underscores the national security need for a systematic physical data collection effort to better evaluate these sightings.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/sept-18/release-06/assets/DOW-UAP-D154_Transcript-of-a-Presentation-by-Captain-Edward-J-Ruppelt-1952.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

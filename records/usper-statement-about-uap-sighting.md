@@ -76,6 +76,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260508-O-D0360-1057
 video_pairing: []
 pdf_pairing:
@@ -131,14 +144,13 @@ The government's own description of the file is quoted in the next section. If t
 > This is an FBI 302 interview conducted with a senior US intelligence official regarding his first-hand account of a UAP encounter at a US military facility. USPER relayed to FBI agents that he and other federal and state personnel conducted searches to where orbs had been previously seen. After searching the area with a helicopter, they found a “super-hot” orb hovering over the ground. The orb is reported to have travelled for 20 miles at a speed too fast for the helicopter in pursuit. An additional “swarm” of lights were seen moving in all directions. A total of four or five additional orbs were seen shortly thereafter for a short time, flaring up and then down. This pattern of four or five orbs flaring up, then down continued over the next thirty minutes across the area.
 >
 > The photos linked in the "Related Media" section are connected to a set of UAP encounters on a sensitive government testing installation in the Western US in 2025. These orb-like UAP were observed at various ranges by multiple, and in some cases simultaneous, government personnel and sensors. The linked narrative is an FBI-collected account from a senior U.S. intelligence community official who witnessed the UAP with the naked eye, while accompanied by two pilots under NVGs. Other pilots in separate aircraft, and ground-based observers with night vision, also witnessed UAP during the exercise. The photos of UAP underneath the helicopter are from this same set of observations, taken through night vision devices by ground-based personnel.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/release_1/usper-statement-redacted.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

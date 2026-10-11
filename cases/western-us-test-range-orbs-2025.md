@@ -73,7 +73,7 @@ Do not mix this up with the 2023 Western United States Event. The catalog dates 
 
 ## A catalog error to know about
 
-**Label: analysis.** The spreadsheet puts DVIDS id 1006111 on both FBI Photo A001 and on [DOW-UAP-PR049](../records/dow-uap-pr049.md), a 2026 Army video. The DVIDS page for that id, retrieved October 6, 2026, is the Army video, not the FBI still. The photo's war.gov image link is a separate URL. See [catalog quality](../analysis/catalog-quality.md).
+**Label: analysis.** The spreadsheet puts DVIDS id 1006111 on both FBI Photo A001 and on [DOW-UAP-PR049](../records/dow-uap-pr049.md), a 2026 Army video. The DVIDS page for that id, retrieved October 6, 2026, is the Army video, not the FBI still. The photo's war.gov image link is a separate URL. No other DVIDS id is proposed for the still. See [catalog quality](../analysis/catalog-quality.md) and [DVIDS coverage](../gaps/dvids-coverage.md).
 
 ## Strongest and weakest points
 

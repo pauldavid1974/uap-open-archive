@@ -42,6 +42,19 @@ file_size_bytes: null
 http_etag: null
 media_url: null
 sha256: null
+sha256_note: SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/
+  on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
+dvids_title: null
+dvids_date_taken: null
+dvids_date_posted: null
+dvids_duration: null
+dvids_fetch_date: null
+dvids_fetch_status: null
+dvids_downloads: []
+dvids_hls: []
+dvids_captions_status: null
+dvids_id_conflict: null
+dvids_wrong_file: false
 image_virin: 260710-D-D0360-1080
 video_pairing: []
 pdf_pairing: []
@@ -66,14 +79,13 @@ The government's own description of the file is quoted in the next section. If t
 > The file also contains correspondence relating to a UFO incident involving a U.S. Air Force (USAF) KC-97 flying near Newfoundland, Canada in July 1955. A USAF committee found that the characteristics described in the report were inconsistent with those of known Soviet, American, or Canadian military systems. The committee was also “unable to explain the simultaneous ground radar returns and aircrew visual sightings.”
 >
 > It also contains correspondence relating to the potential value of data from incidental radar collection of meteors entering the atmosphere. USAF Air Research and Development Command recommended using that data to improve the performance of the AN/FPS-17 radar system. Finally, the file contains correspondence indicating support for the Communications Instructions for Reporting Vital Intelligence Sightings (CIRVIS) program, a joint U.S.-Canadian civil-military program to standardize reporting methods for unusual or unidentified airborne and maritime hazards and threats.
-
 ## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
 - Original file URL (as printed in the catalog): https://www.war.gov/medialink/ufo/071026/release_04/documents/DOW-UAP-D095_Joint-US-Canadian-Aviation-Projects-and-UFO-Sighting-Reports_1954-1955.pdf
 - Archived copy of that file: not found. On October 6, 2026 the Internet Archive availability API returned no snapshot for sample war.gov media URLs, and a direct request to war.gov returned HTTP 403. This was not re-checked one file at a time.
-- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.
+- SHA-256 was not computed. This row has no DVIDS id. A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, so the catalog file URL was not downloaded.
 - Catalog spreadsheet this row was read from: [archived copy](https://web.archive.org/web/20260929120048/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5) (live URL https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5, which returned HTTP 403 to this project on October 6, 2026).
 
 ## Pairings inside the catalog

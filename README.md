@@ -75,7 +75,7 @@ A human can do the same search with `python scripts/search.py "tremonton"` or by
 
 ## Honest limits
 
-This version did not open the PDFs, videos, or audio. On October 6, 2026, war.gov returned HTTP 403 to this project. The Internet Archive had the spreadsheet and the press pages. It did not, in the checks that were run, have the individual media files. Record pages quote the catalog description and say they are not a transcript. DVIDS file sizes come from an HTTP header, not from a download. There are no SHA-256 checksums of the media. Details are in [what was not opened](gaps/not-opened.md).
+This version did not open the PDFs, and it did not watch the videos or play the audio. On October 6, 2026, war.gov returned HTTP 403 to this project. The Internet Archive had the spreadsheet and the press pages. It did not, in the checks that were run, have the individual media files. Record pages quote the catalog description and, where a DVIDS id exists, the DVIDS page description. DVIDS download-menu sizes are the text DVIDS printed; those menu URLs returned HTTP 403, so their exact byte lengths were not measured. The public MP4 linked from each DVIDS page was downloaded on October 6, 2026 only long enough to compute a SHA-256. The bytes were not committed. A hash is stored on the catalog row the page matches. It is not stored on a row whose DVIDS id points at a different file. Details are in [what was not opened](gaps/not-opened.md) and [DVIDS coverage](gaps/dvids-coverage.md).
 
 The live site could not be checked for a seventh release. The homepage archived on October 4, 2026 still showed Release 06 as the latest.
 

@@ -24,6 +24,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "sources" / "catalog" / "uap-data-2026-09-29-release-6v5.csv"
 DVIDS_META = ROOT / "sources" / "dvids" / "metadata-2026-10-06.json"
+DVIDS_ENRICHMENT = ROOT / "sources" / "dvids" / "enrichment-2026-10-06.json"
 
 CATALOG_LIVE = "https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv?release=6v5"
 CATALOG_ARCHIVE = (
@@ -299,6 +300,9 @@ def human_size(n: int | None) -> str:
 
 
 def blockquote(text: str) -> str:
+    # Official text sometimes contains [CALLSIGN](Mission). Escape it so Markdown
+    # does not turn the quotation into a link. The characters still read the same.
+    text = text.replace("](", "]\\(")
     lines = text.replace("\r\n", "\n").replace("\r", "\n").split("\n")
     out = []
     for line in lines:
@@ -342,6 +346,283 @@ def assert_catalog_shape(rows: list[dict]) -> None:
         raise SystemExit("DOW-UAP-D105 no longer describes Tremonton on pages 26-36")
 
 
+def compact_id(text: str) -> str:
+    text = html.unescape(text or "").lower()
+    text = re.sub(r"\d+", lambda match: str(int(match.group(0))), text)
+    return re.sub(r"[^a-z0-9]", "", text)
+
+
+def title_has_official_id(dvids_title: str, official_id: str | None) -> bool:
+    """True when the DVIDS title names this official id, ignoring PR19 versus PR019."""
+    if not official_id or not dvids_title:
+        return False
+    key = compact_id(official_id)
+    norm = compact_id(dvids_title)
+    start = 0
+    while True:
+        index = norm.find(key, start)
+        if index < 0:
+            return False
+        end = index + len(key)
+        if end == len(norm) or not norm[end].isdigit():
+            return True
+        start = index + 1
+
+
+ID_TOKEN_RE = re.compile(r"[A-Z]{2,12}-UAP-[A-Z]*\d+[A-Za-z]*")
+
+
+def dvids_row_matches(rec: dict, dvids_title: str) -> bool:
+    if title_has_official_id(dvids_title, rec.get("official_id")):
+        return True
+    # PR057a and PR057b have a lowercase suffix, so official_id_of leaves them null.
+    # Compare the id token in each title, treating PR049 and PR49 as the same token.
+    catalog_tokens = {compact_id(token) for token in ID_TOKEN_RE.findall(rec.get("title") or "")}
+    page_tokens = {compact_id(token) for token in ID_TOKEN_RE.findall(dvids_title or "")}
+    return bool(catalog_tokens and catalog_tokens & page_tokens)
+
+
+def dvids_wrong_file(rec: dict, dvids_title: str, siblings: list[dict]) -> bool:
+    """The id serves a different catalog row. A document that shares its video's id is not this case."""
+    if rec["type"] == "document":
+        return False
+    if dvids_row_matches(rec, dvids_title):
+        return False
+    return any(sibling["id"] != rec["id"] and dvids_row_matches(sibling, dvids_title) for sibling in siblings)
+
+
+def conflict_text(rec: dict, item: dict, siblings: list[dict], lookup: dict) -> str | None:
+    title = item.get("title") or "unknown"
+    page = item.get("page_url") or item.get("page_url_requested") or "unknown"
+    fetched = item.get("fetch_date") or "unknown"
+    if item.get("fetch_status") == "ok" and dvids_wrong_file(rec, title, siblings):
+        if rec["dvids_id"] == "1007720":
+            found = lookup.get("urls_containing_057b") or []
+            found_text = ", ".join(found) if found else "none"
+            only_057 = ", ".join(lookup.get("urls_containing_057") or []) or "none"
+            return (
+                f"DVIDS id {rec['dvids_id']} points at {title} ({page}), not at this catalog entry "
+                f"({rec['title']}). The id was not changed. No corrected DVIDS id is proposed. "
+                f"On {fetched} the public DVIDS video sitemaps ({lookup.get('video_sitemap_count')} files from "
+                f"{lookup.get('sitemap_index')}) contained {lookup.get('uap_video_url_count')} URLs with 'uap' "
+                f"in the path. URLs containing '057b': {found_text}. URLs containing '057': {only_057}."
+            )
+        if rec["dvids_id"] == "1006111":
+            aaro = lookup.get("aaro_counts") or {}
+            virin = rec.get("image_virin")
+            virin_bit = f" Catalog Image VIRIN: {virin}." if virin else ""
+            return (
+                f"DVIDS id {rec['dvids_id']} points at {title} ({page}), a video, not at this catalog entry "
+                f"({rec['title']}), which is a still image.{virin_bit} The id was not changed. No corrected "
+                f"DVIDS id is proposed. On {fetched} the AARO unit page ({lookup.get('aaro_unit_page')}) listed "
+                f"{aaro.get('images')} images and {aaro.get('videos')} videos. The "
+                f"{lookup.get('image_sitemap_count')} public image sitemaps contained "
+                f"{lookup.get('image_sitemap_urls_containing_virin_260508-O-D0360-1021')} occurrences of VIRIN "
+                f"260508-O-D0360-1021 and {lookup.get('image_sitemap_urls_containing_photo_a001')} occurrences "
+                "of 'photo-a001'."
+            )
+        return (
+            f"DVIDS id {rec['dvids_id']} points at {title} ({page}), which matches a different catalog row, "
+            f"not this entry ({rec['title']}). The id was not changed. No corrected DVIDS id is proposed."
+        )
+    if item.get("fetch_status") == "ok" and dvids_row_matches(rec, title):
+        bad = [sibling for sibling in siblings if dvids_wrong_file(sibling, title, siblings)]
+        if bad:
+            names = "; ".join(sibling["title"] for sibling in bad)
+            return (
+                f"This DVIDS page matches this catalog row. The same id {rec['dvids_id']} is also on: {names}. "
+                "On those rows the id points at this file, not at that catalog entry. The id was not changed."
+            )
+    return None
+
+
+def download_rows(item: dict) -> list[dict]:
+    rows = []
+    for row in item.get("downloads") or []:
+        rows.append(
+            {
+                "resolution": row.get("resolution"),
+                "size_stated": row.get("size_stated"),
+                "size_bytes": row.get("size_bytes"),
+                "bitrate_stated": row.get("bitrate_stated"),
+                "url": row["url"],
+                "http_status": row.get("http_status"),
+            }
+        )
+    return rows
+
+
+def hls_rows(item: dict) -> list[dict]:
+    return [
+        {"resolution": variant.get("resolution"), "bandwidth": variant.get("bandwidth"), "url": variant["url"]}
+        for variant in item.get("hls_variants") or []
+    ]
+
+
+def empty_dvids_fields(rec: dict) -> None:
+    rec["dvids_title"] = None
+    rec["dvids_date_taken"] = None
+    rec["dvids_date_posted"] = None
+    rec["dvids_duration"] = None
+    rec["dvids_description"] = None
+    rec["dvids_description_source"] = None
+    rec["dvids_fetch_date"] = None
+    rec["dvids_fetch_status"] = None
+    rec["dvids_fetch_error"] = None
+    rec["dvids_downloads"] = []
+    rec["dvids_downloads_note"] = None
+    rec["dvids_hls"] = []
+    rec["dvids_captions_status"] = None
+    rec["dvids_captions_text"] = None
+    rec["dvids_captions_note"] = None
+    rec["dvids_captions_kind"] = None
+    rec["dvids_captions_url"] = None
+    rec["dvids_id_conflict"] = None
+    rec["dvids_wrong_file"] = False
+
+
+def attach_dvids(records: list[dict], enrichment: dict) -> None:
+    items = enrichment["items"]
+    lookup = enrichment.get("lookup") or {}
+    by_dvids: dict[str, list[dict]] = defaultdict(list)
+    for rec in records:
+        if rec["dvids_id"]:
+            by_dvids[rec["dvids_id"]].append(rec)
+    for rec in records:
+        if not rec["dvids_id"]:
+            empty_dvids_fields(rec)
+            rec["sha256"] = None
+            rec["sha256_note"] = (
+                "SHA-256 was not computed. This row has no DVIDS id. "
+                "A request to https://www.war.gov/UFO/ on 2026-10-06 returned HTTP 403, "
+                "so the catalog file URL was not downloaded."
+            )
+            continue
+        item = items.get(rec["dvids_id"])
+        siblings = by_dvids[rec["dvids_id"]]
+        if not item or item.get("fetch_status") != "ok":
+            empty_dvids_fields(rec)
+            rec["dvids_fetch_status"] = "failed"
+            rec["dvids_fetch_date"] = (item or {}).get("fetch_date")
+            rec["dvids_fetch_error"] = (item or {}).get("fetch_error") or "No enrichment record for this DVIDS id."
+            rec["sha256"] = None
+            rec["sha256_note"] = (
+                "SHA-256 was not computed. The DVIDS page did not load, so the media file was not downloaded. "
+                + rec["dvids_fetch_error"]
+            )
+            continue
+        media = item.get("player_media") or {}
+        title = item.get("title") or ""
+        wrong = dvids_wrong_file(rec, title, siblings)
+        rec["dvids_title"] = item.get("title")
+        rec["dvids_date_taken"] = item.get("date_taken")
+        rec["dvids_date_posted"] = item.get("date_posted")
+        rec["dvids_duration"] = item.get("duration")
+        rec["dvids_description"] = item.get("description")
+        rec["dvids_description_source"] = item.get("description_source")
+        rec["dvids_fetch_date"] = item.get("fetch_date")
+        rec["dvids_fetch_status"] = "ok"
+        rec["dvids_fetch_error"] = None
+        rec["dvids_downloads"] = download_rows(item)
+        rec["dvids_downloads_note"] = item.get("downloads_note")
+        rec["dvids_hls"] = hls_rows(item)
+        captions = item.get("captions") or {}
+        rec["dvids_captions_status"] = captions.get("status")
+        rec["dvids_captions_text"] = captions.get("text")
+        rec["dvids_captions_note"] = captions.get("note")
+        rec["dvids_captions_kind"] = captions.get("kind")
+        rec["dvids_captions_url"] = captions.get("source_url")
+        rec["dvids_wrong_file"] = wrong
+        rec["dvids_id_conflict"] = conflict_text(rec, item, siblings, lookup)
+        if media.get("url"):
+            rec["media_url"] = media["url"]
+        if media.get("content_length") is not None:
+            rec["file_size_bytes"] = media["content_length"]
+        if media.get("etag"):
+            rec["http_etag"] = media["etag"]
+        for source in rec["sources"]:
+            if source["role"] == "dvids" and item.get("page_url"):
+                source["url"] = item["page_url"]
+                source["note"] = (
+                    "DVIDS page and download popup fetched live on October 6, 2026. "
+                    "SHA-256, when set, is of the public MP4 linked from that page. "
+                    "Download-menu URLs were requested separately and are listed on the record."
+                )
+        if wrong:
+            rec["sha256"] = None
+            rec["sha256_note"] = (
+                "SHA-256 was not recorded on this row. The DVIDS id serves a different file. "
+                "The hash of the file that id actually serves is on the catalog row whose title matches the DVIDS page."
+            )
+        elif rec["type"] not in {"video", "audio"}:
+            rec["sha256"] = None
+            rec["sha256_note"] = (
+                "SHA-256 was not computed for this row. It is not the DVIDS media file. "
+                "The hash of the public DVIDS media file, when computed, is on the video or audio row that this id matches."
+            )
+        elif media.get("sha256"):
+            rec["sha256"] = media["sha256"]
+            rec["sha256_note"] = media["sha256_note"]
+        else:
+            rec["sha256"] = None
+            rec["sha256_note"] = media.get("sha256_note") or (
+                "SHA-256 was not computed. The public media file was not downloaded."
+            )
+
+
+def render_dvids_sections(rec: dict) -> str:
+    if not rec.get("dvids_id"):
+        return ""
+    page = next((source["url"] for source in rec["sources"] if source["role"] == "dvids"), None)
+    fetched = rec.get("dvids_fetch_date") or "unknown"
+    lines = ["## Official DVIDS description", ""]
+    if rec.get("dvids_fetch_status") != "ok" or not rec.get("dvids_description"):
+        lines += [
+            "**Label: analysis.** The official DVIDS description is unknown.",
+            "",
+            rec.get("dvids_fetch_error") or "The DVIDS page did not include a description, or the page did not load.",
+            "",
+        ]
+    else:
+        extra = ""
+        if rec["type"] == "document":
+            extra = " This catalog row is a document. The page is the video that shares the id, not a PDF."
+        elif rec.get("dvids_wrong_file"):
+            extra = " This page is the file the id actually opens. It is not this catalog entry. The id was not changed."
+        lines += [
+            f"**Label: official.** Quoted from the DVIDS page {page}, fetched {fetched}. "
+            "The source on the page was the description paragraph. "
+            "This is not a caption file and not a speech transcript."
+            + extra,
+            "",
+            blockquote(rec["dvids_description"]),
+            "",
+        ]
+    lines += ["## Official DVIDS captions or transcript", ""]
+    if rec.get("dvids_captions_status") == "present" and rec.get("dvids_captions_text"):
+        kind = rec.get("dvids_captions_kind") or "caption"
+        url = rec.get("dvids_captions_url") or page
+        lines += [
+            f"**Label: official.** DVIDS {kind} text, fetched {fetched} from {url}.",
+            "",
+            blockquote(rec["dvids_captions_text"]),
+            "",
+        ]
+    elif rec.get("dvids_captions_status") == "unknown":
+        lines += [
+            "**Label: analysis.** Whether DVIDS has a caption or transcript for this id is unknown.",
+            "",
+            rec.get("dvids_captions_note") or "The caption text was not retrieved.",
+            "",
+        ]
+    else:
+        lines += [
+            "**Label: analysis.** " + (rec.get("dvids_captions_note") or "No DVIDS caption or transcript was found."),
+            "",
+        ]
+    return "\n".join(lines) + "\n"
+
+
 def render_record(rec: dict, dvids_by_id: dict, shared: dict[str, list[str]]) -> str:
     release = RELEASES[rec["release_raw"]]
     redaction_sentence = (
@@ -365,7 +646,11 @@ def render_record(rec: dict, dvids_by_id: dict, shared: dict[str, list[str]]) ->
             "On every later snapshot stored here it is AUD. "
             "See [catalog quality](../analysis/catalog-quality.md)."
         )
-    dvids = dvids_by_id.get(rec["dvids_id"]) if rec["dvids_id"] else None
+    if rec.get("dvids_wrong_file"):
+        summary += (
+            " The DVIDS id on this row points at a different file. That flag is in the file section. "
+            "The id was not changed."
+        )
     file_lines = []
     if rec["original_file_url"]:
         file_lines.append(f"- Original file URL (as printed in the catalog): {rec['original_file_url']}")
@@ -376,38 +661,89 @@ def render_record(rec: dict, dvids_by_id: dict, shared: dict[str, list[str]]) ->
         )
     else:
         file_lines.append("- The catalog row has no direct file URL in the \"PDF | Image Link\" column.")
-    if dvids:
-        page = dvids.get("page") or {}
-        fields = page.get("fields") or {}
-        file_lines.append(f"- DVIDS page (live, retrieved October 6, 2026): {page.get('final_url')}")
+    if rec.get("dvids_id"):
+        page = next((source["url"] for source in rec["sources"] if source["role"] == "dvids"), None)
+        fetched = rec.get("dvids_fetch_date") or "unknown"
+        file_lines.append(f"- DVIDS page (live, retrieved {fetched}): {page or 'unknown'}")
         file_lines.append(
             "- Archived copy of the DVIDS page: not saved by this project, and not confirmed in the Wayback Machine."
         )
+        if rec.get("dvids_id_conflict"):
+            file_lines.append(f"- **DVIDS id flag:** {rec['dvids_id_conflict']}")
+        if rec.get("dvids_fetch_status") != "ok":
+            file_lines.append(
+                "- DVIDS fetch status: failed. Title, date, duration, description, and download rows are unknown. "
+                + (rec.get("dvids_fetch_error") or "")
+            )
+        else:
+            bits = []
+            for label, key in (
+                ("Title", "dvids_title"),
+                ("Date taken", "dvids_date_taken"),
+                ("Date posted", "dvids_date_posted"),
+                ("Duration", "dvids_duration"),
+            ):
+                bits.append(f"{label}: {rec.get(key) or 'unknown'}")
+            file_lines.append(
+                "- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): "
+                + "; ".join(bits)
+                + "."
+            )
         if rec["media_url"]:
-            file_lines.append(f"- Media URL from the DVIDS page: {rec['media_url']}")
-        file_lines.append(f"- Size from an HTTP HEAD request: {human_size(rec['file_size_bytes'])}. The file was not downloaded.")
+            whose = " The URL is the file this DVIDS id serves."
+            if rec.get("dvids_wrong_file"):
+                whose = " This URL is the file the id actually serves. It is not this catalog entry."
+            file_lines.append(f"- Public media URL linked from the DVIDS page: {rec['media_url']}.{whose}")
+        file_lines.append(
+            f"- Size of that public media file, from an HTTP HEAD request on {fetched}: {human_size(rec['file_size_bytes'])}."
+        )
+        if rec.get("dvids_downloads"):
+            file_lines.append(
+                "- Files offered on the DVIDS download popup (**official** resolution and the size text DVIDS printed). "
+                "Exact byte length is recorded only when a HEAD request returned Content-Length with HTTP 200:"
+            )
+            for row in rec["dvids_downloads"]:
+                resolution = row["resolution"] or "resolution unknown"
+                stated = row["size_stated"] or "size unknown"
+                bitrate = row["bitrate_stated"] or "bitrate not stated"
+                nbytes = f"{row['size_bytes']} bytes" if row["size_bytes"] is not None else "exact byte length unknown"
+                status = row["http_status"] if row["http_status"] is not None else "unknown"
+                file_lines.append(
+                    f"  - {resolution}; size stated \"{stated}\"; {bitrate}; {nbytes}; HTTP {status}; {row['url']}"
+                )
+        if rec.get("dvids_downloads_note"):
+            file_lines.append(f"- {rec['dvids_downloads_note']}")
+        if rec.get("dvids_hls"):
+            file_lines.append(
+                "- HLS renditions in the playlist linked from the page (**official** resolution and bandwidth). "
+                "These are streams. The byte length of each rendition was not measured:"
+            )
+            for row in rec["dvids_hls"]:
+                resolution = row["resolution"] or "resolution unknown"
+                bandwidth = f"{row['bandwidth']} bps" if row["bandwidth"] is not None else "bandwidth unknown"
+                file_lines.append(f"  - {resolution}; {bandwidth}; {row['url']}")
         if rec["http_etag"]:
             file_lines.append(
                 f"- HTTP ETag: `{rec['http_etag']}`. This is the server's ETag, not a SHA-256 of the file. "
                 "Amazon S3 multipart ETags end in a hyphen and a part count, and are not a whole-file checksum."
             )
-        if fields:
-            bits = []
-            for key in ("Date Taken", "Date Posted", "Length", "Location", "VIRIN", "Filename", "Category", "Video ID"):
-                if fields.get(key):
-                    bits.append(f"{key}: {fields[key]}")
-            if bits:
-                file_lines.append("- DVIDS page fields (**official**, DVIDS is a Department of Defense distribution site): " + "; ".join(bits) + ".")
         siblings = [item for item in shared.get(rec["dvids_id"], []) if item != rec["id"]]
         if siblings:
             links = ", ".join(f"[{item}]({item}.md)" for item in siblings)
             file_lines.append(
                 f"- This DVIDS id `{rec['dvids_id']}` is also listed on: {links}. "
-                "Where the DVIDS page title matches only one of those catalog rows, the shared id may be a catalog error. See [catalog quality](../analysis/catalog-quality.md)."
+                "Where the DVIDS page title matches only one of those catalog rows, the shared id may be a catalog error. "
+                "See [catalog quality](../analysis/catalog-quality.md) and [DVIDS coverage](../gaps/dvids-coverage.md)."
             )
+        if rec.get("sha256"):
+            file_lines.append(f"- SHA-256 of the public DVIDS media file: `{rec['sha256']}`. {rec['sha256_note']}")
+        else:
+            file_lines.append(f"- {rec['sha256_note']}")
     elif rec["type"] in {"video", "audio"}:
-        file_lines.append("- No DVIDS id was listed for this row, so no media size was retrieved.")
-    file_lines.append("- SHA-256 of the underlying file: not computed, because the bytes were not downloaded.")
+        file_lines.append("- No DVIDS id was listed for this row, so no DVIDS metadata was retrieved.")
+        file_lines.append(f"- {rec['sha256_note']}")
+    else:
+        file_lines.append(f"- {rec['sha256_note']}")
     file_lines.append(
         f"- Catalog spreadsheet this row was read from: [archived copy]({CATALOG_ARCHIVE}) "
         f"(live URL {CATALOG_LIVE}, which returned HTTP 403 to this project on October 6, 2026)."
@@ -429,6 +765,9 @@ def render_record(rec: dict, dvids_by_id: dict, shared: dict[str, list[str]]) ->
     id_note = ""
     if rec.get("id_note"):
         id_note = f"\n\n{rec['id_note']}\n"
+    dvids_block = render_dvids_sections(rec)
+    if dvids_block:
+        dvids_block = "\n" + dvids_block
 
     body = f"""# {rec['title']}
 
@@ -445,8 +784,7 @@ The government's own description of the file is quoted in the next section. If t
 **Label: official.** Quoted from the Department of War PURSUE catalog spreadsheet `uap-data.csv`, snapshot archived September 29, 2026 (`release=6v5`), row {rec['catalog_order']} in that file. This is the catalog's description. It is not a transcript and not text extracted from the file.
 
 {blockquote(rec['description'])}
-{id_note}
-## File, archive copy, and checksum
+{id_note}{dvids_block}## File, archive copy, and checksum
 
 **Label: official** for URLs that come from the catalog or from DVIDS. **Label: analysis** for the notes about what this project could not retrieve.
 
@@ -500,7 +838,19 @@ The government's own description of the file is quoted in the next section. If t
         "file_size_bytes": rec["file_size_bytes"],
         "http_etag": rec["http_etag"],
         "media_url": rec["media_url"],
-        "sha256": None,
+        "sha256": rec["sha256"],
+        "sha256_note": rec["sha256_note"],
+        "dvids_title": rec["dvids_title"],
+        "dvids_date_taken": rec["dvids_date_taken"],
+        "dvids_date_posted": rec["dvids_date_posted"],
+        "dvids_duration": rec["dvids_duration"],
+        "dvids_fetch_date": rec["dvids_fetch_date"],
+        "dvids_fetch_status": rec["dvids_fetch_status"],
+        "dvids_downloads": rec["dvids_downloads"],
+        "dvids_hls": rec["dvids_hls"],
+        "dvids_captions_status": rec["dvids_captions_status"],
+        "dvids_id_conflict": rec["dvids_id_conflict"],
+        "dvids_wrong_file": rec["dvids_wrong_file"],
         "image_virin": rec["image_virin"],
         "video_pairing": rec["video_pairing"],
         "pdf_pairing": rec["pdf_pairing"],
@@ -510,7 +860,7 @@ The government's own description of the file is quoted in the next section. If t
     return f"---\n{yaml_dump(front)}\n---\n\n{body}"
 
 
-def build_records(rows: list[dict], dvids_meta: dict) -> list[dict]:
+def build_records(rows: list[dict], dvids_meta: dict, enrichment: dict) -> list[dict]:
     used: set[str] = set()
     records = []
     for index, row in enumerate(rows, start=1):
@@ -569,7 +919,7 @@ def build_records(rows: list[dict], dvids_meta: dict) -> list[dict]:
                     "label": "official",
                     "url": page["final_url"],
                     "archive_url": None,
-                    "note": "DVIDS page fetched live on October 6, 2026. Media bytes were not downloaded. File size is from HTTP HEAD.",
+                    "note": "DVIDS page and download popup fetched live on October 6, 2026. SHA-256, when set, is of the public MP4 linked from that page. Download-menu URLs were requested separately.",
                 }
             )
         records.append(
@@ -640,6 +990,7 @@ def build_records(rows: list[dict], dvids_meta: dict) -> list[dict]:
                 if item not in related:
                     related.append(item)
         rec["related_records"] = related
+    attach_dvids(records, enrichment)
     return records
 
 
@@ -799,7 +1150,20 @@ def write_manifests(records: list[dict]) -> None:
                     "media_url": rec["media_url"],
                     "file_size_bytes": rec["file_size_bytes"],
                     "http_etag": rec["http_etag"],
-                    "sha256": None,
+                    "sha256": rec["sha256"],
+                    "sha256_note": rec["sha256_note"],
+                    "dvids_title": rec["dvids_title"],
+                    "dvids_date_taken": rec["dvids_date_taken"],
+                    "dvids_date_posted": rec["dvids_date_posted"],
+                    "dvids_duration": rec["dvids_duration"],
+                    "dvids_description": rec["dvids_description"],
+                    "dvids_downloads": rec["dvids_downloads"],
+                    "dvids_hls": rec["dvids_hls"],
+                    "dvids_fetch_date": rec["dvids_fetch_date"],
+                    "dvids_fetch_status": rec["dvids_fetch_status"],
+                    "dvids_captions_status": rec["dvids_captions_status"],
+                    "dvids_id_conflict": rec["dvids_id_conflict"],
+                    "dvids_wrong_file": rec["dvids_wrong_file"],
                     "catalog_order": rec["catalog_order"],
                 }
                 for rec in group
@@ -847,6 +1211,54 @@ def write_manifests(records: list[dict]) -> None:
                 f"{types.get('IMG', 0)} | {types.get('AUD', 0)} | {version['rows_in_file']} |"
             )
         lines += ["", *version_notes(release["collection"]), ""]
+        download_statuses = sorted(
+            {
+                row.get("http_status")
+                for rec in group
+                for row in rec.get("dvids_downloads") or []
+            }
+        )
+        if download_statuses == [403]:
+            download_sentence = (
+                "Every download-menu URL on this release returned HTTP 403, so the exact byte length of those renditions was not measured."
+            )
+        elif download_statuses:
+            download_sentence = (
+                "HEAD requests to the download-menu URLs returned HTTP "
+                + ", ".join(str(status) for status in download_statuses)
+                + ". Exact byte length is recorded only for HTTP 200 responses that sent Content-Length."
+            )
+        else:
+            download_sentence = "This release has no DVIDS download-menu rows."
+        lines += [
+            "## DVIDS",
+            "",
+            "For each video and audio row, [manifest.json](manifest.json) has the DVIDS title, date taken, date posted, duration, the description quoted from the page, every download-popup resolution with the size text DVIDS printed, the HLS renditions, and a SHA-256 when the public MP4 was downloaded on October 6, 2026. Those media files are not in this repository. "
+            + download_sentence,
+            "",
+        ]
+        conflicts = [rec for rec in group if rec.get("dvids_id_conflict")]
+        if conflicts:
+            lines.append("DVIDS ids flagged on this release:")
+            lines.append("")
+            for rec in conflicts:
+                lines.append(f"- [{rec['id']}](../../records/{rec['id']}.md): {rec['dvids_id_conflict']}")
+            lines.append("")
+        media_rows = [rec for rec in group if rec["type"] in {"video", "audio"} and rec.get("dvids_id")]
+        if media_rows:
+            lines += [
+                "| Archive id | DVIDS id | DVIDS title | Date taken | Duration | SHA-256 |",
+                "| --- | --- | --- | --- | --- | --- |",
+            ]
+            for rec in sorted(media_rows, key=lambda item: (item["official_id"] or "zzz", item["title"])):
+                dtitle = (rec["dvids_title"] or "unknown").replace("|", "\\|")
+                digest = rec["sha256"] or "not computed"
+                marker = " (wrong file)" if rec.get("dvids_wrong_file") else ""
+                lines.append(
+                    f"| [{rec['id']}](../../records/{rec['id']}.md) | `{rec['dvids_id']}`{marker} | {dtitle} | "
+                    f"{rec['dvids_date_taken'] or 'unknown'} | {rec['dvids_duration'] or 'unknown'} | {digest} |"
+                )
+            lines.append("")
         lines += [
             "The machine-readable list, including these version counts, is [manifest.json](manifest.json). Each item also has a page in [`records/`](../../records/).",
             "",
@@ -874,7 +1286,134 @@ This folder is one collection. Later collections (AARO reports, FOIA batches, Na
     print("wrote 6 manifests")
 
 
-def write_generated_analysis(rows: list[dict], records: list[dict], dvids_meta: dict) -> None:
+def write_dvids_coverage(records: list[dict], enrichment: dict) -> None:
+    lookup = enrichment.get("lookup") or {}
+    aaro = lookup.get("aaro_counts") or {}
+    war = lookup.get("war_gov_ufo") or {}
+    videos = [rec for rec in records if rec["type"] == "video"]
+    no_id = [rec for rec in videos if not rec["dvids_id"]]
+    failed = [rec for rec in videos if rec["dvids_id"] and rec.get("dvids_fetch_status") != "ok"]
+    wrong = [rec for rec in videos if rec.get("dvids_wrong_file")]
+    matched = len(videos) - len(no_id) - len(failed) - len(wrong)
+    hashed = [rec for rec in videos if rec.get("sha256")]
+    audio_hashed = [rec for rec in records if rec["type"] == "audio" and rec.get("sha256")]
+    captions = [rec for rec in records if rec.get("dvids_captions_status") == "present"]
+    other_wrong = [rec for rec in records if rec.get("dvids_wrong_file") and rec["type"] != "video"]
+    lines = [
+        "# DVIDS coverage",
+        "",
+        "**Label: analysis,** except where a sentence quotes a DVIDS title or a count from a page this project fetched. This page is generated by `scripts/build_archive.py`.",
+        "",
+        "## Catalog videos",
+        "",
+        f"The September 29, 2026 catalog has **{len(videos)}** rows whose type is video. "
+        f"**{len(videos) - len(no_id)}** have a DVIDS Video ID. **{len(no_id)}** do not. "
+        f"**{len(videos) - len(no_id) - len(failed)}** returned a DVIDS page on October 6, 2026. "
+        f"**{matched}** of those page titles match the catalog video. **{len(wrong)}** do not.",
+        "",
+    ]
+    if no_id:
+        lines.append("Catalog videos with no DVIDS id:")
+        lines.append("")
+        for rec in no_id:
+            lines.append(f"- [{rec['id']}](../records/{rec['id']}.md) — {rec['title']}")
+        lines.append("")
+    else:
+        lines.append("No catalog video is missing a DVIDS id.")
+        lines.append("")
+    lines += [
+        "## Catalog videos with no DVIDS copy of that video",
+        "",
+        "An id can be present and still open a different file. Those ids were not changed. A corrected id is not proposed unless a fetched DVIDS page is that file.",
+        "",
+    ]
+    if failed:
+        lines.append("DVIDS pages that failed to load. The title, date, duration, and description are unknown:")
+        lines.append("")
+        for rec in failed:
+            lines.append(
+                f"- [{rec['id']}](../records/{rec['id']}.md) — {rec['title']} — DVIDS `{rec['dvids_id']}` — "
+                f"{rec.get('dvids_fetch_error') or 'unknown error'}"
+            )
+        lines.append("")
+    else:
+        lines.append("No catalog video's DVIDS page failed to load on October 6, 2026.")
+        lines.append("")
+    if wrong:
+        lines.append("These catalog videos do not have a DVIDS copy of themselves:")
+        lines.append("")
+        for rec in wrong:
+            lines.append(
+                f"- [{rec['id']}](../records/{rec['id']}.md) — {rec['title']} — DVIDS `{rec['dvids_id']}`. "
+                f"{rec['dvids_id_conflict']}"
+            )
+        lines.append("")
+    else:
+        lines.append("No catalog video's DVIDS id points at a different catalog item.")
+        lines.append("")
+    if other_wrong:
+        lines += [
+            "## Not a video, same kind of id error",
+            "",
+            "This row is not in the video count above.",
+            "",
+        ]
+        for rec in other_wrong:
+            lines.append(
+                f"- [{rec['id']}](../records/{rec['id']}.md) — {rec['title']} (catalog type {rec['type']}) — "
+                f"DVIDS `{rec['dvids_id']}`. {rec['dvids_id_conflict']}"
+            )
+        lines.append("")
+    lines += [
+        "## What was fetched",
+        "",
+        f"Enrichment file: [enrichment-2026-10-06.json](../sources/dvids/enrichment-2026-10-06.json), "
+        f"fetched {enrichment.get('fetch_date')} from `{enrichment.get('source')}`. "
+        "The earlier HEAD scrape, [metadata-2026-10-06.json](../sources/dvids/metadata-2026-10-06.json), is still in the folder.",
+        "",
+        f"AARO unit page {lookup.get('aaro_unit_page')}: HTTP {aaro.get('http_status')}, "
+        f"{aaro.get('videos')} videos, {aaro.get('images')} images, {aaro.get('audio')} audio.",
+        "",
+        f"https://www.war.gov/UFO/ from this project: HTTP {war.get('http_status', war.get('error', 'unknown'))}.",
+        "",
+        f"Public video sitemaps checked: {lookup.get('video_sitemap_count')}, from {lookup.get('sitemap_index')}. "
+        f"URLs with 'uap' in the path: {lookup.get('uap_video_url_count')}.",
+        "",
+        "The same fetch covered the catalog's audio rows that have a DVIDS id. They are not in the video counts above.",
+        "",
+        "## Checksums",
+        "",
+        f"SHA-256 was recorded on **{len(hashed)}** catalog video rows and **{len(audio_hashed)}** catalog audio rows. "
+        "Each hash is the public MP4 linked from the matching DVIDS page, downloaded October 6, 2026. The bytes were not committed. "
+        "Download-menu renditions were not hashed. Their size text is the text DVIDS printed, and their exact byte length is unknown where the menu URL did not return HTTP 200.",
+        "",
+        "Catalog videos with no SHA-256 on the row:",
+        "",
+    ]
+    missing_hash = [rec for rec in videos if not rec.get("sha256")]
+    if not missing_hash:
+        lines.append("None.")
+        lines.append("")
+    else:
+        for rec in missing_hash:
+            lines.append(f"- [{rec['id']}](../records/{rec['id']}.md) — {rec['title']}. {rec['sha256_note']}")
+        lines.append("")
+    lines += [
+        "## Captions and transcripts",
+        "",
+        f"Official DVIDS caption or transcript text was added for **{len(captions)}** records. "
+        "The description paragraph on the DVIDS page is quoted on the record as a description. It is not labeled as a transcript.",
+        "",
+    ]
+    if captions:
+        for rec in captions:
+            lines.append(f"- [{rec['id']}](../records/{rec['id']}.md) — {rec['title']}")
+        lines.append("")
+    text = "\n".join(lines).rstrip() + "\n"
+    (ROOT / "gaps" / "dvids-coverage.md").write_text(text, encoding="utf-8")
+
+
+def write_generated_analysis(rows: list[dict], records: list[dict], dvids_meta: dict, enrichment: dict) -> None:
     analysis = ROOT / "analysis"
     analysis.mkdir(parents=True, exist_ok=True)
     gaps = ROOT / "gaps"
@@ -1037,6 +1576,19 @@ def write_generated_analysis(rows: list[dict], records: list[dict], dvids_meta: 
         page_title = html.unescape(((meta.get("page") or {}).get("og_title")) or "")
         names = ", ".join(f"[{rec['id']}](../records/{rec['id']}.md)" for rec in group)
         quality.append(f"- DVIDS `{dvids_id}` page title \"{page_title}\" is listed on {names}.")
+    wrong_rows = [rec for rec in records if rec.get("dvids_wrong_file")]
+    quality += [
+        "",
+        "The shares that are a wrong file, rather than a written report paired with its video, are below. The spreadsheet id was left in place. No replacement id is proposed. The search notes are in [DVIDS coverage](../gaps/dvids-coverage.md).",
+        "",
+    ]
+    if not wrong_rows:
+        quality.append("None.")
+    for rec in wrong_rows:
+        quality.append(
+            f"- [{rec['id']}](../records/{rec['id']}.md): catalog title \"{rec['title']}\". "
+            f"DVIDS `{rec['dvids_id']}` page title is \"{rec['dvids_title']}\"."
+        )
     quality += [
         "",
         "## What changed in Release 01 after May 20",
@@ -1122,6 +1674,7 @@ def write_generated_analysis(rows: list[dict], records: list[dict], dvids_meta: 
         "",
     ]
     (gaps / "keyword-search.md").write_text("\n".join(keyword_lines), encoding="utf-8")
+    write_dvids_coverage(records, enrichment)
     print("wrote generated analysis and keyword search")
 
 
@@ -1171,13 +1724,15 @@ No newer successful capture of this spreadsheet was in the Internet Archive's CD
     (ROOT / "sources" / "catalog" / "README.md").write_text(catalog_readme, encoding="utf-8")
     dvids_readme = """# DVIDS metadata
 
-`metadata-2026-10-06.json` is a scrape of the DVIDS pages named in the catalog's "DVIDS Video ID" column. It was collected on October 6, 2026 from `https://www.dvidshub.net/video/{id}`, which is where both the video and the audio items resolved.
+Two files, both fetched on October 6, 2026. Neither file is a media binary.
 
-For each id the file records the final page URL, the open-graph title, the on-page fields (date taken, date posted, length, location, VIRIN, filename), the media URL embedded in the page, and the `Content-Length` and `ETag` returned by an HTTP HEAD request to that media URL.
+`metadata-2026-10-06.json` is the first scrape of the DVIDS pages named in the catalog's "DVIDS Video ID" column, from `https://www.dvidshub.net/video/{id}`. It records the final page URL, the open-graph title, the on-page fields, the media URL, and the `Content-Length` and `ETag` from an HTTP HEAD request. It is kept so that scrape is not thrown away.
 
-The media files themselves are not in this repository. The largest object reported by HEAD was over 3 GB. SHA-256 checksums were not computed.
+`enrichment-2026-10-06.json` is a second fetch the same day, written by `scripts/fetch_dvids_enrichment.py`. For each id it records the page URL, the on-page title, date taken, date posted, duration, and the description paragraph verbatim. It also records each row of the download popup (`/download/popup/{id}`): resolution, the size text DVIDS printed, bitrate when the cell was not blank, the download URL, and the HTTP status of a HEAD request. Exact byte length is set only when that HEAD returned HTTP 200 with Content-Length. The HLS playlist renditions (resolution and bandwidth) are included. Caption and transcript checks are included. Where the public MP4 linked from the page downloaded in full, the file's SHA-256 is recorded. The bytes were not committed.
 
-DVIDS is a Department of Defense public distribution site. The page text is treated as **official**. The HTTP size and ETag are measurements made by this project (**analysis** of a header, not a government statement of the size).
+DVIDS is a Department of Defense public distribution site. Page text, popup rows, and playlist fields are **official**. HTTP sizes, ETags, and SHA-256 hashes are measurements made by this project (**analysis**).
+
+Which catalog videos have no DVIDS copy of that video is in [gaps/dvids-coverage.md](../../gaps/dvids-coverage.md).
 """
     (ROOT / "sources" / "dvids" / "README.md").write_text(dvids_readme, encoding="utf-8")
 
@@ -1271,7 +1826,8 @@ def main() -> None:
     rows = load_catalog()
     assert_catalog_shape(rows)
     dvids_meta = json.loads(DVIDS_META.read_text(encoding="utf-8"))
-    records = build_records(rows, dvids_meta)
+    enrichment = json.loads(DVIDS_ENRICHMENT.read_text(encoding="utf-8"))
+    records = build_records(rows, dvids_meta, enrichment)
     if len(records) != 450:
         raise SystemExit("record count drifted")
     if len({rec["id"] for rec in records}) != 450:
@@ -1280,7 +1836,7 @@ def main() -> None:
         raise SystemExit("catalog order collided")
     write_records(records, dvids_meta)
     write_manifests(records)
-    write_generated_analysis(rows, records, dvids_meta)
+    write_generated_analysis(rows, records, dvids_meta, enrichment)
     write_sources_readme()
     write_press_extracts()
     digest = hashlib.sha256(CATALOG.read_bytes()).hexdigest()
